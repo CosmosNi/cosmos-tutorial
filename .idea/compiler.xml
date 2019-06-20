@@ -13,5 +13,8 @@
         <module name="cosmos-write" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="cosmos-framework" target="1.5" />
+    </bytecodeTargetLevel>
   </component>
 </project>

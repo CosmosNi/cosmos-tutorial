@@ -1,6 +1,6 @@
 package com.cosmos.base.array;
 
-import java.util.Arrays;
+import java.util.*;
 import java.util.concurrent.atomic.AtomicInteger;
 
 /**
@@ -129,3 +129,4 @@ public final class SimpleArray<V> {
         System.out.println(stringArray.get(6));
     }
 }
+;
