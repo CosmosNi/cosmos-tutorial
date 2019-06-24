@@ -1,0 +1,19 @@
+spring:
+  cloud:
+    nacos:
+      config:
+        server-addr: 127.0.0.1:8848
+        prefix: cosmos
+        file-extension: yaml
+        group: cosmos
+      discovery:
+        server-addr: 127.0.0.1:8848
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+
+
+
+

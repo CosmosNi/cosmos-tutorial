@@ -1,0 +1,32 @@
+2019-05-05 16:19:12,514 INFO DEFAULT_GROUP@@cosmosNacos {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.8.196:8083:unknown:DEFAULT_0.0_true_false_DEFAULT]
+
+2019-05-05 16:19:12,528 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@cosmosNacos, ips: 192.168.8.196:8083_true,
+
+2019-05-05 16:22:27,553 INFO {POS} {IP-DISABLED} valid: 192.168.8.196:8083@DEFAULT, region: unknown, msg: client timeout after 15000, last beat: 1557044532434
+
+2019-05-05 16:22:42,560 INFO DEFAULT_GROUP@@cosmosNacos {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.8.196:8083:unknown:DEFAULT_0.0_false_false_DEFAULT]
+
+2019-05-05 16:22:42,560 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@cosmosNacos, ips: 
+
+2019-05-05 16:34:03,825 INFO DEFAULT_GROUP@@cosmosNacos {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [10.0.2.15:8084:unknown:DEFAULT_0.0_true_false_DEFAULT]
+
+2019-05-05 16:34:03,825 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@cosmosNacos, ips: 10.0.2.15:8084_true,
+
+2019-05-05 16:36:35,953 INFO DEFAULT_GROUP@@cosmosNacos {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.8.196:8084:unknown:DEFAULT_0.0_true_false_DEFAULT]
+
+2019-05-05 16:36:35,953 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@cosmosNacos, ips: 10.0.2.15:8084_true,192.168.8.196:8084_true,
+
+2019-05-05 16:36:37,357 INFO DEFAULT_GROUP@@cosmosNacos {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.8.196:8083:unknown:DEFAULT_0.0_true_false_DEFAULT]
+
+2019-05-05 16:36:37,357 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@cosmosNacos, ips: 10.0.2.15:8084_true,192.168.8.196:8083_true,192.168.8.196:8084_true,
+
+2019-05-05 16:36:41,509 INFO DEFAULT_GROUP@@cosmosNacos {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.8.196:8082:unknown:DEFAULT_0.0_true_false_DEFAULT]
+
+2019-05-05 16:36:41,509 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@cosmosNacos, ips: 10.0.2.15:8084_true,192.168.8.196:8083_true,192.168.8.196:8084_true,192.168.8.196:8082_true,
+
+2019-05-05 16:36:46,709 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@cosmosNacos, ips: 10.0.2.15:8084_true,192.168.8.196:8083_true,192.168.8.196:8084_true,192.168.8.196:8082_true,
+
+2019-05-05 16:39:34,473 INFO DEFAULT_GROUP@@cosmosNacos {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [10.0.2.15:8084:unknown:DEFAULT_0.0_true_false_DEFAULT]
+
+2019-05-05 16:39:34,473 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@cosmosNacos, ips: 192.168.8.196:8083_true,192.168.8.196:8084_true,192.168.8.196:8082_true,
+

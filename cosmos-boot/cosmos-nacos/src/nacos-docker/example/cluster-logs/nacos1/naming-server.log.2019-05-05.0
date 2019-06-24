@@ -1,0 +1,52 @@
+2019-05-05 15:53:35,994 INFO listen for service meta change
+
+2019-05-05 15:54:13,706 INFO [SERVER-INIT] got port: 8848
+
+2019-05-05 15:54:13,706 INFO [SERVER-INIT] got path: /nacos
+
+2019-05-05 15:54:23,732 INFO [NACOS-DISTRO] healthy server list changed, disable health check for 60000 ms from now on
+
+2019-05-05 15:54:29,519 INFO [HEALTH-CHECK] health check is false
+
+2019-05-05 15:55:23,859 INFO [NACOS-DISTRO] distro threshold restored and stable now, enable health check. current ratio: 1.0
+
+2019-05-05 15:59:29,520 INFO [HEALTH-CHECK] health check is true
+
+2019-05-05 16:04:29,520 INFO [HEALTH-CHECK] health check is true
+
+2019-05-05 16:09:29,521 INFO [HEALTH-CHECK] health check is true
+
+2019-05-05 16:14:29,522 INFO [HEALTH-CHECK] health check is true
+
+2019-05-05 16:19:12,698 INFO creating empty service public:DEFAULT_GROUP@@cosmosNacos
+
+2019-05-05 16:19:12,749 INFO [NACOS-RAFT] datum is changed, key: com.alibaba.nacos.naming.iplist.ephemeral.public##DEFAULT_GROUP@@cosmosNacos, value: {"cachedChecksum":"","instanceList":[{"app":"","clusterName":"DEFAULT","enabled":true,"ephemeral":true,"healthy":true,"instanceId":"192.168.8.196#8083#DEFAULT#DEFAULT_GROUP@@cosmosNacos","ip":"192.168.8.196","lastBeat":1557044352518,"marked":false,"metadata":null,"port":8083,"serviceName":"DEFAULT_GROUP@@cosmosNacos","tenant":"","weight":0}]}
+
+2019-05-05 16:19:12,821 WARN cluster: DEFAULT not found, ip: {"app":"","clusterName":"DEFAULT","enabled":true,"ephemeral":true,"healthy":true,"instanceId":"192.168.8.196#8083#DEFAULT#DEFAULT_GROUP@@cosmosNacos","ip":"192.168.8.196","lastBeat":1557044352518,"marked":false,"metadata":null,"port":8083,"serviceName":"DEFAULT_GROUP@@cosmosNacos","tenant":"","weight":0}, will create new cluster with default configuration.
+
+2019-05-05 16:19:29,523 INFO [HEALTH-CHECK] health check is true
+
+2019-05-05 16:22:28,115 INFO [STATUS-SYNCHRONIZE] sync service status from: nacos2:8848, service: public##DEFAULT_GROUP@@cosmosNacos
+
+2019-05-05 16:22:42,576 INFO [NACOS-RAFT] datum is changed, key: com.alibaba.nacos.naming.iplist.ephemeral.public##DEFAULT_GROUP@@cosmosNacos, value: {"cachedChecksum":"","instanceList":[]}
+
+2019-05-05 16:24:29,523 INFO [HEALTH-CHECK] health check is true
+
+2019-05-05 16:29:29,524 INFO [HEALTH-CHECK] health check is true
+
+2019-05-05 16:34:03,834 INFO [NACOS-RAFT] datum is changed, key: com.alibaba.nacos.naming.iplist.ephemeral.public##DEFAULT_GROUP@@cosmosNacos, value: {"cachedChecksum":"","instanceList":[{"app":"","clusterName":"DEFAULT","enabled":true,"ephemeral":true,"healthy":true,"instanceId":"10.0.2.15#8084#DEFAULT#DEFAULT_GROUP@@cosmosNacos","ip":"10.0.2.15","lastBeat":1557045243825,"marked":false,"metadata":null,"port":8084,"serviceName":"DEFAULT_GROUP@@cosmosNacos","tenant":"","weight":0}]}
+
+2019-05-05 16:34:29,524 INFO [HEALTH-CHECK] health check is true
+
+2019-05-05 16:36:35,965 INFO [NACOS-RAFT] datum is changed, key: com.alibaba.nacos.naming.iplist.ephemeral.public##DEFAULT_GROUP@@cosmosNacos, value: {"cachedChecksum":"","instanceList":[{"app":"","clusterName":"DEFAULT","enabled":true,"ephemeral":true,"healthy":true,"instanceId":"10.0.2.15#8084#DEFAULT#DEFAULT_GROUP@@cosmosNacos","ip":"10.0.2.15","lastBeat":1557045393813,"marked":false,"metadata":null,"port":8084,"serviceName":"DEFAULT_GROUP@@cosmosNacos","tenant":"","weight":0},{"app":"","clusterName":"DEFAULT","enabled":true,"ephemeral":true,"healthy":true,"instanceId":"192.168.8.196#8084#DEFAULT#DEFAULT_GROUP@@cosmosNacos","ip":"192.168.8.196","lastBeat":1557045395953,"marked":false,"metadata":null,"port":8084,"serviceName":"DEFAULT_GROUP@@cosmosNacos","tenant":"","weight":0}]}
+
+2019-05-05 16:36:37,368 INFO [NACOS-RAFT] datum is changed, key: com.alibaba.nacos.naming.iplist.ephemeral.public##DEFAULT_GROUP@@cosmosNacos, value: {"cachedChecksum":"","instanceList":[{"app":"","clusterName":"DEFAULT","enabled":true,"ephemeral":true,"healthy":true,"instanceId":"10.0.2.15#8084#DEFAULT#DEFAULT_GROUP@@cosmosNacos","ip":"10.0.2.15","lastBeat":1557045393813,"marked":false,"metadata":null,"port":8084,"serviceName":"DEFAULT_GROUP@@cosmosNacos","tenant":"","weight":0},{"app":"","clusterName":"DEFAULT","enabled":true,"ephemeral":true,"healthy":true,"instanceId":"192.168.8.196#8083#DEFAULT#DEFAULT_GROUP@@cosmosNacos","ip":"192.168.8.196","lastBeat":1557045397360,"marked":false,"metadata":null,"port":8083,"serviceName":"DEFAULT_GROUP@@cosmosNacos","tenant":"","weight":0},{"app":"","clusterName":"DEFAULT","enabled":true,"ephemeral":true,"healthy":true,"instanceId":"192.168.8.196#8084#DEFAULT#DEFAULT_GROUP@@cosmosNacos","ip":"192.168.8.196","lastBeat":1557045395953,"marked":false,"metadata":null,"port":8084,"serviceName":"DEFAULT_GROUP@@cosmosNacos","tenant":"","weight":0}]}
+
+2019-05-05 16:36:41,518 INFO [NACOS-RAFT] datum is changed, key: com.alibaba.nacos.naming.iplist.ephemeral.public##DEFAULT_GROUP@@cosmosNacos, value: {"cachedChecksum":"","instanceList":[{"app":"","clusterName":"DEFAULT","enabled":true,"ephemeral":true,"healthy":true,"instanceId":"10.0.2.15#8084#DEFAULT#DEFAULT_GROUP@@cosmosNacos","ip":"10.0.2.15","lastBeat":1557045393813,"marked":false,"metadata":null,"port":8084,"serviceName":"DEFAULT_GROUP@@cosmosNacos","tenant":"","weight":0},{"app":"","clusterName":"DEFAULT","enabled":true,"ephemeral":true,"healthy":true,"instanceId":"192.168.8.196#8083#DEFAULT#DEFAULT_GROUP@@cosmosNacos","ip":"192.168.8.196","lastBeat":1557045397360,"marked":false,"metadata":null,"port":8083,"serviceName":"DEFAULT_GROUP@@cosmosNacos","tenant":"","weight":0},{"app":"","clusterName":"DEFAULT","enabled":true,"ephemeral":true,"healthy":true,"instanceId":"192.168.8.196#8084#DEFAULT#DEFAULT_GROUP@@cosmosNacos","ip":"192.168.8.196","lastBeat":1557045395953,"marked":false,"metadata":null,"port":8084,"serviceName":"DEFAULT_GROUP@@cosmosNacos","tenant":"","weight":0},{"app":"","clusterName":"DEFAULT","enabled":true,"ephemeral":true,"healthy":true,"instanceId":"192.168.8.196#8082#DEFAULT#DEFAULT_GROUP@@cosmosNacos","ip":"192.168.8.196","lastBeat":1557045401509,"marked":false,"metadata":null,"port":8082,"serviceName":"DEFAULT_GROUP@@cosmosNacos","tenant":"","weight":0}]}
+
+2019-05-05 16:36:46,723 INFO [NACOS-RAFT] datum is changed, key: com.alibaba.nacos.naming.iplist.ephemeral.public##DEFAULT_GROUP@@cosmosNacos, value: {"cachedChecksum":"","instanceList":[{"app":"DEFAULT","clusterName":"DEFAULT","enabled":false,"ephemeral":true,"healthy":true,"instanceId":"10.0.2.15#8084#DEFAULT#DEFAULT_GROUP@@cosmosNacos","ip":"10.0.2.15","lastBeat":1557045406708,"marked":false,"metadata":null,"port":8084,"serviceName":"DEFAULT_GROUP@@cosmosNacos","tenant":"","weight":0},{"app":"","clusterName":"DEFAULT","enabled":true,"ephemeral":true,"healthy":true,"instanceId":"192.168.8.196#8083#DEFAULT#DEFAULT_GROUP@@cosmosNacos","ip":"192.168.8.196","lastBeat":1557045397360,"marked":false,"metadata":null,"port":8083,"serviceName":"DEFAULT_GROUP@@cosmosNacos","tenant":"","weight":0},{"app":"","clusterName":"DEFAULT","enabled":true,"ephemeral":true,"healthy":true,"instanceId":"192.168.8.196#8084#DEFAULT#DEFAULT_GROUP@@cosmosNacos","ip":"192.168.8.196","lastBeat":1557045405956,"marked":false,"metadata":null,"port":8084,"serviceName":"DEFAULT_GROUP@@cosmosNacos","tenant":"","weight":0},{"app":"","clusterName":"DEFAULT","enabled":true,"ephemeral":true,"healthy":true,"instanceId":"192.168.8.196#8082#DEFAULT#DEFAULT_GROUP@@cosmosNacos","ip":"192.168.8.196","lastBeat":1557045401509,"marked":false,"metadata":null,"port":8082,"serviceName":"DEFAULT_GROUP@@cosmosNacos","tenant":"","weight":0}]}
+
+2019-05-05 16:39:29,524 INFO [HEALTH-CHECK] health check is true
+
+2019-05-05 16:39:34,517 INFO [NACOS-RAFT] datum is changed, key: com.alibaba.nacos.naming.iplist.ephemeral.public##DEFAULT_GROUP@@cosmosNacos, value: {"cachedChecksum":"","instanceList":[{"app":"","clusterName":"DEFAULT","enabled":true,"ephemeral":true,"healthy":true,"instanceId":"192.168.8.196#8083#DEFAULT#DEFAULT_GROUP@@cosmosNacos","ip":"192.168.8.196","lastBeat":1557045567350,"marked":false,"metadata":null,"port":8083,"serviceName":"DEFAULT_GROUP@@cosmosNacos","tenant":"","weight":0},{"app":"","clusterName":"DEFAULT","enabled":true,"ephemeral":true,"healthy":true,"instanceId":"192.168.8.196#8084#DEFAULT#DEFAULT_GROUP@@cosmosNacos","ip":"192.168.8.196","lastBeat":1557045565949,"marked":false,"metadata":null,"port":8084,"serviceName":"DEFAULT_GROUP@@cosmosNacos","tenant":"","weight":0},{"app":"","clusterName":"DEFAULT","enabled":true,"ephemeral":true,"healthy":true,"instanceId":"192.168.8.196#8082#DEFAULT#DEFAULT_GROUP@@cosmosNacos","ip":"192.168.8.196","lastBeat":1557045571508,"marked":false,"metadata":null,"port":8082,"serviceName":"DEFAULT_GROUP@@cosmosNacos","tenant":"","weight":0}]}
+

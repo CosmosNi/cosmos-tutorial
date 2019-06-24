@@ -1,0 +1,1826 @@
+2019-05-05 15:45:46,903 INFO [long-pulling] client count 0
+
+2019-05-05 15:45:57,672 INFO [long-pulling] client count 0
+
+2019-05-05 15:46:07,674 INFO [long-pulling] client count 0
+
+2019-05-05 15:46:16,449 INFO notifySingleServiceThreadPool-java.util.concurrent.ScheduledThreadPoolExecutor, toNotifyTaskSize=0
+
+2019-05-05 15:46:17,553 INFO groupCount=0, subscriberClientCount=0, subscriberCount=0
+
+2019-05-05 15:46:17,675 INFO [long-pulling] client count 0
+
+2019-05-05 15:46:26,451 INFO notifySingleServiceThreadPool-java.util.concurrent.ScheduledThreadPoolExecutor, toNotifyTaskSize=0
+
+2019-05-05 15:46:27,557 INFO groupCount=0, subscriberClientCount=0, subscriberCount=0
+
+2019-05-05 15:46:27,676 INFO [long-pulling] client count 0
+
+2019-05-05 15:46:36,451 INFO notifySingleServiceThreadPool-java.util.concurrent.ScheduledThreadPoolExecutor, toNotifyTaskSize=0
+
+2019-05-05 15:46:37,565 INFO groupCount=0, subscriberClientCount=0, subscriberCount=0
+
+2019-05-05 15:46:37,679 INFO [long-pulling] client count 0
+
+2019-05-05 15:46:46,633 INFO notifySingleServiceThreadPool-java.util.concurrent.ScheduledThreadPoolExecutor, toNotifyTaskSize=0
+
+2019-05-05 15:46:47,685 INFO [long-pulling] client count 0
+
+2019-05-05 15:46:49,486 INFO groupCount=0, subscriberClientCount=0, subscriberCount=0
+
+2019-05-05 15:46:56,634 INFO notifySingleServiceThreadPool-java.util.concurrent.ScheduledThreadPoolExecutor, toNotifyTaskSize=0
+
+2019-05-05 15:46:57,685 INFO [long-pulling] client count 0
+
+2019-05-05 15:46:59,486 INFO groupCount=0, subscriberClientCount=0, subscriberCount=0
+
+2019-05-05 15:47:06,635 INFO notifySingleServiceThreadPool-java.util.concurrent.ScheduledThreadPoolExecutor, toNotifyTaskSize=0
+
+2019-05-05 15:47:07,687 INFO [long-pulling] client count 0
+
+2019-05-05 15:47:09,487 INFO groupCount=0, subscriberClientCount=0, subscriberCount=0
+
+2019-05-05 15:47:16,635 INFO notifySingleServiceThreadPool-java.util.concurrent.ScheduledThreadPoolExecutor, toNotifyTaskSize=0
+
+2019-05-05 15:47:17,687 INFO [long-pulling] client count 0
+
+2019-05-05 15:47:19,488 INFO groupCount=0, subscriberClientCount=0, subscriberCount=0
+
+2019-05-05 15:47:26,636 INFO notifySingleServiceThreadPool-java.util.concurrent.ScheduledThreadPoolExecutor, toNotifyTaskSize=0
+
+2019-05-05 15:47:27,687 INFO [long-pulling] client count 0
+
+2019-05-05 15:47:29,488 INFO groupCount=0, subscriberClientCount=0, subscriberCount=0
+
+2019-05-05 15:47:36,637 INFO notifySingleServiceThreadPool-java.util.concurrent.ScheduledThreadPoolExecutor, toNotifyTaskSize=0
+
+2019-05-05 15:47:37,688 INFO [long-pulling] client count 0
+
+2019-05-05 15:47:39,488 INFO groupCount=0, subscriberClientCount=0, subscriberCount=0
+
+2019-05-05 15:47:46,637 INFO notifySingleServiceThreadPool-java.util.concurrent.ScheduledThreadPoolExecutor, toNotifyTaskSize=0
+
+2019-05-05 15:47:47,690 INFO [long-pulling] client count 0
+
+2019-05-05 15:47:49,731 INFO groupCount=0, subscriberClientCount=0, subscriberCount=0
+
+2019-05-05 15:47:56,638 INFO notifySingleServiceThreadPool-java.util.concurrent.ScheduledThreadPoolExecutor, toNotifyTaskSize=0
+
+2019-05-05 15:47:57,691 INFO [long-pulling] client count 0
+
+2019-05-05 15:47:59,731 INFO groupCount=0, subscriberClientCount=0, subscriberCount=0
+
+2019-05-05 15:48:06,638 INFO notifySingleServiceThreadPool-java.util.concurrent.ScheduledThreadPoolExecutor, toNotifyTaskSize=0
+
+2019-05-05 15:48:07,691 INFO [long-pulling] client count 0
+
+2019-05-05 15:48:09,734 INFO groupCount=0, subscriberClientCount=0, subscriberCount=0
+
+2019-05-05 15:48:16,639 INFO notifySingleServiceThreadPool-java.util.concurrent.ScheduledThreadPoolExecutor, toNotifyTaskSize=0
+
+2019-05-05 15:48:17,691 INFO [long-pulling] client count 0
+
+2019-05-05 15:48:19,735 INFO groupCount=0, subscriberClientCount=0, subscriberCount=0
+
+2019-05-05 15:48:26,639 INFO notifySingleServiceThreadPool-java.util.concurrent.ScheduledThreadPoolExecutor, toNotifyTaskSize=0
+
+2019-05-05 15:48:27,692 INFO [long-pulling] client count 0
+
+2019-05-05 15:48:29,735 INFO groupCount=0, subscriberClientCount=0, subscriberCount=0
+
+2019-05-05 15:48:36,774 INFO notifySingleServiceThreadPool-java.util.concurrent.ScheduledThreadPoolExecutor, toNotifyTaskSize=0
+
+2019-05-05 15:48:37,693 INFO [long-pulling] client count 0
+
+2019-05-05 15:48:39,736 INFO groupCount=0, subscriberClientCount=0, subscriberCount=0
+
+2019-05-05 15:48:46,775 INFO notifySingleServiceThreadPool-java.util.concurrent.ScheduledThreadPoolExecutor, toNotifyTaskSize=0
+
+2019-05-05 15:48:47,693 INFO [long-pulling] client count 0
+
+2019-05-05 15:48:49,737 INFO groupCount=0, subscriberClientCount=0, subscriberCount=0
+
+2019-05-05 15:48:56,775 INFO notifySingleServiceThreadPool-java.util.concurrent.ScheduledThreadPoolExecutor, toNotifyTaskSize=0
+
+2019-05-05 15:48:57,693 INFO [long-pulling] client count 0
+
+2019-05-05 15:48:59,737 INFO groupCount=0, subscriberClientCount=0, subscriberCount=0
+
+2019-05-05 15:49:06,776 INFO notifySingleServiceThreadPool-java.util.concurrent.ScheduledThreadPoolExecutor, toNotifyTaskSize=0
+
+2019-05-05 15:49:07,694 INFO [long-pulling] client count 0
+
+2019-05-05 15:49:09,738 INFO groupCount=0, subscriberClientCount=0, subscriberCount=0
+
+2019-05-05 15:49:16,777 INFO notifySingleServiceThreadPool-java.util.concurrent.ScheduledThreadPoolExecutor, toNotifyTaskSize=0
+
+2019-05-05 15:49:17,695 INFO [long-pulling] client count 0
+
+2019-05-05 15:49:19,738 INFO groupCount=0, subscriberClientCount=0, subscriberCount=0
+
+2019-05-05 15:49:26,778 INFO notifySingleServiceThreadPool-java.util.concurrent.ScheduledThreadPoolExecutor, toNotifyTaskSize=0
+
+2019-05-05 15:49:27,695 INFO [long-pulling] client count 0
+
+2019-05-05 15:49:29,738 INFO groupCount=0, subscriberClientCount=0, subscriberCount=0
+
+2019-05-05 15:49:36,779 INFO notifySingleServiceThreadPool-java.util.concurrent.ScheduledThreadPoolExecutor, toNotifyTaskSize=0
+
+2019-05-05 15:49:37,695 INFO [long-pulling] client count 0
+
+2019-05-05 15:49:39,739 INFO groupCount=0, subscriberClientCount=0, subscriberCount=0
+
+2019-05-05 15:49:46,781 INFO notifySingleServiceThreadPool-java.util.concurrent.ScheduledThreadPoolExecutor, toNotifyTaskSize=0
+
+2019-05-05 15:49:47,695 INFO [long-pulling] client count 0
+
+2019-05-05 15:49:49,740 INFO groupCount=0, subscriberClientCount=0, subscriberCount=0
+
+2019-05-05 15:49:56,781 INFO notifySingleServiceThreadPool-java.util.concurrent.ScheduledThreadPoolExecutor, toNotifyTaskSize=0
+
+2019-05-05 15:49:57,696 INFO [long-pulling] client count 0
+
+2019-05-05 15:49:59,740 INFO groupCount=0, subscriberClientCount=0, subscriberCount=0
+
+2019-05-05 15:50:06,781 INFO notifySingleServiceThreadPool-java.util.concurrent.ScheduledThreadPoolExecutor, toNotifyTaskSize=0
+
+2019-05-05 15:50:07,696 INFO [long-pulling] client count 0
+
+2019-05-05 15:53:55,346 INFO [long-pulling] client count 0
+
+2019-05-05 15:54:05,457 INFO [long-pulling] client count 0
+
+2019-05-05 15:54:10,179 INFO notifySingleServiceThreadPool-java.util.concurrent.ScheduledThreadPoolExecutor, toNotifyTaskSize=0
+
+2019-05-05 15:54:10,388 INFO groupCount=0, subscriberClientCount=0, subscriberCount=0
+
+2019-05-05 15:54:15,459 INFO [long-pulling] client count 0
+
+2019-05-05 15:54:20,248 INFO notifySingleServiceThreadPool-java.util.concurrent.ScheduledThreadPoolExecutor, toNotifyTaskSize=0
+
+2019-05-05 15:54:20,399 INFO groupCount=0, subscriberClientCount=0, subscriberCount=0
+
+2019-05-05 15:54:25,470 INFO [long-pulling] client count 0
+
+2019-05-05 15:54:30,250 INFO notifySingleServiceThreadPool-java.util.concurrent.ScheduledThreadPoolExecutor, toNotifyTaskSize=0
+
+2019-05-05 15:54:30,442 INFO groupCount=0, subscriberClientCount=0, subscriberCount=0
+
+2019-05-05 15:54:35,482 INFO [long-pulling] client count 0
+
+2019-05-05 15:54:40,260 INFO notifySingleServiceThreadPool-java.util.concurrent.ScheduledThreadPoolExecutor, toNotifyTaskSize=0
+
+2019-05-05 15:54:40,446 INFO groupCount=0, subscriberClientCount=0, subscriberCount=0
+
+2019-05-05 15:54:45,484 INFO [long-pulling] client count 0
+
+2019-05-05 15:54:50,264 INFO notifySingleServiceThreadPool-java.util.concurrent.ScheduledThreadPoolExecutor, toNotifyTaskSize=0
+
+2019-05-05 15:54:50,449 INFO groupCount=0, subscriberClientCount=0, subscriberCount=0
+
+2019-05-05 15:54:55,486 INFO [long-pulling] client count 0
+
+2019-05-05 15:55:00,265 INFO notifySingleServiceThreadPool-java.util.concurrent.ScheduledThreadPoolExecutor, toNotifyTaskSize=0
+
+2019-05-05 15:55:00,451 INFO groupCount=0, subscriberClientCount=0, subscriberCount=0
+
+2019-05-05 15:55:05,488 INFO [long-pulling] client count 0
+
+2019-05-05 15:55:10,266 INFO notifySingleServiceThreadPool-java.util.concurrent.ScheduledThreadPoolExecutor, toNotifyTaskSize=0
+
+2019-05-05 15:55:10,452 INFO groupCount=0, subscriberClientCount=0, subscriberCount=0
+
+2019-05-05 15:55:15,488 INFO [long-pulling] client count 0
+
+2019-05-05 15:55:20,268 INFO notifySingleServiceThreadPool-java.util.concurrent.ScheduledThreadPoolExecutor, toNotifyTaskSize=0
+
+2019-05-05 15:55:20,459 INFO groupCount=0, subscriberClientCount=0, subscriberCount=0
+
+2019-05-05 15:55:25,489 INFO [long-pulling] client count 0
+
+2019-05-05 15:55:30,268 INFO notifySingleServiceThreadPool-java.util.concurrent.ScheduledThreadPoolExecutor, toNotifyTaskSize=0
+
+2019-05-05 15:55:30,460 INFO groupCount=0, subscriberClientCount=0, subscriberCount=0
+
+2019-05-05 15:55:35,489 INFO [long-pulling] client count 0
+
+2019-05-05 15:55:40,269 INFO notifySingleServiceThreadPool-java.util.concurrent.ScheduledThreadPoolExecutor, toNotifyTaskSize=0
+
+2019-05-05 15:55:40,461 INFO groupCount=0, subscriberClientCount=0, subscriberCount=0
+
+2019-05-05 15:55:45,489 INFO [long-pulling] client count 0
+
+2019-05-05 15:55:50,269 INFO notifySingleServiceThreadPool-java.util.concurrent.ScheduledThreadPoolExecutor, toNotifyTaskSize=0
+
+2019-05-05 15:55:50,463 INFO groupCount=0, subscriberClientCount=0, subscriberCount=0
+
+2019-05-05 15:55:55,490 INFO [long-pulling] client count 0
+
+2019-05-05 15:56:00,274 INFO notifySingleServiceThreadPool-java.util.concurrent.ScheduledThreadPoolExecutor, toNotifyTaskSize=0
+
+2019-05-05 15:56:00,464 INFO groupCount=0, subscriberClientCount=0, subscriberCount=0
+
+2019-05-05 15:56:05,491 INFO [long-pulling] client count 0
+
+2019-05-05 15:56:10,274 INFO notifySingleServiceThreadPool-java.util.concurrent.ScheduledThreadPoolExecutor, toNotifyTaskSize=0
+
+2019-05-05 15:56:10,465 INFO groupCount=0, subscriberClientCount=0, subscriberCount=0
+
+2019-05-05 15:56:15,491 INFO [long-pulling] client count 0
+
+2019-05-05 15:56:20,275 INFO notifySingleServiceThreadPool-java.util.concurrent.ScheduledThreadPoolExecutor, toNotifyTaskSize=0
+
+2019-05-05 15:56:20,465 INFO groupCount=0, subscriberClientCount=0, subscriberCount=0
+
+2019-05-05 15:56:25,492 INFO [long-pulling] client count 0
+
+2019-05-05 15:56:30,276 INFO notifySingleServiceThreadPool-java.util.concurrent.ScheduledThreadPoolExecutor, toNotifyTaskSize=0
+
+2019-05-05 15:56:30,466 INFO groupCount=0, subscriberClientCount=0, subscriberCount=0
+
+2019-05-05 15:56:35,492 INFO [long-pulling] client count 0
+
+2019-05-05 15:56:40,276 INFO notifySingleServiceThreadPool-java.util.concurrent.ScheduledThreadPoolExecutor, toNotifyTaskSize=0
+
+2019-05-05 15:56:40,466 INFO groupCount=0, subscriberClientCount=0, subscriberCount=0
+
+2019-05-05 15:56:45,492 INFO [long-pulling] client count 0
+
+2019-05-05 15:56:50,277 INFO notifySingleServiceThreadPool-java.util.concurrent.ScheduledThreadPoolExecutor, toNotifyTaskSize=0
+
+2019-05-05 15:56:50,467 INFO groupCount=0, subscriberClientCount=0, subscriberCount=0
+
+2019-05-05 15:56:55,493 INFO [long-pulling] client count 0
+
+2019-05-05 15:57:00,277 INFO notifySingleServiceThreadPool-java.util.concurrent.ScheduledThreadPoolExecutor, toNotifyTaskSize=0
+
+2019-05-05 15:57:00,468 INFO groupCount=0, subscriberClientCount=0, subscriberCount=0
+
+2019-05-05 15:57:05,493 INFO [long-pulling] client count 0
+
+2019-05-05 15:57:10,278 INFO notifySingleServiceThreadPool-java.util.concurrent.ScheduledThreadPoolExecutor, toNotifyTaskSize=0
+
+2019-05-05 15:57:10,468 INFO groupCount=0, subscriberClientCount=0, subscriberCount=0
+
+2019-05-05 15:57:15,495 INFO [long-pulling] client count 0
+
+2019-05-05 15:57:20,279 INFO notifySingleServiceThreadPool-java.util.concurrent.ScheduledThreadPoolExecutor, toNotifyTaskSize=0
+
+2019-05-05 15:57:20,469 INFO groupCount=0, subscriberClientCount=0, subscriberCount=0
+
+2019-05-05 15:57:25,502 INFO [long-pulling] client count 0
+
+2019-05-05 15:57:30,279 INFO notifySingleServiceThreadPool-java.util.concurrent.ScheduledThreadPoolExecutor, toNotifyTaskSize=0
+
+2019-05-05 15:57:30,469 INFO groupCount=0, subscriberClientCount=0, subscriberCount=0
+
+2019-05-05 15:57:35,503 INFO [long-pulling] client count 0
+
+2019-05-05 15:57:40,279 INFO notifySingleServiceThreadPool-java.util.concurrent.ScheduledThreadPoolExecutor, toNotifyTaskSize=0
+
+2019-05-05 15:57:40,470 INFO groupCount=0, subscriberClientCount=0, subscriberCount=0
+
+2019-05-05 15:57:45,503 INFO [long-pulling] client count 0
+
+2019-05-05 15:57:50,280 INFO notifySingleServiceThreadPool-java.util.concurrent.ScheduledThreadPoolExecutor, toNotifyTaskSize=0
+
+2019-05-05 15:57:50,470 INFO groupCount=0, subscriberClientCount=0, subscriberCount=0
+
+2019-05-05 15:57:55,505 INFO [long-pulling] client count 0
+
+2019-05-05 15:58:00,280 INFO notifySingleServiceThreadPool-java.util.concurrent.ScheduledThreadPoolExecutor, toNotifyTaskSize=0
+
+2019-05-05 15:58:00,475 INFO groupCount=0, subscriberClientCount=0, subscriberCount=0
+
+2019-05-05 15:58:05,505 INFO [long-pulling] client count 0
+
+2019-05-05 15:58:10,287 INFO notifySingleServiceThreadPool-java.util.concurrent.ScheduledThreadPoolExecutor, toNotifyTaskSize=0
+
+2019-05-05 15:58:10,480 INFO groupCount=0, subscriberClientCount=0, subscriberCount=0
+
+2019-05-05 15:58:15,506 INFO [long-pulling] client count 0
+
+2019-05-05 15:58:20,288 INFO notifySingleServiceThreadPool-java.util.concurrent.ScheduledThreadPoolExecutor, toNotifyTaskSize=0
+
+2019-05-05 15:58:20,494 INFO groupCount=0, subscriberClientCount=0, subscriberCount=0
+
+2019-05-05 15:58:25,507 INFO [long-pulling] client count 0
+
+2019-05-05 15:58:30,288 INFO notifySingleServiceThreadPool-java.util.concurrent.ScheduledThreadPoolExecutor, toNotifyTaskSize=0
+
+2019-05-05 15:58:30,498 INFO groupCount=0, subscriberClientCount=0, subscriberCount=0
+
+2019-05-05 15:58:35,507 INFO [long-pulling] client count 0
+
+2019-05-05 15:58:40,289 INFO notifySingleServiceThreadPool-java.util.concurrent.ScheduledThreadPoolExecutor, toNotifyTaskSize=0
+
+2019-05-05 15:58:40,498 INFO groupCount=0, subscriberClientCount=0, subscriberCount=0
+
+2019-05-05 15:58:45,508 INFO [long-pulling] client count 0
+
+2019-05-05 15:58:50,289 INFO notifySingleServiceThreadPool-java.util.concurrent.ScheduledThreadPoolExecutor, toNotifyTaskSize=0
+
+2019-05-05 15:58:50,504 INFO groupCount=0, subscriberClientCount=0, subscriberCount=0
+
+2019-05-05 15:58:55,513 INFO [long-pulling] client count 0
+
+2019-05-05 15:59:00,289 INFO notifySingleServiceThreadPool-java.util.concurrent.ScheduledThreadPoolExecutor, toNotifyTaskSize=0
+
+2019-05-05 15:59:00,510 INFO groupCount=0, subscriberClientCount=0, subscriberCount=0
+
+2019-05-05 15:59:05,513 INFO [long-pulling] client count 0
+
+2019-05-05 15:59:10,290 INFO notifySingleServiceThreadPool-java.util.concurrent.ScheduledThreadPoolExecutor, toNotifyTaskSize=0
+
+2019-05-05 15:59:10,516 INFO groupCount=0, subscriberClientCount=0, subscriberCount=0
+
+2019-05-05 15:59:15,516 INFO [long-pulling] client count 0
+
+2019-05-05 15:59:20,291 INFO notifySingleServiceThreadPool-java.util.concurrent.ScheduledThreadPoolExecutor, toNotifyTaskSize=0
+
+2019-05-05 15:59:20,516 INFO groupCount=0, subscriberClientCount=0, subscriberCount=0
+
+2019-05-05 15:59:25,517 INFO [long-pulling] client count 0
+
+2019-05-05 15:59:30,292 INFO notifySingleServiceThreadPool-java.util.concurrent.ScheduledThreadPoolExecutor, toNotifyTaskSize=0
+
+2019-05-05 15:59:30,518 INFO groupCount=0, subscriberClientCount=0, subscriberCount=0
+
+2019-05-05 15:59:35,517 INFO [long-pulling] client count 0
+
+2019-05-05 15:59:40,292 INFO notifySingleServiceThreadPool-java.util.concurrent.ScheduledThreadPoolExecutor, toNotifyTaskSize=0
+
+2019-05-05 15:59:40,520 INFO groupCount=0, subscriberClientCount=0, subscriberCount=0
+
+2019-05-05 15:59:45,518 INFO [long-pulling] client count 0
+
+2019-05-05 15:59:50,292 INFO notifySingleServiceThreadPool-java.util.concurrent.ScheduledThreadPoolExecutor, toNotifyTaskSize=0
+
+2019-05-05 15:59:50,522 INFO groupCount=0, subscriberClientCount=0, subscriberCount=0
+
+2019-05-05 15:59:55,522 INFO [long-pulling] client count 0
+
+2019-05-05 16:00:00,293 INFO notifySingleServiceThreadPool-java.util.concurrent.ScheduledThreadPoolExecutor, toNotifyTaskSize=0
+
+2019-05-05 16:00:00,522 INFO groupCount=0, subscriberClientCount=0, subscriberCount=0
+
+2019-05-05 16:00:05,522 INFO [long-pulling] client count 0
+
+2019-05-05 16:00:10,294 INFO notifySingleServiceThreadPool-java.util.concurrent.ScheduledThreadPoolExecutor, toNotifyTaskSize=0
+
+2019-05-05 16:00:10,522 INFO groupCount=0, subscriberClientCount=0, subscriberCount=0
+
+2019-05-05 16:00:15,530 INFO [long-pulling] client count 0
+
+2019-05-05 16:00:20,294 INFO notifySingleServiceThreadPool-java.util.concurrent.ScheduledThreadPoolExecutor, toNotifyTaskSize=0
+
+2019-05-05 16:00:20,523 INFO groupCount=0, subscriberClientCount=0, subscriberCount=0
+
+2019-05-05 16:00:25,530 INFO [long-pulling] client count 0
+
+2019-05-05 16:00:30,295 INFO notifySingleServiceThreadPool-java.util.concurrent.ScheduledThreadPoolExecutor, toNotifyTaskSize=0
+
+2019-05-05 16:00:30,523 INFO groupCount=0, subscriberClientCount=0, subscriberCount=0
+
+2019-05-05 16:00:35,542 INFO [long-pulling] client count 0
+
+2019-05-05 16:00:40,295 INFO notifySingleServiceThreadPool-java.util.concurrent.ScheduledThreadPoolExecutor, toNotifyTaskSize=0
+
+2019-05-05 16:00:40,526 INFO groupCount=0, subscriberClientCount=0, subscriberCount=0
+
+2019-05-05 16:00:45,542 INFO [long-pulling] client count 0
+
+2019-05-05 16:00:50,295 INFO notifySingleServiceThreadPool-java.util.concurrent.ScheduledThreadPoolExecutor, toNotifyTaskSize=0
+
+2019-05-05 16:00:50,527 INFO groupCount=0, subscriberClientCount=0, subscriberCount=0
+
+2019-05-05 16:00:55,543 INFO [long-pulling] client count 0
+
+2019-05-05 16:01:00,296 INFO notifySingleServiceThreadPool-java.util.concurrent.ScheduledThreadPoolExecutor, toNotifyTaskSize=0
+
+2019-05-05 16:01:00,530 INFO groupCount=0, subscriberClientCount=0, subscriberCount=0
+
+2019-05-05 16:01:05,543 INFO [long-pulling] client count 0
+
+2019-05-05 16:01:10,296 INFO notifySingleServiceThreadPool-java.util.concurrent.ScheduledThreadPoolExecutor, toNotifyTaskSize=0
+
+2019-05-05 16:01:10,531 INFO groupCount=0, subscriberClientCount=0, subscriberCount=0
+
+2019-05-05 16:01:15,544 INFO [long-pulling] client count 0
+
+2019-05-05 16:01:20,296 INFO notifySingleServiceThreadPool-java.util.concurrent.ScheduledThreadPoolExecutor, toNotifyTaskSize=0
+
+2019-05-05 16:01:20,536 INFO groupCount=0, subscriberClientCount=0, subscriberCount=0
+
+2019-05-05 16:01:25,544 INFO [long-pulling] client count 0
+
+2019-05-05 16:01:30,297 INFO notifySingleServiceThreadPool-java.util.concurrent.ScheduledThreadPoolExecutor, toNotifyTaskSize=0
+
+2019-05-05 16:01:30,537 INFO groupCount=0, subscriberClientCount=0, subscriberCount=0
+
+2019-05-05 16:01:35,545 INFO [long-pulling] client count 0
+
+2019-05-05 16:01:40,297 INFO notifySingleServiceThreadPool-java.util.concurrent.ScheduledThreadPoolExecutor, toNotifyTaskSize=0
+
+2019-05-05 16:01:40,546 INFO groupCount=0, subscriberClientCount=0, subscriberCount=0
+
+2019-05-05 16:01:45,545 INFO [long-pulling] client count 0
+
+2019-05-05 16:01:50,298 INFO notifySingleServiceThreadPool-java.util.concurrent.ScheduledThreadPoolExecutor, toNotifyTaskSize=0
+
+2019-05-05 16:01:50,547 INFO groupCount=0, subscriberClientCount=0, subscriberCount=0
+
+2019-05-05 16:01:55,545 INFO [long-pulling] client count 0
+
+2019-05-05 16:02:00,299 INFO notifySingleServiceThreadPool-java.util.concurrent.ScheduledThreadPoolExecutor, toNotifyTaskSize=0
+
+2019-05-05 16:02:00,548 INFO groupCount=0, subscriberClientCount=0, subscriberCount=0
+
+2019-05-05 16:02:05,546 INFO [long-pulling] client count 0
+
+2019-05-05 16:02:10,300 INFO notifySingleServiceThreadPool-java.util.concurrent.ScheduledThreadPoolExecutor, toNotifyTaskSize=0
+
+2019-05-05 16:02:10,548 INFO groupCount=0, subscriberClientCount=0, subscriberCount=0
+
+2019-05-05 16:02:15,547 INFO [long-pulling] client count 0
+
+2019-05-05 16:02:20,300 INFO notifySingleServiceThreadPool-java.util.concurrent.ScheduledThreadPoolExecutor, toNotifyTaskSize=0
+
+2019-05-05 16:02:20,549 INFO groupCount=0, subscriberClientCount=0, subscriberCount=0
+
+2019-05-05 16:02:25,548 INFO [long-pulling] client count 0
+
+2019-05-05 16:02:30,302 INFO notifySingleServiceThreadPool-java.util.concurrent.ScheduledThreadPoolExecutor, toNotifyTaskSize=0
+
+2019-05-05 16:02:30,550 INFO groupCount=0, subscriberClientCount=0, subscriberCount=0
+
+2019-05-05 16:02:35,548 INFO [long-pulling] client count 0
+
+2019-05-05 16:02:40,303 INFO notifySingleServiceThreadPool-java.util.concurrent.ScheduledThreadPoolExecutor, toNotifyTaskSize=0
+
+2019-05-05 16:02:40,551 INFO groupCount=0, subscriberClientCount=0, subscriberCount=0
+
+2019-05-05 16:02:45,549 INFO [long-pulling] client count 0
+
+2019-05-05 16:02:50,303 INFO notifySingleServiceThreadPool-java.util.concurrent.ScheduledThreadPoolExecutor, toNotifyTaskSize=0
+
+2019-05-05 16:02:50,551 INFO groupCount=0, subscriberClientCount=0, subscriberCount=0
+
+2019-05-05 16:02:55,551 INFO [long-pulling] client count 0
+
+2019-05-05 16:03:00,304 INFO notifySingleServiceThreadPool-java.util.concurrent.ScheduledThreadPoolExecutor, toNotifyTaskSize=0
+
+2019-05-05 16:03:00,551 INFO groupCount=0, subscriberClientCount=0, subscriberCount=0
+
+2019-05-05 16:03:05,551 INFO [long-pulling] client count 0
+
+2019-05-05 16:03:10,304 INFO notifySingleServiceThreadPool-java.util.concurrent.ScheduledThreadPoolExecutor, toNotifyTaskSize=0
+
+2019-05-05 16:03:10,552 INFO groupCount=0, subscriberClientCount=0, subscriberCount=0
+
+2019-05-05 16:03:15,551 INFO [long-pulling] client count 0
+
+2019-05-05 16:03:20,304 INFO notifySingleServiceThreadPool-java.util.concurrent.ScheduledThreadPoolExecutor, toNotifyTaskSize=0
+
+2019-05-05 16:03:20,553 INFO groupCount=0, subscriberClientCount=0, subscriberCount=0
+
+2019-05-05 16:03:25,551 INFO [long-pulling] client count 0
+
+2019-05-05 16:03:30,305 INFO notifySingleServiceThreadPool-java.util.concurrent.ScheduledThreadPoolExecutor, toNotifyTaskSize=0
+
+2019-05-05 16:03:30,553 INFO groupCount=0, subscriberClientCount=0, subscriberCount=0
+
+2019-05-05 16:03:35,552 INFO [long-pulling] client count 0
+
+2019-05-05 16:03:40,305 INFO notifySingleServiceThreadPool-java.util.concurrent.ScheduledThreadPoolExecutor, toNotifyTaskSize=0
+
+2019-05-05 16:03:40,554 INFO groupCount=0, subscriberClientCount=0, subscriberCount=0
+
+2019-05-05 16:03:45,553 INFO [long-pulling] client count 0
+
+2019-05-05 16:03:50,307 INFO notifySingleServiceThreadPool-java.util.concurrent.ScheduledThreadPoolExecutor, toNotifyTaskSize=0
+
+2019-05-05 16:03:50,555 INFO groupCount=0, subscriberClientCount=0, subscriberCount=0
+
+2019-05-05 16:03:55,554 INFO [long-pulling] client count 0
+
+2019-05-05 16:04:00,307 INFO notifySingleServiceThreadPool-java.util.concurrent.ScheduledThreadPoolExecutor, toNotifyTaskSize=0
+
+2019-05-05 16:04:00,556 INFO groupCount=0, subscriberClientCount=0, subscriberCount=0
+
+2019-05-05 16:04:05,554 INFO [long-pulling] client count 0
+
+2019-05-05 16:04:10,308 INFO notifySingleServiceThreadPool-java.util.concurrent.ScheduledThreadPoolExecutor, toNotifyTaskSize=0
+
+2019-05-05 16:04:10,557 INFO groupCount=0, subscriberClientCount=0, subscriberCount=0
+
+2019-05-05 16:04:15,554 INFO [long-pulling] client count 0
+
+2019-05-05 16:04:20,308 INFO notifySingleServiceThreadPool-java.util.concurrent.ScheduledThreadPoolExecutor, toNotifyTaskSize=0
+
+2019-05-05 16:04:20,557 INFO groupCount=0, subscriberClientCount=0, subscriberCount=0
+
+2019-05-05 16:04:25,555 INFO [long-pulling] client count 0
+
+2019-05-05 16:04:30,309 INFO notifySingleServiceThreadPool-java.util.concurrent.ScheduledThreadPoolExecutor, toNotifyTaskSize=0
+
+2019-05-05 16:04:30,557 INFO groupCount=0, subscriberClientCount=0, subscriberCount=0
+
+2019-05-05 16:04:35,556 INFO [long-pulling] client count 0
+
+2019-05-05 16:04:40,310 INFO notifySingleServiceThreadPool-java.util.concurrent.ScheduledThreadPoolExecutor, toNotifyTaskSize=0
+
+2019-05-05 16:04:40,557 INFO groupCount=0, subscriberClientCount=0, subscriberCount=0
+
+2019-05-05 16:04:45,557 INFO [long-pulling] client count 0
+
+2019-05-05 16:04:50,310 INFO notifySingleServiceThreadPool-java.util.concurrent.ScheduledThreadPoolExecutor, toNotifyTaskSize=0
+
+2019-05-05 16:04:50,558 INFO groupCount=0, subscriberClientCount=0, subscriberCount=0
+
+2019-05-05 16:04:55,557 INFO [long-pulling] client count 0
+
+2019-05-05 16:05:00,312 INFO notifySingleServiceThreadPool-java.util.concurrent.ScheduledThreadPoolExecutor, toNotifyTaskSize=0
+
+2019-05-05 16:05:00,559 INFO groupCount=0, subscriberClientCount=0, subscriberCount=0
+
+2019-05-05 16:05:05,557 INFO [long-pulling] client count 0
+
+2019-05-05 16:05:10,312 INFO notifySingleServiceThreadPool-java.util.concurrent.ScheduledThreadPoolExecutor, toNotifyTaskSize=0
+
+2019-05-05 16:05:10,560 INFO groupCount=0, subscriberClientCount=0, subscriberCount=0
+
+2019-05-05 16:05:15,558 INFO [long-pulling] client count 0
+
+2019-05-05 16:05:20,313 INFO notifySingleServiceThreadPool-java.util.concurrent.ScheduledThreadPoolExecutor, toNotifyTaskSize=0
+
+2019-05-05 16:05:20,560 INFO groupCount=0, subscriberClientCount=0, subscriberCount=0
+
+2019-05-05 16:05:25,558 INFO [long-pulling] client count 0
+
+2019-05-05 16:05:30,313 INFO notifySingleServiceThreadPool-java.util.concurrent.ScheduledThreadPoolExecutor, toNotifyTaskSize=0
+
+2019-05-05 16:05:30,560 INFO groupCount=0, subscriberClientCount=0, subscriberCount=0
+
+2019-05-05 16:05:35,559 INFO [long-pulling] client count 0
+
+2019-05-05 16:05:40,314 INFO notifySingleServiceThreadPool-java.util.concurrent.ScheduledThreadPoolExecutor, toNotifyTaskSize=0
+
+2019-05-05 16:05:40,561 INFO groupCount=0, subscriberClientCount=0, subscriberCount=0
+
+2019-05-05 16:05:45,560 INFO [long-pulling] client count 0
+
+2019-05-05 16:05:50,315 INFO notifySingleServiceThreadPool-java.util.concurrent.ScheduledThreadPoolExecutor, toNotifyTaskSize=0
+
+2019-05-05 16:05:50,562 INFO groupCount=0, subscriberClientCount=0, subscriberCount=0
+
+2019-05-05 16:05:55,561 INFO [long-pulling] client count 0
+
+2019-05-05 16:06:00,317 INFO notifySingleServiceThreadPool-java.util.concurrent.ScheduledThreadPoolExecutor, toNotifyTaskSize=0
+
+2019-05-05 16:06:00,562 INFO groupCount=0, subscriberClientCount=0, subscriberCount=0
+
+2019-05-05 16:06:05,561 INFO [long-pulling] client count 0
+
+2019-05-05 16:06:10,317 INFO notifySingleServiceThreadPool-java.util.concurrent.ScheduledThreadPoolExecutor, toNotifyTaskSize=0
+
+2019-05-05 16:06:10,563 INFO groupCount=0, subscriberClientCount=0, subscriberCount=0
+
+2019-05-05 16:06:15,561 INFO [long-pulling] client count 0
+
+2019-05-05 16:06:20,320 INFO notifySingleServiceThreadPool-java.util.concurrent.ScheduledThreadPoolExecutor, toNotifyTaskSize=0
+
+2019-05-05 16:06:20,563 INFO groupCount=0, subscriberClientCount=0, subscriberCount=0
+
+2019-05-05 16:06:25,561 INFO [long-pulling] client count 0
+
+2019-05-05 16:06:30,321 INFO notifySingleServiceThreadPool-java.util.concurrent.ScheduledThreadPoolExecutor, toNotifyTaskSize=0
+
+2019-05-05 16:06:30,564 INFO groupCount=0, subscriberClientCount=0, subscriberCount=0
+
+2019-05-05 16:06:35,562 INFO [long-pulling] client count 0
+
+2019-05-05 16:06:40,321 INFO notifySingleServiceThreadPool-java.util.concurrent.ScheduledThreadPoolExecutor, toNotifyTaskSize=0
+
+2019-05-05 16:06:40,564 INFO groupCount=0, subscriberClientCount=0, subscriberCount=0
+
+2019-05-05 16:06:45,563 INFO [long-pulling] client count 0
+
+2019-05-05 16:06:50,322 INFO notifySingleServiceThreadPool-java.util.concurrent.ScheduledThreadPoolExecutor, toNotifyTaskSize=0
+
+2019-05-05 16:06:50,565 INFO groupCount=0, subscriberClientCount=0, subscriberCount=0
+
+2019-05-05 16:06:55,563 INFO [long-pulling] client count 0
+
+2019-05-05 16:07:00,322 INFO notifySingleServiceThreadPool-java.util.concurrent.ScheduledThreadPoolExecutor, toNotifyTaskSize=0
+
+2019-05-05 16:07:00,566 INFO groupCount=0, subscriberClientCount=0, subscriberCount=0
+
+2019-05-05 16:07:05,564 INFO [long-pulling] client count 0
+
+2019-05-05 16:07:10,322 INFO notifySingleServiceThreadPool-java.util.concurrent.ScheduledThreadPoolExecutor, toNotifyTaskSize=0
+
+2019-05-05 16:07:10,566 INFO groupCount=0, subscriberClientCount=0, subscriberCount=0
+
+2019-05-05 16:07:15,564 INFO [long-pulling] client count 0
+
+2019-05-05 16:07:20,323 INFO notifySingleServiceThreadPool-java.util.concurrent.ScheduledThreadPoolExecutor, toNotifyTaskSize=0
+
+2019-05-05 16:07:20,568 INFO groupCount=0, subscriberClientCount=0, subscriberCount=0
+
+2019-05-05 16:07:25,565 INFO [long-pulling] client count 0
+
+2019-05-05 16:07:30,323 INFO notifySingleServiceThreadPool-java.util.concurrent.ScheduledThreadPoolExecutor, toNotifyTaskSize=0
+
+2019-05-05 16:07:30,568 INFO groupCount=0, subscriberClientCount=0, subscriberCount=0
+
+2019-05-05 16:07:35,566 INFO [long-pulling] client count 0
+
+2019-05-05 16:07:40,324 INFO notifySingleServiceThreadPool-java.util.concurrent.ScheduledThreadPoolExecutor, toNotifyTaskSize=0
+
+2019-05-05 16:07:40,569 INFO groupCount=0, subscriberClientCount=0, subscriberCount=0
+
+2019-05-05 16:07:45,567 INFO [long-pulling] client count 0
+
+2019-05-05 16:07:50,325 INFO notifySingleServiceThreadPool-java.util.concurrent.ScheduledThreadPoolExecutor, toNotifyTaskSize=0
+
+2019-05-05 16:07:50,569 INFO groupCount=0, subscriberClientCount=0, subscriberCount=0
+
+2019-05-05 16:07:55,568 INFO [long-pulling] client count 0
+
+2019-05-05 16:08:00,325 INFO notifySingleServiceThreadPool-java.util.concurrent.ScheduledThreadPoolExecutor, toNotifyTaskSize=0
+
+2019-05-05 16:08:00,570 INFO groupCount=0, subscriberClientCount=0, subscriberCount=0
+
+2019-05-05 16:08:05,569 INFO [long-pulling] client count 0
+
+2019-05-05 16:08:10,325 INFO notifySingleServiceThreadPool-java.util.concurrent.ScheduledThreadPoolExecutor, toNotifyTaskSize=0
+
+2019-05-05 16:08:10,570 INFO groupCount=0, subscriberClientCount=0, subscriberCount=0
+
+2019-05-05 16:08:15,569 INFO [long-pulling] client count 0
+
+2019-05-05 16:08:20,325 INFO notifySingleServiceThreadPool-java.util.concurrent.ScheduledThreadPoolExecutor, toNotifyTaskSize=0
+
+2019-05-05 16:08:20,571 INFO groupCount=0, subscriberClientCount=0, subscriberCount=0
+
+2019-05-05 16:08:25,569 INFO [long-pulling] client count 0
+
+2019-05-05 16:08:30,326 INFO notifySingleServiceThreadPool-java.util.concurrent.ScheduledThreadPoolExecutor, toNotifyTaskSize=0
+
+2019-05-05 16:08:30,573 INFO groupCount=0, subscriberClientCount=0, subscriberCount=0
+
+2019-05-05 16:08:35,570 INFO [long-pulling] client count 0
+
+2019-05-05 16:08:40,326 INFO notifySingleServiceThreadPool-java.util.concurrent.ScheduledThreadPoolExecutor, toNotifyTaskSize=0
+
+2019-05-05 16:08:40,573 INFO groupCount=0, subscriberClientCount=0, subscriberCount=0
+
+2019-05-05 16:08:45,571 INFO [long-pulling] client count 0
+
+2019-05-05 16:08:50,327 INFO notifySingleServiceThreadPool-java.util.concurrent.ScheduledThreadPoolExecutor, toNotifyTaskSize=0
+
+2019-05-05 16:08:50,574 INFO groupCount=0, subscriberClientCount=0, subscriberCount=0
+
+2019-05-05 16:08:55,571 INFO [long-pulling] client count 0
+
+2019-05-05 16:09:00,328 INFO notifySingleServiceThreadPool-java.util.concurrent.ScheduledThreadPoolExecutor, toNotifyTaskSize=0
+
+2019-05-05 16:09:00,574 INFO groupCount=0, subscriberClientCount=0, subscriberCount=0
+
+2019-05-05 16:09:05,572 INFO [long-pulling] client count 0
+
+2019-05-05 16:09:10,328 INFO notifySingleServiceThreadPool-java.util.concurrent.ScheduledThreadPoolExecutor, toNotifyTaskSize=0
+
+2019-05-05 16:09:10,575 INFO groupCount=0, subscriberClientCount=0, subscriberCount=0
+
+2019-05-05 16:09:15,572 INFO [long-pulling] client count 0
+
+2019-05-05 16:09:20,329 INFO notifySingleServiceThreadPool-java.util.concurrent.ScheduledThreadPoolExecutor, toNotifyTaskSize=0
+
+2019-05-05 16:09:20,576 INFO groupCount=0, subscriberClientCount=0, subscriberCount=0
+
+2019-05-05 16:09:25,573 INFO [long-pulling] client count 0
+
+2019-05-05 16:09:30,330 INFO notifySingleServiceThreadPool-java.util.concurrent.ScheduledThreadPoolExecutor, toNotifyTaskSize=0
+
+2019-05-05 16:09:30,576 INFO groupCount=0, subscriberClientCount=0, subscriberCount=0
+
+2019-05-05 16:09:35,573 INFO [long-pulling] client count 0
+
+2019-05-05 16:09:40,330 INFO notifySingleServiceThreadPool-java.util.concurrent.ScheduledThreadPoolExecutor, toNotifyTaskSize=0
+
+2019-05-05 16:09:40,577 INFO groupCount=0, subscriberClientCount=0, subscriberCount=0
+
+2019-05-05 16:09:45,574 INFO [long-pulling] client count 0
+
+2019-05-05 16:09:50,330 INFO notifySingleServiceThreadPool-java.util.concurrent.ScheduledThreadPoolExecutor, toNotifyTaskSize=0
+
+2019-05-05 16:09:50,578 INFO groupCount=1, subscriberClientCount=0, subscriberCount=0
+
+2019-05-05 16:09:55,575 INFO [long-pulling] client count 0
+
+2019-05-05 16:10:00,332 INFO notifySingleServiceThreadPool-java.util.concurrent.ScheduledThreadPoolExecutor, toNotifyTaskSize=0
+
+2019-05-05 16:10:00,578 INFO groupCount=1, subscriberClientCount=0, subscriberCount=0
+
+2019-05-05 16:10:05,576 INFO [long-pulling] client count 0
+
+2019-05-05 16:10:10,332 INFO notifySingleServiceThreadPool-java.util.concurrent.ScheduledThreadPoolExecutor, toNotifyTaskSize=0
+
+2019-05-05 16:10:10,579 INFO groupCount=1, subscriberClientCount=0, subscriberCount=0
+
+2019-05-05 16:10:15,576 INFO [long-pulling] client count 0
+
+2019-05-05 16:10:20,332 INFO notifySingleServiceThreadPool-java.util.concurrent.ScheduledThreadPoolExecutor, toNotifyTaskSize=0
+
+2019-05-05 16:10:20,581 INFO groupCount=1, subscriberClientCount=0, subscriberCount=0
+
+2019-05-05 16:10:25,576 INFO [long-pulling] client count 0
+
+2019-05-05 16:10:30,333 INFO notifySingleServiceThreadPool-java.util.concurrent.ScheduledThreadPoolExecutor, toNotifyTaskSize=0
+
+2019-05-05 16:10:30,581 INFO groupCount=1, subscriberClientCount=0, subscriberCount=0
+
+2019-05-05 16:10:35,577 INFO [long-pulling] client count 0
+
+2019-05-05 16:10:40,333 INFO notifySingleServiceThreadPool-java.util.concurrent.ScheduledThreadPoolExecutor, toNotifyTaskSize=0
+
+2019-05-05 16:10:40,582 INFO groupCount=1, subscriberClientCount=0, subscriberCount=0
+
+2019-05-05 16:10:45,579 INFO [long-pulling] client count 0
+
+2019-05-05 16:10:50,334 INFO notifySingleServiceThreadPool-java.util.concurrent.ScheduledThreadPoolExecutor, toNotifyTaskSize=0
+
+2019-05-05 16:10:50,582 INFO groupCount=1, subscriberClientCount=0, subscriberCount=0
+
+2019-05-05 16:10:55,580 INFO [long-pulling] client count 0
+
+2019-05-05 16:11:00,335 INFO notifySingleServiceThreadPool-java.util.concurrent.ScheduledThreadPoolExecutor, toNotifyTaskSize=0
+
+2019-05-05 16:11:00,582 INFO groupCount=1, subscriberClientCount=0, subscriberCount=0
+
+2019-05-05 16:11:05,581 INFO [long-pulling] client count 0
+
+2019-05-05 16:11:10,335 INFO notifySingleServiceThreadPool-java.util.concurrent.ScheduledThreadPoolExecutor, toNotifyTaskSize=0
+
+2019-05-05 16:11:10,583 INFO groupCount=1, subscriberClientCount=0, subscriberCount=0
+
+2019-05-05 16:11:15,582 INFO [long-pulling] client count 0
+
+2019-05-05 16:11:20,336 INFO notifySingleServiceThreadPool-java.util.concurrent.ScheduledThreadPoolExecutor, toNotifyTaskSize=0
+
+2019-05-05 16:11:20,583 INFO groupCount=1, subscriberClientCount=0, subscriberCount=0
+
+2019-05-05 16:11:25,582 INFO [long-pulling] client count 0
+
+2019-05-05 16:11:30,337 INFO notifySingleServiceThreadPool-java.util.concurrent.ScheduledThreadPoolExecutor, toNotifyTaskSize=0
+
+2019-05-05 16:11:30,583 INFO groupCount=1, subscriberClientCount=0, subscriberCount=0
+
+2019-05-05 16:11:35,583 INFO [long-pulling] client count 0
+
+2019-05-05 16:11:40,337 INFO notifySingleServiceThreadPool-java.util.concurrent.ScheduledThreadPoolExecutor, toNotifyTaskSize=0
+
+2019-05-05 16:11:40,584 INFO groupCount=1, subscriberClientCount=0, subscriberCount=0
+
+2019-05-05 16:11:45,584 INFO [long-pulling] client count 0
+
+2019-05-05 16:11:50,338 INFO notifySingleServiceThreadPool-java.util.concurrent.ScheduledThreadPoolExecutor, toNotifyTaskSize=0
+
+2019-05-05 16:11:50,584 INFO groupCount=1, subscriberClientCount=0, subscriberCount=0
+
+2019-05-05 16:11:55,584 INFO [long-pulling] client count 0
+
+2019-05-05 16:12:00,339 INFO notifySingleServiceThreadPool-java.util.concurrent.ScheduledThreadPoolExecutor, toNotifyTaskSize=0
+
+2019-05-05 16:12:00,585 INFO groupCount=1, subscriberClientCount=0, subscriberCount=0
+
+2019-05-05 16:12:05,584 INFO [long-pulling] client count 0
+
+2019-05-05 16:12:10,339 INFO notifySingleServiceThreadPool-java.util.concurrent.ScheduledThreadPoolExecutor, toNotifyTaskSize=0
+
+2019-05-05 16:12:10,586 INFO groupCount=1, subscriberClientCount=0, subscriberCount=0
+
+2019-05-05 16:12:15,586 INFO [long-pulling] client count 0
+
+2019-05-05 16:12:20,341 INFO notifySingleServiceThreadPool-java.util.concurrent.ScheduledThreadPoolExecutor, toNotifyTaskSize=0
+
+2019-05-05 16:12:20,587 INFO groupCount=1, subscriberClientCount=0, subscriberCount=0
+
+2019-05-05 16:12:25,587 INFO [long-pulling] client count 0
+
+2019-05-05 16:12:30,341 INFO notifySingleServiceThreadPool-java.util.concurrent.ScheduledThreadPoolExecutor, toNotifyTaskSize=0
+
+2019-05-05 16:12:30,587 INFO groupCount=1, subscriberClientCount=0, subscriberCount=0
+
+2019-05-05 16:12:35,588 INFO [long-pulling] client count 0
+
+2019-05-05 16:12:40,346 INFO notifySingleServiceThreadPool-java.util.concurrent.ScheduledThreadPoolExecutor, toNotifyTaskSize=0
+
+2019-05-05 16:12:40,588 INFO groupCount=1, subscriberClientCount=0, subscriberCount=0
+
+2019-05-05 16:12:45,588 INFO [long-pulling] client count 0
+
+2019-05-05 16:12:50,346 INFO notifySingleServiceThreadPool-java.util.concurrent.ScheduledThreadPoolExecutor, toNotifyTaskSize=0
+
+2019-05-05 16:12:50,588 INFO groupCount=1, subscriberClientCount=0, subscriberCount=0
+
+2019-05-05 16:12:55,588 INFO [long-pulling] client count 0
+
+2019-05-05 16:13:00,346 INFO notifySingleServiceThreadPool-java.util.concurrent.ScheduledThreadPoolExecutor, toNotifyTaskSize=0
+
+2019-05-05 16:13:00,589 INFO groupCount=1, subscriberClientCount=0, subscriberCount=0
+
+2019-05-05 16:13:05,589 INFO [long-pulling] client count 0
+
+2019-05-05 16:13:10,347 INFO notifySingleServiceThreadPool-java.util.concurrent.ScheduledThreadPoolExecutor, toNotifyTaskSize=0
+
+2019-05-05 16:13:10,596 INFO groupCount=1, subscriberClientCount=0, subscriberCount=0
+
+2019-05-05 16:13:15,589 INFO [long-pulling] client count 0
+
+2019-05-05 16:13:20,347 INFO notifySingleServiceThreadPool-java.util.concurrent.ScheduledThreadPoolExecutor, toNotifyTaskSize=0
+
+2019-05-05 16:13:20,597 INFO groupCount=1, subscriberClientCount=0, subscriberCount=0
+
+2019-05-05 16:13:25,590 INFO [long-pulling] client count 0
+
+2019-05-05 16:13:30,347 INFO notifySingleServiceThreadPool-java.util.concurrent.ScheduledThreadPoolExecutor, toNotifyTaskSize=0
+
+2019-05-05 16:13:30,597 INFO groupCount=1, subscriberClientCount=0, subscriberCount=0
+
+2019-05-05 16:13:35,590 INFO [long-pulling] client count 0
+
+2019-05-05 16:13:40,348 INFO notifySingleServiceThreadPool-java.util.concurrent.ScheduledThreadPoolExecutor, toNotifyTaskSize=0
+
+2019-05-05 16:13:40,597 INFO groupCount=1, subscriberClientCount=0, subscriberCount=0
+
+2019-05-05 16:13:45,591 INFO [long-pulling] client count 0
+
+2019-05-05 16:13:50,349 INFO notifySingleServiceThreadPool-java.util.concurrent.ScheduledThreadPoolExecutor, toNotifyTaskSize=0
+
+2019-05-05 16:13:50,598 INFO groupCount=1, subscriberClientCount=0, subscriberCount=0
+
+2019-05-05 16:13:55,591 INFO [long-pulling] client count 0
+
+2019-05-05 16:14:00,351 INFO notifySingleServiceThreadPool-java.util.concurrent.ScheduledThreadPoolExecutor, toNotifyTaskSize=0
+
+2019-05-05 16:14:00,598 INFO groupCount=1, subscriberClientCount=0, subscriberCount=0
+
+2019-05-05 16:14:05,591 INFO [long-pulling] client count 0
+
+2019-05-05 16:14:10,352 INFO notifySingleServiceThreadPool-java.util.concurrent.ScheduledThreadPoolExecutor, toNotifyTaskSize=0
+
+2019-05-05 16:14:10,598 INFO groupCount=1, subscriberClientCount=0, subscriberCount=0
+
+2019-05-05 16:14:15,592 INFO [long-pulling] client count 0
+
+2019-05-05 16:14:20,352 INFO notifySingleServiceThreadPool-java.util.concurrent.ScheduledThreadPoolExecutor, toNotifyTaskSize=0
+
+2019-05-05 16:14:20,598 INFO groupCount=1, subscriberClientCount=0, subscriberCount=0
+
+2019-05-05 16:14:25,592 INFO [long-pulling] client count 0
+
+2019-05-05 16:14:30,353 INFO notifySingleServiceThreadPool-java.util.concurrent.ScheduledThreadPoolExecutor, toNotifyTaskSize=0
+
+2019-05-05 16:14:30,599 INFO groupCount=1, subscriberClientCount=0, subscriberCount=0
+
+2019-05-05 16:14:35,592 INFO [long-pulling] client count 0
+
+2019-05-05 16:14:40,355 INFO notifySingleServiceThreadPool-java.util.concurrent.ScheduledThreadPoolExecutor, toNotifyTaskSize=0
+
+2019-05-05 16:14:40,601 INFO groupCount=1, subscriberClientCount=0, subscriberCount=0
+
+2019-05-05 16:14:45,592 INFO [long-pulling] client count 0
+
+2019-05-05 16:14:50,356 INFO notifySingleServiceThreadPool-java.util.concurrent.ScheduledThreadPoolExecutor, toNotifyTaskSize=0
+
+2019-05-05 16:14:50,601 INFO groupCount=1, subscriberClientCount=0, subscriberCount=0
+
+2019-05-05 16:14:55,592 INFO [long-pulling] client count 0
+
+2019-05-05 16:15:00,356 INFO notifySingleServiceThreadPool-java.util.concurrent.ScheduledThreadPoolExecutor, toNotifyTaskSize=0
+
+2019-05-05 16:15:00,602 INFO groupCount=1, subscriberClientCount=0, subscriberCount=0
+
+2019-05-05 16:15:05,593 INFO [long-pulling] client count 0
+
+2019-05-05 16:15:10,357 INFO notifySingleServiceThreadPool-java.util.concurrent.ScheduledThreadPoolExecutor, toNotifyTaskSize=0
+
+2019-05-05 16:15:10,602 INFO groupCount=1, subscriberClientCount=0, subscriberCount=0
+
+2019-05-05 16:15:15,594 INFO [long-pulling] client count 0
+
+2019-05-05 16:15:20,357 INFO notifySingleServiceThreadPool-java.util.concurrent.ScheduledThreadPoolExecutor, toNotifyTaskSize=0
+
+2019-05-05 16:15:20,603 INFO groupCount=1, subscriberClientCount=0, subscriberCount=0
+
+2019-05-05 16:15:25,595 INFO [long-pulling] client count 0
+
+2019-05-05 16:15:30,358 INFO notifySingleServiceThreadPool-java.util.concurrent.ScheduledThreadPoolExecutor, toNotifyTaskSize=0
+
+2019-05-05 16:15:30,603 INFO groupCount=1, subscriberClientCount=0, subscriberCount=0
+
+2019-05-05 16:15:35,595 INFO [long-pulling] client count 0
+
+2019-05-05 16:15:40,358 INFO notifySingleServiceThreadPool-java.util.concurrent.ScheduledThreadPoolExecutor, toNotifyTaskSize=0
+
+2019-05-05 16:15:40,604 INFO groupCount=1, subscriberClientCount=0, subscriberCount=0
+
+2019-05-05 16:15:45,595 INFO [long-pulling] client count 0
+
+2019-05-05 16:15:50,360 INFO notifySingleServiceThreadPool-java.util.concurrent.ScheduledThreadPoolExecutor, toNotifyTaskSize=0
+
+2019-05-05 16:15:50,604 INFO groupCount=1, subscriberClientCount=0, subscriberCount=0
+
+2019-05-05 16:15:55,596 INFO [long-pulling] client count 0
+
+2019-05-05 16:16:00,362 INFO notifySingleServiceThreadPool-java.util.concurrent.ScheduledThreadPoolExecutor, toNotifyTaskSize=0
+
+2019-05-05 16:16:00,606 INFO groupCount=1, subscriberClientCount=0, subscriberCount=0
+
+2019-05-05 16:16:05,596 INFO [long-pulling] client count 0
+
+2019-05-05 16:16:10,362 INFO notifySingleServiceThreadPool-java.util.concurrent.ScheduledThreadPoolExecutor, toNotifyTaskSize=0
+
+2019-05-05 16:16:10,607 INFO groupCount=1, subscriberClientCount=0, subscriberCount=0
+
+2019-05-05 16:16:15,596 INFO [long-pulling] client count 0
+
+2019-05-05 16:16:20,362 INFO notifySingleServiceThreadPool-java.util.concurrent.ScheduledThreadPoolExecutor, toNotifyTaskSize=0
+
+2019-05-05 16:16:20,608 INFO groupCount=1, subscriberClientCount=0, subscriberCount=0
+
+2019-05-05 16:16:25,597 INFO [long-pulling] client count 0
+
+2019-05-05 16:16:30,363 INFO notifySingleServiceThreadPool-java.util.concurrent.ScheduledThreadPoolExecutor, toNotifyTaskSize=0
+
+2019-05-05 16:16:30,609 INFO groupCount=1, subscriberClientCount=0, subscriberCount=0
+
+2019-05-05 16:16:35,598 INFO [long-pulling] client count 0
+
+2019-05-05 16:16:40,363 INFO notifySingleServiceThreadPool-java.util.concurrent.ScheduledThreadPoolExecutor, toNotifyTaskSize=0
+
+2019-05-05 16:16:40,609 INFO groupCount=1, subscriberClientCount=0, subscriberCount=0
+
+2019-05-05 16:16:45,599 INFO [long-pulling] client count 0
+
+2019-05-05 16:16:50,364 INFO notifySingleServiceThreadPool-java.util.concurrent.ScheduledThreadPoolExecutor, toNotifyTaskSize=0
+
+2019-05-05 16:16:50,610 INFO groupCount=1, subscriberClientCount=0, subscriberCount=0
+
+2019-05-05 16:16:55,600 INFO [long-pulling] client count 0
+
+2019-05-05 16:17:00,365 INFO notifySingleServiceThreadPool-java.util.concurrent.ScheduledThreadPoolExecutor, toNotifyTaskSize=0
+
+2019-05-05 16:17:00,610 INFO groupCount=1, subscriberClientCount=0, subscriberCount=0
+
+2019-05-05 16:17:05,600 INFO [long-pulling] client count 0
+
+2019-05-05 16:17:10,365 INFO notifySingleServiceThreadPool-java.util.concurrent.ScheduledThreadPoolExecutor, toNotifyTaskSize=0
+
+2019-05-05 16:17:10,610 INFO groupCount=1, subscriberClientCount=0, subscriberCount=0
+
+2019-05-05 16:17:15,601 INFO [long-pulling] client count 0
+
+2019-05-05 16:17:20,366 INFO notifySingleServiceThreadPool-java.util.concurrent.ScheduledThreadPoolExecutor, toNotifyTaskSize=0
+
+2019-05-05 16:17:20,611 INFO groupCount=1, subscriberClientCount=0, subscriberCount=0
+
+2019-05-05 16:17:25,601 INFO [long-pulling] client count 0
+
+2019-05-05 16:17:30,367 INFO notifySingleServiceThreadPool-java.util.concurrent.ScheduledThreadPoolExecutor, toNotifyTaskSize=0
+
+2019-05-05 16:17:30,611 INFO groupCount=1, subscriberClientCount=0, subscriberCount=0
+
+2019-05-05 16:17:35,603 INFO [long-pulling] client count 0
+
+2019-05-05 16:17:40,368 INFO notifySingleServiceThreadPool-java.util.concurrent.ScheduledThreadPoolExecutor, toNotifyTaskSize=0
+
+2019-05-05 16:17:40,611 INFO groupCount=1, subscriberClientCount=0, subscriberCount=0
+
+2019-05-05 16:17:45,604 INFO [long-pulling] client count 0
+
+2019-05-05 16:17:50,369 INFO notifySingleServiceThreadPool-java.util.concurrent.ScheduledThreadPoolExecutor, toNotifyTaskSize=0
+
+2019-05-05 16:17:50,611 INFO groupCount=1, subscriberClientCount=0, subscriberCount=0
+
+2019-05-05 16:17:55,605 INFO [long-pulling] client count 0
+
+2019-05-05 16:18:00,370 INFO notifySingleServiceThreadPool-java.util.concurrent.ScheduledThreadPoolExecutor, toNotifyTaskSize=0
+
+2019-05-05 16:18:00,612 INFO groupCount=1, subscriberClientCount=0, subscriberCount=0
+
+2019-05-05 16:18:05,606 INFO [long-pulling] client count 0
+
+2019-05-05 16:18:10,370 INFO notifySingleServiceThreadPool-java.util.concurrent.ScheduledThreadPoolExecutor, toNotifyTaskSize=0
+
+2019-05-05 16:18:10,613 INFO groupCount=1, subscriberClientCount=0, subscriberCount=0
+
+2019-05-05 16:18:15,606 INFO [long-pulling] client count 0
+
+2019-05-05 16:18:20,371 INFO notifySingleServiceThreadPool-java.util.concurrent.ScheduledThreadPoolExecutor, toNotifyTaskSize=0
+
+2019-05-05 16:18:20,613 INFO groupCount=1, subscriberClientCount=0, subscriberCount=0
+
+2019-05-05 16:18:25,606 INFO [long-pulling] client count 0
+
+2019-05-05 16:18:30,372 INFO notifySingleServiceThreadPool-java.util.concurrent.ScheduledThreadPoolExecutor, toNotifyTaskSize=0
+
+2019-05-05 16:18:30,613 INFO groupCount=1, subscriberClientCount=0, subscriberCount=0
+
+2019-05-05 16:18:35,608 INFO [long-pulling] client count 0
+
+2019-05-05 16:18:40,373 INFO notifySingleServiceThreadPool-java.util.concurrent.ScheduledThreadPoolExecutor, toNotifyTaskSize=0
+
+2019-05-05 16:18:40,614 INFO groupCount=1, subscriberClientCount=0, subscriberCount=0
+
+2019-05-05 16:18:45,608 INFO [long-pulling] client count 0
+
+2019-05-05 16:18:50,374 INFO notifySingleServiceThreadPool-java.util.concurrent.ScheduledThreadPoolExecutor, toNotifyTaskSize=0
+
+2019-05-05 16:18:50,614 INFO groupCount=1, subscriberClientCount=0, subscriberCount=0
+
+2019-05-05 16:18:55,608 INFO [long-pulling] client count 0
+
+2019-05-05 16:19:00,374 INFO notifySingleServiceThreadPool-java.util.concurrent.ScheduledThreadPoolExecutor, toNotifyTaskSize=0
+
+2019-05-05 16:19:00,615 INFO groupCount=1, subscriberClientCount=0, subscriberCount=0
+
+2019-05-05 16:19:05,608 INFO [long-pulling] client count 0
+
+2019-05-05 16:19:10,374 INFO notifySingleServiceThreadPool-java.util.concurrent.ScheduledThreadPoolExecutor, toNotifyTaskSize=0
+
+2019-05-05 16:19:10,615 INFO groupCount=1, subscriberClientCount=0, subscriberCount=0
+
+2019-05-05 16:19:15,608 INFO [long-pulling] client count 0
+
+2019-05-05 16:19:20,374 INFO notifySingleServiceThreadPool-java.util.concurrent.ScheduledThreadPoolExecutor, toNotifyTaskSize=0
+
+2019-05-05 16:19:20,615 INFO groupCount=1, subscriberClientCount=0, subscriberCount=0
+
+2019-05-05 16:19:25,608 INFO [long-pulling] client count 0
+
+2019-05-05 16:19:30,378 INFO notifySingleServiceThreadPool-java.util.concurrent.ScheduledThreadPoolExecutor, toNotifyTaskSize=0
+
+2019-05-05 16:19:30,615 INFO groupCount=1, subscriberClientCount=0, subscriberCount=0
+
+2019-05-05 16:19:35,609 INFO [long-pulling] client count 0
+
+2019-05-05 16:19:40,378 INFO notifySingleServiceThreadPool-java.util.concurrent.ScheduledThreadPoolExecutor, toNotifyTaskSize=0
+
+2019-05-05 16:19:40,616 INFO groupCount=1, subscriberClientCount=0, subscriberCount=0
+
+2019-05-05 16:19:45,609 INFO [long-pulling] client count 0
+
+2019-05-05 16:19:50,379 INFO notifySingleServiceThreadPool-java.util.concurrent.ScheduledThreadPoolExecutor, toNotifyTaskSize=0
+
+2019-05-05 16:19:50,617 INFO groupCount=1, subscriberClientCount=0, subscriberCount=0
+
+2019-05-05 16:19:55,609 INFO [long-pulling] client count 0
+
+2019-05-05 16:20:00,381 INFO notifySingleServiceThreadPool-java.util.concurrent.ScheduledThreadPoolExecutor, toNotifyTaskSize=0
+
+2019-05-05 16:20:00,617 INFO groupCount=1, subscriberClientCount=0, subscriberCount=0
+
+2019-05-05 16:20:05,610 INFO [long-pulling] client count 0
+
+2019-05-05 16:20:10,381 INFO notifySingleServiceThreadPool-java.util.concurrent.ScheduledThreadPoolExecutor, toNotifyTaskSize=0
+
+2019-05-05 16:20:10,617 INFO groupCount=1, subscriberClientCount=0, subscriberCount=0
+
+2019-05-05 16:20:15,610 INFO [long-pulling] client count 0
+
+2019-05-05 16:20:20,381 INFO notifySingleServiceThreadPool-java.util.concurrent.ScheduledThreadPoolExecutor, toNotifyTaskSize=0
+
+2019-05-05 16:20:20,618 INFO groupCount=1, subscriberClientCount=0, subscriberCount=0
+
+2019-05-05 16:20:25,611 INFO [long-pulling] client count 0
+
+2019-05-05 16:20:30,383 INFO notifySingleServiceThreadPool-java.util.concurrent.ScheduledThreadPoolExecutor, toNotifyTaskSize=0
+
+2019-05-05 16:20:30,619 INFO groupCount=1, subscriberClientCount=0, subscriberCount=0
+
+2019-05-05 16:20:35,611 INFO [long-pulling] client count 0
+
+2019-05-05 16:20:40,383 INFO notifySingleServiceThreadPool-java.util.concurrent.ScheduledThreadPoolExecutor, toNotifyTaskSize=0
+
+2019-05-05 16:20:40,620 INFO groupCount=1, subscriberClientCount=0, subscriberCount=0
+
+2019-05-05 16:20:45,611 INFO [long-pulling] client count 0
+
+2019-05-05 16:20:50,384 INFO notifySingleServiceThreadPool-java.util.concurrent.ScheduledThreadPoolExecutor, toNotifyTaskSize=0
+
+2019-05-05 16:20:50,621 INFO groupCount=1, subscriberClientCount=0, subscriberCount=0
+
+2019-05-05 16:20:55,611 INFO [long-pulling] client count 0
+
+2019-05-05 16:21:00,384 INFO notifySingleServiceThreadPool-java.util.concurrent.ScheduledThreadPoolExecutor, toNotifyTaskSize=0
+
+2019-05-05 16:21:00,621 INFO groupCount=1, subscriberClientCount=0, subscriberCount=0
+
+2019-05-05 16:21:05,612 INFO [long-pulling] client count 0
+
+2019-05-05 16:21:10,385 INFO notifySingleServiceThreadPool-java.util.concurrent.ScheduledThreadPoolExecutor, toNotifyTaskSize=0
+
+2019-05-05 16:21:10,621 INFO groupCount=1, subscriberClientCount=0, subscriberCount=0
+
+2019-05-05 16:21:15,612 INFO [long-pulling] client count 0
+
+2019-05-05 16:21:20,386 INFO notifySingleServiceThreadPool-java.util.concurrent.ScheduledThreadPoolExecutor, toNotifyTaskSize=0
+
+2019-05-05 16:21:20,622 INFO groupCount=1, subscriberClientCount=0, subscriberCount=0
+
+2019-05-05 16:21:25,612 INFO [long-pulling] client count 0
+
+2019-05-05 16:21:30,386 INFO notifySingleServiceThreadPool-java.util.concurrent.ScheduledThreadPoolExecutor, toNotifyTaskSize=0
+
+2019-05-05 16:21:30,624 INFO groupCount=1, subscriberClientCount=0, subscriberCount=0
+
+2019-05-05 16:21:35,613 INFO [long-pulling] client count 0
+
+2019-05-05 16:21:40,386 INFO notifySingleServiceThreadPool-java.util.concurrent.ScheduledThreadPoolExecutor, toNotifyTaskSize=0
+
+2019-05-05 16:21:40,625 INFO groupCount=1, subscriberClientCount=0, subscriberCount=0
+
+2019-05-05 16:21:45,613 INFO [long-pulling] client count 0
+
+2019-05-05 16:21:50,387 INFO notifySingleServiceThreadPool-java.util.concurrent.ScheduledThreadPoolExecutor, toNotifyTaskSize=0
+
+2019-05-05 16:21:50,625 INFO groupCount=1, subscriberClientCount=0, subscriberCount=0
+
+2019-05-05 16:21:55,614 INFO [long-pulling] client count 0
+
+2019-05-05 16:22:00,387 INFO notifySingleServiceThreadPool-java.util.concurrent.ScheduledThreadPoolExecutor, toNotifyTaskSize=0
+
+2019-05-05 16:22:00,626 INFO groupCount=1, subscriberClientCount=0, subscriberCount=0
+
+2019-05-05 16:22:05,614 INFO [long-pulling] client count 0
+
+2019-05-05 16:22:10,388 INFO notifySingleServiceThreadPool-java.util.concurrent.ScheduledThreadPoolExecutor, toNotifyTaskSize=0
+
+2019-05-05 16:22:10,626 INFO groupCount=1, subscriberClientCount=0, subscriberCount=0
+
+2019-05-05 16:22:15,615 INFO [long-pulling] client count 0
+
+2019-05-05 16:22:20,390 INFO notifySingleServiceThreadPool-java.util.concurrent.ScheduledThreadPoolExecutor, toNotifyTaskSize=0
+
+2019-05-05 16:22:20,627 INFO groupCount=1, subscriberClientCount=0, subscriberCount=0
+
+2019-05-05 16:22:25,616 INFO [long-pulling] client count 0
+
+2019-05-05 16:22:30,390 INFO notifySingleServiceThreadPool-java.util.concurrent.ScheduledThreadPoolExecutor, toNotifyTaskSize=0
+
+2019-05-05 16:22:30,627 INFO groupCount=1, subscriberClientCount=0, subscriberCount=0
+
+2019-05-05 16:22:35,616 INFO [long-pulling] client count 0
+
+2019-05-05 16:22:40,391 INFO notifySingleServiceThreadPool-java.util.concurrent.ScheduledThreadPoolExecutor, toNotifyTaskSize=0
+
+2019-05-05 16:22:40,628 INFO groupCount=1, subscriberClientCount=0, subscriberCount=0
+
+2019-05-05 16:22:45,617 INFO [long-pulling] client count 0
+
+2019-05-05 16:22:50,391 INFO notifySingleServiceThreadPool-java.util.concurrent.ScheduledThreadPoolExecutor, toNotifyTaskSize=0
+
+2019-05-05 16:22:50,628 INFO groupCount=1, subscriberClientCount=0, subscriberCount=0
+
+2019-05-05 16:22:55,617 INFO [long-pulling] client count 0
+
+2019-05-05 16:23:00,392 INFO notifySingleServiceThreadPool-java.util.concurrent.ScheduledThreadPoolExecutor, toNotifyTaskSize=0
+
+2019-05-05 16:23:00,628 INFO groupCount=1, subscriberClientCount=0, subscriberCount=0
+
+2019-05-05 16:23:05,618 INFO [long-pulling] client count 0
+
+2019-05-05 16:23:10,392 INFO notifySingleServiceThreadPool-java.util.concurrent.ScheduledThreadPoolExecutor, toNotifyTaskSize=0
+
+2019-05-05 16:23:10,629 INFO groupCount=1, subscriberClientCount=0, subscriberCount=0
+
+2019-05-05 16:23:15,619 INFO [long-pulling] client count 0
+
+2019-05-05 16:23:20,392 INFO notifySingleServiceThreadPool-java.util.concurrent.ScheduledThreadPoolExecutor, toNotifyTaskSize=0
+
+2019-05-05 16:23:20,630 INFO groupCount=1, subscriberClientCount=0, subscriberCount=0
+
+2019-05-05 16:23:25,619 INFO [long-pulling] client count 0
+
+2019-05-05 16:23:30,393 INFO notifySingleServiceThreadPool-java.util.concurrent.ScheduledThreadPoolExecutor, toNotifyTaskSize=0
+
+2019-05-05 16:23:30,630 INFO groupCount=1, subscriberClientCount=0, subscriberCount=0
+
+2019-05-05 16:23:35,620 INFO [long-pulling] client count 0
+
+2019-05-05 16:23:40,394 INFO notifySingleServiceThreadPool-java.util.concurrent.ScheduledThreadPoolExecutor, toNotifyTaskSize=0
+
+2019-05-05 16:23:40,630 INFO groupCount=1, subscriberClientCount=0, subscriberCount=0
+
+2019-05-05 16:23:45,621 INFO [long-pulling] client count 0
+
+2019-05-05 16:23:50,394 INFO notifySingleServiceThreadPool-java.util.concurrent.ScheduledThreadPoolExecutor, toNotifyTaskSize=0
+
+2019-05-05 16:23:50,630 INFO groupCount=1, subscriberClientCount=0, subscriberCount=0
+
+2019-05-05 16:23:55,621 INFO [long-pulling] client count 0
+
+2019-05-05 16:24:00,395 INFO notifySingleServiceThreadPool-java.util.concurrent.ScheduledThreadPoolExecutor, toNotifyTaskSize=0
+
+2019-05-05 16:24:00,630 INFO groupCount=1, subscriberClientCount=0, subscriberCount=0
+
+2019-05-05 16:24:05,622 INFO [long-pulling] client count 0
+
+2019-05-05 16:24:10,395 INFO notifySingleServiceThreadPool-java.util.concurrent.ScheduledThreadPoolExecutor, toNotifyTaskSize=0
+
+2019-05-05 16:24:10,631 INFO groupCount=1, subscriberClientCount=0, subscriberCount=0
+
+2019-05-05 16:24:15,622 INFO [long-pulling] client count 0
+
+2019-05-05 16:24:20,395 INFO notifySingleServiceThreadPool-java.util.concurrent.ScheduledThreadPoolExecutor, toNotifyTaskSize=0
+
+2019-05-05 16:24:20,632 INFO groupCount=1, subscriberClientCount=0, subscriberCount=0
+
+2019-05-05 16:24:25,622 INFO [long-pulling] client count 0
+
+2019-05-05 16:24:30,396 INFO notifySingleServiceThreadPool-java.util.concurrent.ScheduledThreadPoolExecutor, toNotifyTaskSize=0
+
+2019-05-05 16:24:30,632 INFO groupCount=1, subscriberClientCount=0, subscriberCount=0
+
+2019-05-05 16:24:35,623 INFO [long-pulling] client count 0
+
+2019-05-05 16:24:40,397 INFO notifySingleServiceThreadPool-java.util.concurrent.ScheduledThreadPoolExecutor, toNotifyTaskSize=0
+
+2019-05-05 16:24:40,632 INFO groupCount=1, subscriberClientCount=0, subscriberCount=0
+
+2019-05-05 16:24:45,624 INFO [long-pulling] client count 0
+
+2019-05-05 16:24:50,399 INFO notifySingleServiceThreadPool-java.util.concurrent.ScheduledThreadPoolExecutor, toNotifyTaskSize=0
+
+2019-05-05 16:24:50,633 INFO groupCount=1, subscriberClientCount=0, subscriberCount=0
+
+2019-05-05 16:24:55,624 INFO [long-pulling] client count 0
+
+2019-05-05 16:25:00,399 INFO notifySingleServiceThreadPool-java.util.concurrent.ScheduledThreadPoolExecutor, toNotifyTaskSize=0
+
+2019-05-05 16:25:00,634 INFO groupCount=1, subscriberClientCount=0, subscriberCount=0
+
+2019-05-05 16:25:05,624 INFO [long-pulling] client count 0
+
+2019-05-05 16:25:10,399 INFO notifySingleServiceThreadPool-java.util.concurrent.ScheduledThreadPoolExecutor, toNotifyTaskSize=0
+
+2019-05-05 16:25:10,634 INFO groupCount=1, subscriberClientCount=0, subscriberCount=0
+
+2019-05-05 16:25:15,625 INFO [long-pulling] client count 0
+
+2019-05-05 16:25:20,400 INFO notifySingleServiceThreadPool-java.util.concurrent.ScheduledThreadPoolExecutor, toNotifyTaskSize=0
+
+2019-05-05 16:25:20,634 INFO groupCount=1, subscriberClientCount=0, subscriberCount=0
+
+2019-05-05 16:25:25,626 INFO [long-pulling] client count 0
+
+2019-05-05 16:25:30,401 INFO notifySingleServiceThreadPool-java.util.concurrent.ScheduledThreadPoolExecutor, toNotifyTaskSize=0
+
+2019-05-05 16:25:30,635 INFO groupCount=1, subscriberClientCount=0, subscriberCount=0
+
+2019-05-05 16:25:35,628 INFO [long-pulling] client count 0
+
+2019-05-05 16:25:40,401 INFO notifySingleServiceThreadPool-java.util.concurrent.ScheduledThreadPoolExecutor, toNotifyTaskSize=0
+
+2019-05-05 16:25:40,635 INFO groupCount=1, subscriberClientCount=0, subscriberCount=0
+
+2019-05-05 16:25:45,629 INFO [long-pulling] client count 0
+
+2019-05-05 16:25:50,402 INFO notifySingleServiceThreadPool-java.util.concurrent.ScheduledThreadPoolExecutor, toNotifyTaskSize=0
+
+2019-05-05 16:25:50,635 INFO groupCount=1, subscriberClientCount=0, subscriberCount=0
+
+2019-05-05 16:25:55,629 INFO [long-pulling] client count 0
+
+2019-05-05 16:26:00,403 INFO notifySingleServiceThreadPool-java.util.concurrent.ScheduledThreadPoolExecutor, toNotifyTaskSize=0
+
+2019-05-05 16:26:00,636 INFO groupCount=1, subscriberClientCount=0, subscriberCount=0
+
+2019-05-05 16:26:05,629 INFO [long-pulling] client count 0
+
+2019-05-05 16:26:10,403 INFO notifySingleServiceThreadPool-java.util.concurrent.ScheduledThreadPoolExecutor, toNotifyTaskSize=0
+
+2019-05-05 16:26:10,636 INFO groupCount=1, subscriberClientCount=0, subscriberCount=0
+
+2019-05-05 16:26:15,630 INFO [long-pulling] client count 0
+
+2019-05-05 16:26:20,404 INFO notifySingleServiceThreadPool-java.util.concurrent.ScheduledThreadPoolExecutor, toNotifyTaskSize=0
+
+2019-05-05 16:26:20,637 INFO groupCount=1, subscriberClientCount=0, subscriberCount=0
+
+2019-05-05 16:26:25,630 INFO [long-pulling] client count 0
+
+2019-05-05 16:26:30,404 INFO notifySingleServiceThreadPool-java.util.concurrent.ScheduledThreadPoolExecutor, toNotifyTaskSize=0
+
+2019-05-05 16:26:30,637 INFO groupCount=1, subscriberClientCount=0, subscriberCount=0
+
+2019-05-05 16:26:35,630 INFO [long-pulling] client count 0
+
+2019-05-05 16:26:40,404 INFO notifySingleServiceThreadPool-java.util.concurrent.ScheduledThreadPoolExecutor, toNotifyTaskSize=0
+
+2019-05-05 16:26:40,638 INFO groupCount=1, subscriberClientCount=0, subscriberCount=0
+
+2019-05-05 16:26:45,630 INFO [long-pulling] client count 0
+
+2019-05-05 16:26:50,405 INFO notifySingleServiceThreadPool-java.util.concurrent.ScheduledThreadPoolExecutor, toNotifyTaskSize=0
+
+2019-05-05 16:26:50,639 INFO groupCount=1, subscriberClientCount=0, subscriberCount=0
+
+2019-05-05 16:26:55,631 INFO [long-pulling] client count 0
+
+2019-05-05 16:27:00,405 INFO notifySingleServiceThreadPool-java.util.concurrent.ScheduledThreadPoolExecutor, toNotifyTaskSize=0
+
+2019-05-05 16:27:00,639 INFO groupCount=1, subscriberClientCount=0, subscriberCount=0
+
+2019-05-05 16:27:05,632 INFO [long-pulling] client count 0
+
+2019-05-05 16:27:10,406 INFO notifySingleServiceThreadPool-java.util.concurrent.ScheduledThreadPoolExecutor, toNotifyTaskSize=0
+
+2019-05-05 16:27:10,639 INFO groupCount=1, subscriberClientCount=0, subscriberCount=0
+
+2019-05-05 16:27:15,632 INFO [long-pulling] client count 0
+
+2019-05-05 16:27:20,406 INFO notifySingleServiceThreadPool-java.util.concurrent.ScheduledThreadPoolExecutor, toNotifyTaskSize=0
+
+2019-05-05 16:27:20,639 INFO groupCount=1, subscriberClientCount=0, subscriberCount=0
+
+2019-05-05 16:27:25,633 INFO [long-pulling] client count 0
+
+2019-05-05 16:27:30,407 INFO notifySingleServiceThreadPool-java.util.concurrent.ScheduledThreadPoolExecutor, toNotifyTaskSize=0
+
+2019-05-05 16:27:30,640 INFO groupCount=1, subscriberClientCount=0, subscriberCount=0
+
+2019-05-05 16:27:35,633 INFO [long-pulling] client count 0
+
+2019-05-05 16:27:40,408 INFO notifySingleServiceThreadPool-java.util.concurrent.ScheduledThreadPoolExecutor, toNotifyTaskSize=0
+
+2019-05-05 16:27:40,641 INFO groupCount=1, subscriberClientCount=0, subscriberCount=0
+
+2019-05-05 16:27:45,633 INFO [long-pulling] client count 0
+
+2019-05-05 16:27:50,408 INFO notifySingleServiceThreadPool-java.util.concurrent.ScheduledThreadPoolExecutor, toNotifyTaskSize=0
+
+2019-05-05 16:27:50,641 INFO groupCount=1, subscriberClientCount=0, subscriberCount=0
+
+2019-05-05 16:27:55,634 INFO [long-pulling] client count 0
+
+2019-05-05 16:28:00,408 INFO notifySingleServiceThreadPool-java.util.concurrent.ScheduledThreadPoolExecutor, toNotifyTaskSize=0
+
+2019-05-05 16:28:00,641 INFO groupCount=1, subscriberClientCount=0, subscriberCount=0
+
+2019-05-05 16:28:05,634 INFO [long-pulling] client count 0
+
+2019-05-05 16:28:10,408 INFO notifySingleServiceThreadPool-java.util.concurrent.ScheduledThreadPoolExecutor, toNotifyTaskSize=0
+
+2019-05-05 16:28:10,642 INFO groupCount=1, subscriberClientCount=0, subscriberCount=0
+
+2019-05-05 16:28:15,635 INFO [long-pulling] client count 0
+
+2019-05-05 16:28:20,409 INFO notifySingleServiceThreadPool-java.util.concurrent.ScheduledThreadPoolExecutor, toNotifyTaskSize=0
+
+2019-05-05 16:28:20,642 INFO groupCount=1, subscriberClientCount=0, subscriberCount=0
+
+2019-05-05 16:28:25,636 INFO [long-pulling] client count 0
+
+2019-05-05 16:28:30,409 INFO notifySingleServiceThreadPool-java.util.concurrent.ScheduledThreadPoolExecutor, toNotifyTaskSize=0
+
+2019-05-05 16:28:30,643 INFO groupCount=1, subscriberClientCount=0, subscriberCount=0
+
+2019-05-05 16:28:35,637 INFO [long-pulling] client count 0
+
+2019-05-05 16:28:40,409 INFO notifySingleServiceThreadPool-java.util.concurrent.ScheduledThreadPoolExecutor, toNotifyTaskSize=0
+
+2019-05-05 16:28:40,643 INFO groupCount=1, subscriberClientCount=0, subscriberCount=0
+
+2019-05-05 16:28:45,637 INFO [long-pulling] client count 0
+
+2019-05-05 16:28:50,409 INFO notifySingleServiceThreadPool-java.util.concurrent.ScheduledThreadPoolExecutor, toNotifyTaskSize=0
+
+2019-05-05 16:28:50,644 INFO groupCount=1, subscriberClientCount=0, subscriberCount=0
+
+2019-05-05 16:28:55,637 INFO [long-pulling] client count 0
+
+2019-05-05 16:29:00,409 INFO notifySingleServiceThreadPool-java.util.concurrent.ScheduledThreadPoolExecutor, toNotifyTaskSize=0
+
+2019-05-05 16:29:00,644 INFO groupCount=1, subscriberClientCount=0, subscriberCount=0
+
+2019-05-05 16:29:05,640 INFO [long-pulling] client count 0
+
+2019-05-05 16:29:10,410 INFO notifySingleServiceThreadPool-java.util.concurrent.ScheduledThreadPoolExecutor, toNotifyTaskSize=0
+
+2019-05-05 16:29:10,644 INFO groupCount=1, subscriberClientCount=0, subscriberCount=0
+
+2019-05-05 16:29:15,640 INFO [long-pulling] client count 0
+
+2019-05-05 16:29:20,411 INFO notifySingleServiceThreadPool-java.util.concurrent.ScheduledThreadPoolExecutor, toNotifyTaskSize=0
+
+2019-05-05 16:29:20,645 INFO groupCount=1, subscriberClientCount=0, subscriberCount=0
+
+2019-05-05 16:29:25,640 INFO [long-pulling] client count 0
+
+2019-05-05 16:29:30,411 INFO notifySingleServiceThreadPool-java.util.concurrent.ScheduledThreadPoolExecutor, toNotifyTaskSize=0
+
+2019-05-05 16:29:30,646 INFO groupCount=1, subscriberClientCount=0, subscriberCount=0
+
+2019-05-05 16:29:35,640 INFO [long-pulling] client count 0
+
+2019-05-05 16:29:40,411 INFO notifySingleServiceThreadPool-java.util.concurrent.ScheduledThreadPoolExecutor, toNotifyTaskSize=0
+
+2019-05-05 16:29:40,646 INFO groupCount=1, subscriberClientCount=0, subscriberCount=0
+
+2019-05-05 16:29:45,640 INFO [long-pulling] client count 0
+
+2019-05-05 16:29:50,412 INFO notifySingleServiceThreadPool-java.util.concurrent.ScheduledThreadPoolExecutor, toNotifyTaskSize=0
+
+2019-05-05 16:29:50,646 INFO groupCount=1, subscriberClientCount=0, subscriberCount=0
+
+2019-05-05 16:29:55,641 INFO [long-pulling] client count 0
+
+2019-05-05 16:30:00,412 INFO notifySingleServiceThreadPool-java.util.concurrent.ScheduledThreadPoolExecutor, toNotifyTaskSize=0
+
+2019-05-05 16:30:00,647 INFO groupCount=1, subscriberClientCount=0, subscriberCount=0
+
+2019-05-05 16:30:05,641 INFO [long-pulling] client count 0
+
+2019-05-05 16:30:10,420 INFO notifySingleServiceThreadPool-java.util.concurrent.ScheduledThreadPoolExecutor, toNotifyTaskSize=0
+
+2019-05-05 16:30:10,647 INFO groupCount=1, subscriberClientCount=0, subscriberCount=0
+
+2019-05-05 16:30:15,642 INFO [long-pulling] client count 0
+
+2019-05-05 16:30:20,421 INFO notifySingleServiceThreadPool-java.util.concurrent.ScheduledThreadPoolExecutor, toNotifyTaskSize=0
+
+2019-05-05 16:30:20,648 INFO groupCount=1, subscriberClientCount=0, subscriberCount=0
+
+2019-05-05 16:30:25,642 INFO [long-pulling] client count 0
+
+2019-05-05 16:30:30,423 INFO notifySingleServiceThreadPool-java.util.concurrent.ScheduledThreadPoolExecutor, toNotifyTaskSize=0
+
+2019-05-05 16:30:30,648 INFO groupCount=1, subscriberClientCount=0, subscriberCount=0
+
+2019-05-05 16:30:35,642 INFO [long-pulling] client count 0
+
+2019-05-05 16:30:40,423 INFO notifySingleServiceThreadPool-java.util.concurrent.ScheduledThreadPoolExecutor, toNotifyTaskSize=0
+
+2019-05-05 16:30:40,648 INFO groupCount=1, subscriberClientCount=0, subscriberCount=0
+
+2019-05-05 16:30:45,642 INFO [long-pulling] client count 0
+
+2019-05-05 16:30:50,423 INFO notifySingleServiceThreadPool-java.util.concurrent.ScheduledThreadPoolExecutor, toNotifyTaskSize=0
+
+2019-05-05 16:30:50,649 INFO groupCount=1, subscriberClientCount=0, subscriberCount=0
+
+2019-05-05 16:30:55,644 INFO [long-pulling] client count 0
+
+2019-05-05 16:31:00,423 INFO notifySingleServiceThreadPool-java.util.concurrent.ScheduledThreadPoolExecutor, toNotifyTaskSize=0
+
+2019-05-05 16:31:00,649 INFO groupCount=1, subscriberClientCount=0, subscriberCount=0
+
+2019-05-05 16:31:05,645 INFO [long-pulling] client count 0
+
+2019-05-05 16:31:10,424 INFO notifySingleServiceThreadPool-java.util.concurrent.ScheduledThreadPoolExecutor, toNotifyTaskSize=0
+
+2019-05-05 16:31:10,650 INFO groupCount=1, subscriberClientCount=0, subscriberCount=0
+
+2019-05-05 16:31:15,645 INFO [long-pulling] client count 0
+
+2019-05-05 16:31:20,425 INFO notifySingleServiceThreadPool-java.util.concurrent.ScheduledThreadPoolExecutor, toNotifyTaskSize=0
+
+2019-05-05 16:31:20,651 INFO groupCount=1, subscriberClientCount=0, subscriberCount=0
+
+2019-05-05 16:31:25,645 INFO [long-pulling] client count 0
+
+2019-05-05 16:31:30,426 INFO notifySingleServiceThreadPool-java.util.concurrent.ScheduledThreadPoolExecutor, toNotifyTaskSize=0
+
+2019-05-05 16:31:30,652 INFO groupCount=1, subscriberClientCount=0, subscriberCount=0
+
+2019-05-05 16:31:35,645 INFO [long-pulling] client count 0
+
+2019-05-05 16:31:40,426 INFO notifySingleServiceThreadPool-java.util.concurrent.ScheduledThreadPoolExecutor, toNotifyTaskSize=0
+
+2019-05-05 16:31:40,653 INFO groupCount=1, subscriberClientCount=0, subscriberCount=0
+
+2019-05-05 16:31:45,646 INFO [long-pulling] client count 0
+
+2019-05-05 16:31:50,427 INFO notifySingleServiceThreadPool-java.util.concurrent.ScheduledThreadPoolExecutor, toNotifyTaskSize=0
+
+2019-05-05 16:31:50,654 INFO groupCount=1, subscriberClientCount=0, subscriberCount=0
+
+2019-05-05 16:31:55,647 INFO [long-pulling] client count 0
+
+2019-05-05 16:32:00,427 INFO notifySingleServiceThreadPool-java.util.concurrent.ScheduledThreadPoolExecutor, toNotifyTaskSize=0
+
+2019-05-05 16:32:00,655 INFO groupCount=1, subscriberClientCount=0, subscriberCount=0
+
+2019-05-05 16:32:05,647 INFO [long-pulling] client count 0
+
+2019-05-05 16:32:10,428 INFO notifySingleServiceThreadPool-java.util.concurrent.ScheduledThreadPoolExecutor, toNotifyTaskSize=0
+
+2019-05-05 16:32:10,655 INFO groupCount=1, subscriberClientCount=0, subscriberCount=0
+
+2019-05-05 16:32:15,647 INFO [long-pulling] client count 0
+
+2019-05-05 16:32:20,429 INFO notifySingleServiceThreadPool-java.util.concurrent.ScheduledThreadPoolExecutor, toNotifyTaskSize=0
+
+2019-05-05 16:32:20,655 INFO groupCount=1, subscriberClientCount=0, subscriberCount=0
+
+2019-05-05 16:32:25,647 INFO [long-pulling] client count 0
+
+2019-05-05 16:32:30,430 INFO notifySingleServiceThreadPool-java.util.concurrent.ScheduledThreadPoolExecutor, toNotifyTaskSize=0
+
+2019-05-05 16:32:30,655 INFO groupCount=1, subscriberClientCount=0, subscriberCount=0
+
+2019-05-05 16:32:35,647 INFO [long-pulling] client count 0
+
+2019-05-05 16:32:40,434 INFO notifySingleServiceThreadPool-java.util.concurrent.ScheduledThreadPoolExecutor, toNotifyTaskSize=0
+
+2019-05-05 16:32:40,657 INFO groupCount=1, subscriberClientCount=0, subscriberCount=0
+
+2019-05-05 16:32:45,649 INFO [long-pulling] client count 0
+
+2019-05-05 16:32:50,435 INFO notifySingleServiceThreadPool-java.util.concurrent.ScheduledThreadPoolExecutor, toNotifyTaskSize=0
+
+2019-05-05 16:32:50,658 INFO groupCount=1, subscriberClientCount=0, subscriberCount=0
+
+2019-05-05 16:32:55,649 INFO [long-pulling] client count 0
+
+2019-05-05 16:33:00,435 INFO notifySingleServiceThreadPool-java.util.concurrent.ScheduledThreadPoolExecutor, toNotifyTaskSize=0
+
+2019-05-05 16:33:00,659 INFO groupCount=1, subscriberClientCount=0, subscriberCount=0
+
+2019-05-05 16:33:05,649 INFO [long-pulling] client count 0
+
+2019-05-05 16:33:10,436 INFO notifySingleServiceThreadPool-java.util.concurrent.ScheduledThreadPoolExecutor, toNotifyTaskSize=0
+
+2019-05-05 16:33:10,660 INFO groupCount=1, subscriberClientCount=0, subscriberCount=0
+
+2019-05-05 16:33:15,650 INFO [long-pulling] client count 0
+
+2019-05-05 16:33:20,436 INFO notifySingleServiceThreadPool-java.util.concurrent.ScheduledThreadPoolExecutor, toNotifyTaskSize=0
+
+2019-05-05 16:33:20,660 INFO groupCount=1, subscriberClientCount=0, subscriberCount=0
+
+2019-05-05 16:33:25,650 INFO [long-pulling] client count 0
+
+2019-05-05 16:33:30,438 INFO notifySingleServiceThreadPool-java.util.concurrent.ScheduledThreadPoolExecutor, toNotifyTaskSize=0
+
+2019-05-05 16:33:30,661 INFO groupCount=1, subscriberClientCount=0, subscriberCount=0
+
+2019-05-05 16:33:35,651 INFO [long-pulling] client count 0
+
+2019-05-05 16:33:40,440 INFO notifySingleServiceThreadPool-java.util.concurrent.ScheduledThreadPoolExecutor, toNotifyTaskSize=0
+
+2019-05-05 16:33:40,665 INFO groupCount=1, subscriberClientCount=0, subscriberCount=0
+
+2019-05-05 16:33:45,655 INFO [long-pulling] client count 0
+
+2019-05-05 16:33:50,440 INFO notifySingleServiceThreadPool-java.util.concurrent.ScheduledThreadPoolExecutor, toNotifyTaskSize=0
+
+2019-05-05 16:33:50,675 INFO groupCount=1, subscriberClientCount=0, subscriberCount=0
+
+2019-05-05 16:33:55,655 INFO [long-pulling] client count 0
+
+2019-05-05 16:34:00,441 INFO notifySingleServiceThreadPool-java.util.concurrent.ScheduledThreadPoolExecutor, toNotifyTaskSize=0
+
+2019-05-05 16:34:00,676 INFO groupCount=1, subscriberClientCount=0, subscriberCount=0
+
+2019-05-05 16:34:05,656 INFO [long-pulling] client count 0
+
+2019-05-05 16:34:10,441 INFO notifySingleServiceThreadPool-java.util.concurrent.ScheduledThreadPoolExecutor, toNotifyTaskSize=0
+
+2019-05-05 16:34:10,676 INFO groupCount=1, subscriberClientCount=0, subscriberCount=0
+
+2019-05-05 16:34:15,657 INFO [long-pulling] client count 0
+
+2019-05-05 16:34:20,441 INFO notifySingleServiceThreadPool-java.util.concurrent.ScheduledThreadPoolExecutor, toNotifyTaskSize=0
+
+2019-05-05 16:34:20,677 INFO groupCount=1, subscriberClientCount=0, subscriberCount=0
+
+2019-05-05 16:34:25,658 INFO [long-pulling] client count 0
+
+2019-05-05 16:34:30,442 INFO notifySingleServiceThreadPool-java.util.concurrent.ScheduledThreadPoolExecutor, toNotifyTaskSize=0
+
+2019-05-05 16:34:30,677 INFO groupCount=1, subscriberClientCount=0, subscriberCount=0
+
+2019-05-05 16:34:35,658 INFO [long-pulling] client count 0
+
+2019-05-05 16:34:40,442 INFO notifySingleServiceThreadPool-java.util.concurrent.ScheduledThreadPoolExecutor, toNotifyTaskSize=0
+
+2019-05-05 16:34:40,678 INFO groupCount=1, subscriberClientCount=0, subscriberCount=0
+
+2019-05-05 16:34:45,659 INFO [long-pulling] client count 0
+
+2019-05-05 16:34:50,443 INFO notifySingleServiceThreadPool-java.util.concurrent.ScheduledThreadPoolExecutor, toNotifyTaskSize=0
+
+2019-05-05 16:34:50,679 INFO groupCount=1, subscriberClientCount=0, subscriberCount=0
+
+2019-05-05 16:34:55,660 INFO [long-pulling] client count 0
+
+2019-05-05 16:35:00,443 INFO notifySingleServiceThreadPool-java.util.concurrent.ScheduledThreadPoolExecutor, toNotifyTaskSize=0
+
+2019-05-05 16:35:00,679 INFO groupCount=1, subscriberClientCount=0, subscriberCount=0
+
+2019-05-05 16:35:05,660 INFO [long-pulling] client count 0
+
+2019-05-05 16:35:10,443 INFO notifySingleServiceThreadPool-java.util.concurrent.ScheduledThreadPoolExecutor, toNotifyTaskSize=0
+
+2019-05-05 16:35:10,679 INFO groupCount=1, subscriberClientCount=0, subscriberCount=0
+
+2019-05-05 16:35:15,662 INFO [long-pulling] client count 0
+
+2019-05-05 16:35:20,444 INFO notifySingleServiceThreadPool-java.util.concurrent.ScheduledThreadPoolExecutor, toNotifyTaskSize=0
+
+2019-05-05 16:35:20,680 INFO groupCount=1, subscriberClientCount=0, subscriberCount=0
+
+2019-05-05 16:35:25,663 INFO [long-pulling] client count 0
+
+2019-05-05 16:35:30,444 INFO notifySingleServiceThreadPool-java.util.concurrent.ScheduledThreadPoolExecutor, toNotifyTaskSize=0
+
+2019-05-05 16:35:30,681 INFO groupCount=1, subscriberClientCount=0, subscriberCount=0
+
+2019-05-05 16:35:35,663 INFO [long-pulling] client count 0
+
+2019-05-05 16:35:40,445 INFO notifySingleServiceThreadPool-java.util.concurrent.ScheduledThreadPoolExecutor, toNotifyTaskSize=0
+
+2019-05-05 16:35:40,681 INFO groupCount=1, subscriberClientCount=0, subscriberCount=0
+
+2019-05-05 16:35:45,664 INFO [long-pulling] client count 0
+
+2019-05-05 16:35:50,445 INFO notifySingleServiceThreadPool-java.util.concurrent.ScheduledThreadPoolExecutor, toNotifyTaskSize=0
+
+2019-05-05 16:35:50,681 INFO groupCount=1, subscriberClientCount=0, subscriberCount=0
+
+2019-05-05 16:35:55,665 INFO [long-pulling] client count 0
+
+2019-05-05 16:36:00,446 INFO notifySingleServiceThreadPool-java.util.concurrent.ScheduledThreadPoolExecutor, toNotifyTaskSize=0
+
+2019-05-05 16:36:00,681 INFO groupCount=1, subscriberClientCount=0, subscriberCount=0
+
+2019-05-05 16:36:05,665 INFO [long-pulling] client count 0
+
+2019-05-05 16:36:10,446 INFO notifySingleServiceThreadPool-java.util.concurrent.ScheduledThreadPoolExecutor, toNotifyTaskSize=0
+
+2019-05-05 16:36:10,681 INFO groupCount=1, subscriberClientCount=0, subscriberCount=0
+
+2019-05-05 16:36:15,665 INFO [long-pulling] client count 0
+
+2019-05-05 16:36:20,446 INFO notifySingleServiceThreadPool-java.util.concurrent.ScheduledThreadPoolExecutor, toNotifyTaskSize=0
+
+2019-05-05 16:36:20,682 INFO groupCount=1, subscriberClientCount=0, subscriberCount=0
+
+2019-05-05 16:36:25,666 INFO [long-pulling] client count 0
+
+2019-05-05 16:36:30,447 INFO notifySingleServiceThreadPool-java.util.concurrent.ScheduledThreadPoolExecutor, toNotifyTaskSize=0
+
+2019-05-05 16:36:30,682 INFO groupCount=1, subscriberClientCount=0, subscriberCount=0
+
+2019-05-05 16:36:35,666 INFO [long-pulling] client count 0
+
+2019-05-05 16:36:40,447 INFO notifySingleServiceThreadPool-java.util.concurrent.ScheduledThreadPoolExecutor, toNotifyTaskSize=0
+
+2019-05-05 16:36:40,683 INFO groupCount=1, subscriberClientCount=0, subscriberCount=0
+
+2019-05-05 16:36:45,668 INFO [long-pulling] client count 0
+
+2019-05-05 16:36:50,448 INFO notifySingleServiceThreadPool-java.util.concurrent.ScheduledThreadPoolExecutor, toNotifyTaskSize=0
+
+2019-05-05 16:36:50,683 INFO groupCount=1, subscriberClientCount=0, subscriberCount=0
+
+2019-05-05 16:36:55,668 INFO [long-pulling] client count 0
+
+2019-05-05 16:37:00,448 INFO notifySingleServiceThreadPool-java.util.concurrent.ScheduledThreadPoolExecutor, toNotifyTaskSize=0
+
+2019-05-05 16:37:00,684 INFO groupCount=1, subscriberClientCount=0, subscriberCount=0
+
+2019-05-05 16:37:05,668 INFO [long-pulling] client count 0
+
+2019-05-05 16:37:10,448 INFO notifySingleServiceThreadPool-java.util.concurrent.ScheduledThreadPoolExecutor, toNotifyTaskSize=0
+
+2019-05-05 16:37:10,684 INFO groupCount=1, subscriberClientCount=0, subscriberCount=0
+
+2019-05-05 16:37:15,669 INFO [long-pulling] client count 0
+
+2019-05-05 16:37:20,448 INFO notifySingleServiceThreadPool-java.util.concurrent.ScheduledThreadPoolExecutor, toNotifyTaskSize=0
+
+2019-05-05 16:37:20,685 INFO groupCount=1, subscriberClientCount=0, subscriberCount=0
+
+2019-05-05 16:37:25,669 INFO [long-pulling] client count 0
+
+2019-05-05 16:37:30,450 INFO notifySingleServiceThreadPool-java.util.concurrent.ScheduledThreadPoolExecutor, toNotifyTaskSize=0
+
+2019-05-05 16:37:30,685 INFO groupCount=1, subscriberClientCount=0, subscriberCount=0
+
+2019-05-05 16:37:35,669 INFO [long-pulling] client count 0
+
+2019-05-05 16:37:40,450 INFO notifySingleServiceThreadPool-java.util.concurrent.ScheduledThreadPoolExecutor, toNotifyTaskSize=0
+
+2019-05-05 16:37:40,686 INFO groupCount=1, subscriberClientCount=0, subscriberCount=0
+
+2019-05-05 16:37:45,670 INFO [long-pulling] client count 0
+
+2019-05-05 16:37:50,451 INFO notifySingleServiceThreadPool-java.util.concurrent.ScheduledThreadPoolExecutor, toNotifyTaskSize=0
+
+2019-05-05 16:37:50,686 INFO groupCount=1, subscriberClientCount=0, subscriberCount=0
+
+2019-05-05 16:37:55,670 INFO [long-pulling] client count 0
+
+2019-05-05 16:38:00,452 INFO notifySingleServiceThreadPool-java.util.concurrent.ScheduledThreadPoolExecutor, toNotifyTaskSize=0
+
+2019-05-05 16:38:00,687 INFO groupCount=1, subscriberClientCount=0, subscriberCount=0
+
+2019-05-05 16:38:05,671 INFO [long-pulling] client count 0
+
+2019-05-05 16:38:10,453 INFO notifySingleServiceThreadPool-java.util.concurrent.ScheduledThreadPoolExecutor, toNotifyTaskSize=0
+
+2019-05-05 16:38:10,687 INFO groupCount=1, subscriberClientCount=0, subscriberCount=0
+
+2019-05-05 16:38:15,672 INFO [long-pulling] client count 0
+
+2019-05-05 16:38:20,453 INFO notifySingleServiceThreadPool-java.util.concurrent.ScheduledThreadPoolExecutor, toNotifyTaskSize=0
+
+2019-05-05 16:38:20,688 INFO groupCount=1, subscriberClientCount=0, subscriberCount=0
+
+2019-05-05 16:38:25,673 INFO [long-pulling] client count 0
+
+2019-05-05 16:38:30,454 INFO notifySingleServiceThreadPool-java.util.concurrent.ScheduledThreadPoolExecutor, toNotifyTaskSize=0
+
+2019-05-05 16:38:30,688 INFO groupCount=1, subscriberClientCount=0, subscriberCount=0
+
+2019-05-05 16:38:35,673 INFO [long-pulling] client count 0
+
+2019-05-05 16:38:40,455 INFO notifySingleServiceThreadPool-java.util.concurrent.ScheduledThreadPoolExecutor, toNotifyTaskSize=0
+
+2019-05-05 16:38:40,689 INFO groupCount=1, subscriberClientCount=0, subscriberCount=0
+
+2019-05-05 16:38:45,674 INFO [long-pulling] client count 0
+
+2019-05-05 16:38:50,455 INFO notifySingleServiceThreadPool-java.util.concurrent.ScheduledThreadPoolExecutor, toNotifyTaskSize=0
+
+2019-05-05 16:38:50,689 INFO groupCount=1, subscriberClientCount=0, subscriberCount=0
+
+2019-05-05 16:38:55,675 INFO [long-pulling] client count 0
+
+2019-05-05 16:39:00,456 INFO notifySingleServiceThreadPool-java.util.concurrent.ScheduledThreadPoolExecutor, toNotifyTaskSize=0
+
+2019-05-05 16:39:00,689 INFO groupCount=1, subscriberClientCount=0, subscriberCount=0
+
+2019-05-05 16:39:05,676 INFO [long-pulling] client count 0
+
+2019-05-05 16:39:10,457 INFO notifySingleServiceThreadPool-java.util.concurrent.ScheduledThreadPoolExecutor, toNotifyTaskSize=0
+
+2019-05-05 16:39:10,690 INFO groupCount=1, subscriberClientCount=0, subscriberCount=0
+
+2019-05-05 16:39:15,676 INFO [long-pulling] client count 0
+
+2019-05-05 16:39:20,458 INFO notifySingleServiceThreadPool-java.util.concurrent.ScheduledThreadPoolExecutor, toNotifyTaskSize=0
+
+2019-05-05 16:39:20,691 INFO groupCount=1, subscriberClientCount=0, subscriberCount=0
+
+2019-05-05 16:39:25,676 INFO [long-pulling] client count 0
+
+2019-05-05 16:39:30,458 INFO notifySingleServiceThreadPool-java.util.concurrent.ScheduledThreadPoolExecutor, toNotifyTaskSize=0
+
+2019-05-05 16:39:30,691 INFO groupCount=1, subscriberClientCount=0, subscriberCount=0
+
+2019-05-05 16:39:35,676 INFO [long-pulling] client count 0
+
+2019-05-05 16:39:40,459 INFO notifySingleServiceThreadPool-java.util.concurrent.ScheduledThreadPoolExecutor, toNotifyTaskSize=0
+
+2019-05-05 16:39:40,691 INFO groupCount=1, subscriberClientCount=0, subscriberCount=0
+
+2019-05-05 16:39:45,678 INFO [long-pulling] client count 0
+
+2019-05-05 16:39:50,460 INFO notifySingleServiceThreadPool-java.util.concurrent.ScheduledThreadPoolExecutor, toNotifyTaskSize=0
+
+2019-05-05 16:39:50,692 INFO groupCount=1, subscriberClientCount=0, subscriberCount=0
+
+2019-05-05 16:39:55,678 INFO [long-pulling] client count 0
+
+2019-05-05 16:40:00,460 INFO notifySingleServiceThreadPool-java.util.concurrent.ScheduledThreadPoolExecutor, toNotifyTaskSize=0
+
+2019-05-05 16:40:00,692 INFO groupCount=1, subscriberClientCount=0, subscriberCount=0
+
+2019-05-05 16:40:05,679 INFO [long-pulling] client count 0
+
+2019-05-05 16:40:10,461 INFO notifySingleServiceThreadPool-java.util.concurrent.ScheduledThreadPoolExecutor, toNotifyTaskSize=0
+
+2019-05-05 16:40:10,692 INFO groupCount=1, subscriberClientCount=0, subscriberCount=0
+
+2019-05-05 16:40:15,679 INFO [long-pulling] client count 0
+
+2019-05-05 16:40:20,462 INFO notifySingleServiceThreadPool-java.util.concurrent.ScheduledThreadPoolExecutor, toNotifyTaskSize=0
+
+2019-05-05 16:40:20,692 INFO groupCount=1, subscriberClientCount=0, subscriberCount=0
+
+2019-05-05 16:40:25,681 INFO [long-pulling] client count 0
+
+2019-05-05 16:40:30,463 INFO notifySingleServiceThreadPool-java.util.concurrent.ScheduledThreadPoolExecutor, toNotifyTaskSize=0
+
+2019-05-05 16:40:30,692 INFO groupCount=1, subscriberClientCount=0, subscriberCount=0
+
+2019-05-05 16:40:35,682 INFO [long-pulling] client count 0
+

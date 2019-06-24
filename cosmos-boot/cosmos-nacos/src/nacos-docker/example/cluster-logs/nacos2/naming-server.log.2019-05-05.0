@@ -1,0 +1,274 @@
+2019-05-05 15:45:26,187 INFO listen for service meta change
+
+2019-05-05 15:46:39,146 INFO [HEALTH-CHECK] health check is true
+
+2019-05-05 15:46:59,465 INFO [SERVER-INIT] got port: 8848
+
+2019-05-05 15:46:59,465 INFO [SERVER-INIT] got path: /nacos
+
+2019-05-05 15:47:12,450 INFO [NACOS-DISTRO] healthy server list changed, disable health check for 60000 ms from now on
+
+2019-05-05 15:47:24,922 ERROR got exception.
+
+org.apache.catalina.connector.ClientAbortException: java.io.IOException: Broken pipe
+	at org.apache.catalina.connector.OutputBuffer.doFlush(OutputBuffer.java:298)
+	at org.apache.catalina.connector.OutputBuffer.flush(OutputBuffer.java:261)
+	at org.apache.catalina.connector.CoyoteOutputStream.flush(CoyoteOutputStream.java:118)
+	at sun.nio.cs.StreamEncoder.implFlush(StreamEncoder.java:297)
+	at sun.nio.cs.StreamEncoder.flush(StreamEncoder.java:141)
+	at java.io.OutputStreamWriter.flush(OutputStreamWriter.java:229)
+	at org.springframework.util.StreamUtils.copy(StreamUtils.java:124)
+	at org.springframework.http.converter.StringHttpMessageConverter.writeInternal(StringHttpMessageConverter.java:106)
+	at org.springframework.http.converter.StringHttpMessageConverter.writeInternal(StringHttpMessageConverter.java:43)
+	at org.springframework.http.converter.AbstractHttpMessageConverter.write(AbstractHttpMessageConverter.java:227)
+	at org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodProcessor.writeWithMessageConverters(AbstractMessageConverterMethodProcessor.java:292)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor.handleReturnValue(RequestResponseBodyMethodProcessor.java:180)
+	at org.springframework.web.method.support.HandlerMethodReturnValueHandlerComposite.handleReturnValue(HandlerMethodReturnValueHandlerComposite.java:82)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:119)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:800)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1038)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1005)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:897)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:882)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at com.alibaba.nacos.config.server.filter.NacosWebFilter.doFilter(NacosWebFilter.java:64)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.boot.actuate.web.trace.servlet.HttpTraceFilter.doFilterInternal(HttpTraceFilter.java:90)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:209)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:178)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:357)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:270)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:92)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.filterAndRecordMetrics(WebMvcMetricsFilter.java:117)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.doFilterInternal(WebMvcMetricsFilter.java:106)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:490)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:668)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:791)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1417)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.io.IOException: Broken pipe
+	at sun.nio.ch.FileDispatcherImpl.write0(Native Method)
+	at sun.nio.ch.SocketDispatcher.write(SocketDispatcher.java:47)
+	at sun.nio.ch.IOUtil.writeFromNativeBuffer(IOUtil.java:93)
+	at sun.nio.ch.IOUtil.write(IOUtil.java:65)
+	at sun.nio.ch.SocketChannelImpl.write(SocketChannelImpl.java:471)
+	at org.apache.tomcat.util.net.NioChannel.write(NioChannel.java:134)
+	at org.apache.tomcat.util.net.NioBlockingSelector.write(NioBlockingSelector.java:101)
+	at org.apache.tomcat.util.net.NioSelectorPool.write(NioSelectorPool.java:157)
+	at org.apache.tomcat.util.net.NioEndpoint$NioSocketWrapper.doWrite(NioEndpoint.java:1225)
+	at org.apache.tomcat.util.net.SocketWrapperBase.doWrite(SocketWrapperBase.java:743)
+	at org.apache.tomcat.util.net.SocketWrapperBase.flushBlocking(SocketWrapperBase.java:696)
+	at org.apache.tomcat.util.net.SocketWrapperBase.flush(SocketWrapperBase.java:686)
+	at org.apache.coyote.http11.Http11OutputBuffer$SocketOutputBuffer.flush(Http11OutputBuffer.java:553)
+	at org.apache.coyote.http11.filters.IdentityOutputFilter.flush(IdentityOutputFilter.java:117)
+	at org.apache.coyote.http11.Http11OutputBuffer.flush(Http11OutputBuffer.java:216)
+	at org.apache.coyote.http11.Http11Processor.flush(Http11Processor.java:1149)
+	at org.apache.coyote.AbstractProcessor.action(AbstractProcessor.java:394)
+	at org.apache.coyote.Response.action(Response.java:209)
+	at org.apache.catalina.connector.OutputBuffer.doFlush(OutputBuffer.java:294)
+	... 79 common frames omitted
+2019-05-05 15:47:24,924 ERROR got exception.
+
+org.apache.catalina.connector.ClientAbortException: java.io.IOException: Broken pipe
+	at org.apache.catalina.connector.OutputBuffer.doFlush(OutputBuffer.java:298)
+	at org.apache.catalina.connector.OutputBuffer.flush(OutputBuffer.java:261)
+	at org.apache.catalina.connector.CoyoteOutputStream.flush(CoyoteOutputStream.java:118)
+	at sun.nio.cs.StreamEncoder.implFlush(StreamEncoder.java:297)
+	at sun.nio.cs.StreamEncoder.flush(StreamEncoder.java:141)
+	at java.io.OutputStreamWriter.flush(OutputStreamWriter.java:229)
+	at org.springframework.util.StreamUtils.copy(StreamUtils.java:124)
+	at org.springframework.http.converter.StringHttpMessageConverter.writeInternal(StringHttpMessageConverter.java:106)
+	at org.springframework.http.converter.StringHttpMessageConverter.writeInternal(StringHttpMessageConverter.java:43)
+	at org.springframework.http.converter.AbstractHttpMessageConverter.write(AbstractHttpMessageConverter.java:227)
+	at org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodProcessor.writeWithMessageConverters(AbstractMessageConverterMethodProcessor.java:292)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor.handleReturnValue(RequestResponseBodyMethodProcessor.java:180)
+	at org.springframework.web.method.support.HandlerMethodReturnValueHandlerComposite.handleReturnValue(HandlerMethodReturnValueHandlerComposite.java:82)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:119)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:800)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1038)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1005)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:897)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:882)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at com.alibaba.nacos.config.server.filter.NacosWebFilter.doFilter(NacosWebFilter.java:64)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.boot.actuate.web.trace.servlet.HttpTraceFilter.doFilterInternal(HttpTraceFilter.java:90)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:209)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:178)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:357)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:270)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:92)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.filterAndRecordMetrics(WebMvcMetricsFilter.java:117)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.doFilterInternal(WebMvcMetricsFilter.java:106)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:490)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:668)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:791)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1417)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.io.IOException: Broken pipe
+	at sun.nio.ch.FileDispatcherImpl.write0(Native Method)
+	at sun.nio.ch.SocketDispatcher.write(SocketDispatcher.java:47)
+	at sun.nio.ch.IOUtil.writeFromNativeBuffer(IOUtil.java:93)
+	at sun.nio.ch.IOUtil.write(IOUtil.java:65)
+	at sun.nio.ch.SocketChannelImpl.write(SocketChannelImpl.java:471)
+	at org.apache.tomcat.util.net.NioChannel.write(NioChannel.java:134)
+	at org.apache.tomcat.util.net.NioBlockingSelector.write(NioBlockingSelector.java:101)
+	at org.apache.tomcat.util.net.NioSelectorPool.write(NioSelectorPool.java:157)
+	at org.apache.tomcat.util.net.NioEndpoint$NioSocketWrapper.doWrite(NioEndpoint.java:1225)
+	at org.apache.tomcat.util.net.SocketWrapperBase.doWrite(SocketWrapperBase.java:743)
+	at org.apache.tomcat.util.net.SocketWrapperBase.flushBlocking(SocketWrapperBase.java:696)
+	at org.apache.tomcat.util.net.SocketWrapperBase.flush(SocketWrapperBase.java:686)
+	at org.apache.coyote.http11.Http11OutputBuffer$SocketOutputBuffer.flush(Http11OutputBuffer.java:553)
+	at org.apache.coyote.http11.filters.IdentityOutputFilter.flush(IdentityOutputFilter.java:117)
+	at org.apache.coyote.http11.Http11OutputBuffer.flush(Http11OutputBuffer.java:216)
+	at org.apache.coyote.http11.Http11Processor.flush(Http11Processor.java:1149)
+	at org.apache.coyote.AbstractProcessor.action(AbstractProcessor.java:394)
+	at org.apache.coyote.Response.action(Response.java:209)
+	at org.apache.catalina.connector.OutputBuffer.doFlush(OutputBuffer.java:294)
+	... 79 common frames omitted
+2019-05-05 15:48:02,852 WARN server beat out of date, current: {"adWeight":0,"alive":true,"ip":"nacos3","key":"nacos3:8848","lastRefTime":1557042482844,"lastRefTimeStr":"2019-05-05 15:48:02","servePort":8848,"site":"unknown","weight":1}, last: {"adWeight":0,"alive":false,"ip":"nacos3","key":"nacos3:8848","lastRefTime":1557042433300,"lastRefTimeStr":"2019-05-05 15:47:13","servePort":8848,"site":"unknown","weight":1}
+
+2019-05-05 15:48:17,856 INFO [NACOS-DISTRO] distro threshold restored and stable now, enable health check. current ratio: 1.0
+
+2019-05-05 15:53:37,669 INFO listen for service meta change
+
+2019-05-05 15:54:15,132 INFO [SERVER-INIT] got port: 8848
+
+2019-05-05 15:54:15,132 INFO [SERVER-INIT] got path: /nacos
+
+2019-05-05 15:54:23,913 INFO [NACOS-DISTRO] healthy server list changed, disable health check for 60000 ms from now on
+
+2019-05-05 15:54:31,833 INFO [HEALTH-CHECK] health check is false
+
+2019-05-05 15:55:24,754 INFO [NACOS-DISTRO] distro threshold restored and stable now, enable health check. current ratio: 1.0
+
+2019-05-05 15:59:31,834 INFO [HEALTH-CHECK] health check is true
+
+2019-05-05 16:04:31,834 INFO [HEALTH-CHECK] health check is true
+
+2019-05-05 16:09:31,835 INFO [HEALTH-CHECK] health check is true
+
+2019-05-05 16:14:31,835 INFO [HEALTH-CHECK] health check is true
+
+2019-05-05 16:19:02,515 INFO creating empty service public:DEFAULT_GROUP@@cosmosNacos
+
+2019-05-05 16:19:12,497 WARN cluster: DEFAULT not found, ip: {"app":"","clusterName":"DEFAULT","enabled":true,"ephemeral":true,"healthy":true,"instanceId":"192.168.8.196#8083#DEFAULT#DEFAULT_GROUP@@cosmosNacos","ip":"192.168.8.196","lastBeat":1557044352437,"marked":false,"metadata":null,"port":8083,"serviceName":"DEFAULT_GROUP@@cosmosNacos","tenant":"","weight":0}, will create new cluster with default configuration.
+
+2019-05-05 16:19:12,511 INFO [NACOS-RAFT] datum is changed, key: com.alibaba.nacos.naming.iplist.ephemeral.public##DEFAULT_GROUP@@cosmosNacos, value: {"cachedChecksum":"","instanceList":[{"app":"","clusterName":"DEFAULT","enabled":true,"ephemeral":true,"healthy":true,"instanceId":"192.168.8.196#8083#DEFAULT#DEFAULT_GROUP@@cosmosNacos","ip":"192.168.8.196","lastBeat":1557044352437,"marked":false,"metadata":null,"port":8083,"serviceName":"DEFAULT_GROUP@@cosmosNacos","tenant":"","weight":0}]}
+
+2019-05-05 16:19:31,835 INFO [HEALTH-CHECK] health check is true
+
+2019-05-05 16:22:42,555 INFO [AUTO-DELETE-IP] service: DEFAULT_GROUP@@cosmosNacos, ip: {"app":"","clusterName":"DEFAULT","enabled":true,"ephemeral":true,"healthy":false,"instanceId":"192.168.8.196#8083#DEFAULT#DEFAULT_GROUP@@cosmosNacos","ip":"192.168.8.196","lastBeat":1557044532434,"marked":false,"metadata":null,"port":8083,"serviceName":"DEFAULT_GROUP@@cosmosNacos","tenant":"","weight":0}
+
+2019-05-05 16:22:42,560 INFO [NACOS-RAFT] datum is changed, key: com.alibaba.nacos.naming.iplist.ephemeral.public##DEFAULT_GROUP@@cosmosNacos, value: {"cachedChecksum":"","instanceList":[]}
+
+2019-05-05 16:24:31,836 INFO [HEALTH-CHECK] health check is true
+
+2019-05-05 16:29:31,836 INFO [HEALTH-CHECK] health check is true
+
+2019-05-05 16:34:03,825 INFO [NACOS-RAFT] datum is changed, key: com.alibaba.nacos.naming.iplist.ephemeral.public##DEFAULT_GROUP@@cosmosNacos, value: {"cachedChecksum":"","instanceList":[{"app":"","clusterName":"DEFAULT","enabled":true,"ephemeral":true,"healthy":true,"instanceId":"10.0.2.15#8084#DEFAULT#DEFAULT_GROUP@@cosmosNacos","ip":"10.0.2.15","lastBeat":1557045243824,"marked":false,"metadata":null,"port":8084,"serviceName":"DEFAULT_GROUP@@cosmosNacos","tenant":"","weight":0}]}
+
+2019-05-05 16:34:31,836 INFO [HEALTH-CHECK] health check is true
+
+2019-05-05 16:36:35,953 INFO [NACOS-RAFT] datum is changed, key: com.alibaba.nacos.naming.iplist.ephemeral.public##DEFAULT_GROUP@@cosmosNacos, value: {"cachedChecksum":"","instanceList":[{"app":"","clusterName":"DEFAULT","enabled":true,"ephemeral":true,"healthy":true,"instanceId":"10.0.2.15#8084#DEFAULT#DEFAULT_GROUP@@cosmosNacos","ip":"10.0.2.15","lastBeat":1557045393813,"marked":false,"metadata":null,"port":8084,"serviceName":"DEFAULT_GROUP@@cosmosNacos","tenant":"","weight":0},{"app":"","clusterName":"DEFAULT","enabled":true,"ephemeral":true,"healthy":true,"instanceId":"192.168.8.196#8084#DEFAULT#DEFAULT_GROUP@@cosmosNacos","ip":"192.168.8.196","lastBeat":1557045395952,"marked":false,"metadata":null,"port":8084,"serviceName":"DEFAULT_GROUP@@cosmosNacos","tenant":"","weight":0}]}
+
+2019-05-05 16:36:37,356 INFO [NACOS-RAFT] datum is changed, key: com.alibaba.nacos.naming.iplist.ephemeral.public##DEFAULT_GROUP@@cosmosNacos, value: {"cachedChecksum":"","instanceList":[{"app":"","clusterName":"DEFAULT","enabled":true,"ephemeral":true,"healthy":true,"instanceId":"10.0.2.15#8084#DEFAULT#DEFAULT_GROUP@@cosmosNacos","ip":"10.0.2.15","lastBeat":1557045393813,"marked":false,"metadata":null,"port":8084,"serviceName":"DEFAULT_GROUP@@cosmosNacos","tenant":"","weight":0},{"app":"","clusterName":"DEFAULT","enabled":true,"ephemeral":true,"healthy":true,"instanceId":"192.168.8.196#8083#DEFAULT#DEFAULT_GROUP@@cosmosNacos","ip":"192.168.8.196","lastBeat":1557045397356,"marked":false,"metadata":null,"port":8083,"serviceName":"DEFAULT_GROUP@@cosmosNacos","tenant":"","weight":0},{"app":"","clusterName":"DEFAULT","enabled":true,"ephemeral":true,"healthy":true,"instanceId":"192.168.8.196#8084#DEFAULT#DEFAULT_GROUP@@cosmosNacos","ip":"192.168.8.196","lastBeat":1557045395953,"marked":false,"metadata":null,"port":8084,"serviceName":"DEFAULT_GROUP@@cosmosNacos","tenant":"","weight":0}]}
+
+2019-05-05 16:36:41,509 INFO [NACOS-RAFT] datum is changed, key: com.alibaba.nacos.naming.iplist.ephemeral.public##DEFAULT_GROUP@@cosmosNacos, value: {"cachedChecksum":"","instanceList":[{"app":"","clusterName":"DEFAULT","enabled":true,"ephemeral":true,"healthy":true,"instanceId":"10.0.2.15#8084#DEFAULT#DEFAULT_GROUP@@cosmosNacos","ip":"10.0.2.15","lastBeat":1557045393813,"marked":false,"metadata":null,"port":8084,"serviceName":"DEFAULT_GROUP@@cosmosNacos","tenant":"","weight":0},{"app":"","clusterName":"DEFAULT","enabled":true,"ephemeral":true,"healthy":true,"instanceId":"192.168.8.196#8083#DEFAULT#DEFAULT_GROUP@@cosmosNacos","ip":"192.168.8.196","lastBeat":1557045397360,"marked":false,"metadata":null,"port":8083,"serviceName":"DEFAULT_GROUP@@cosmosNacos","tenant":"","weight":0},{"app":"","clusterName":"DEFAULT","enabled":true,"ephemeral":true,"healthy":true,"instanceId":"192.168.8.196#8084#DEFAULT#DEFAULT_GROUP@@cosmosNacos","ip":"192.168.8.196","lastBeat":1557045395953,"marked":false,"metadata":null,"port":8084,"serviceName":"DEFAULT_GROUP@@cosmosNacos","tenant":"","weight":0},{"app":"","clusterName":"DEFAULT","enabled":true,"ephemeral":true,"healthy":true,"instanceId":"192.168.8.196#8082#DEFAULT#DEFAULT_GROUP@@cosmosNacos","ip":"192.168.8.196","lastBeat":1557045401508,"marked":false,"metadata":null,"port":8082,"serviceName":"DEFAULT_GROUP@@cosmosNacos","tenant":"","weight":0}]}
+
+2019-05-05 16:36:46,709 INFO [NACOS-RAFT] datum is changed, key: com.alibaba.nacos.naming.iplist.ephemeral.public##DEFAULT_GROUP@@cosmosNacos, value: {"cachedChecksum":"","instanceList":[{"app":"DEFAULT","clusterName":"DEFAULT","enabled":false,"ephemeral":true,"healthy":true,"instanceId":"10.0.2.15#8084#DEFAULT#DEFAULT_GROUP@@cosmosNacos","ip":"10.0.2.15","lastBeat":1557045406708,"marked":false,"metadata":null,"port":8084,"serviceName":"DEFAULT_GROUP@@cosmosNacos","tenant":"","weight":0},{"app":"","clusterName":"DEFAULT","enabled":true,"ephemeral":true,"healthy":true,"instanceId":"192.168.8.196#8083#DEFAULT#DEFAULT_GROUP@@cosmosNacos","ip":"192.168.8.196","lastBeat":1557045397360,"marked":false,"metadata":null,"port":8083,"serviceName":"DEFAULT_GROUP@@cosmosNacos","tenant":"","weight":0},{"app":"","clusterName":"DEFAULT","enabled":true,"ephemeral":true,"healthy":true,"instanceId":"192.168.8.196#8084#DEFAULT#DEFAULT_GROUP@@cosmosNacos","ip":"192.168.8.196","lastBeat":1557045405956,"marked":false,"metadata":null,"port":8084,"serviceName":"DEFAULT_GROUP@@cosmosNacos","tenant":"","weight":0},{"app":"","clusterName":"DEFAULT","enabled":true,"ephemeral":true,"healthy":true,"instanceId":"192.168.8.196#8082#DEFAULT#DEFAULT_GROUP@@cosmosNacos","ip":"192.168.8.196","lastBeat":1557045401509,"marked":false,"metadata":null,"port":8082,"serviceName":"DEFAULT_GROUP@@cosmosNacos","tenant":"","weight":0}]}
+
+2019-05-05 16:39:31,836 INFO [HEALTH-CHECK] health check is true
+
+2019-05-05 16:39:34,473 INFO [NACOS-RAFT] datum is changed, key: com.alibaba.nacos.naming.iplist.ephemeral.public##DEFAULT_GROUP@@cosmosNacos, value: {"cachedChecksum":"","instanceList":[{"app":"","clusterName":"DEFAULT","enabled":true,"ephemeral":true,"healthy":true,"instanceId":"192.168.8.196#8083#DEFAULT#DEFAULT_GROUP@@cosmosNacos","ip":"192.168.8.196","lastBeat":1557045567350,"marked":false,"metadata":null,"port":8083,"serviceName":"DEFAULT_GROUP@@cosmosNacos","tenant":"","weight":0},{"app":"","clusterName":"DEFAULT","enabled":true,"ephemeral":true,"healthy":true,"instanceId":"192.168.8.196#8084#DEFAULT#DEFAULT_GROUP@@cosmosNacos","ip":"192.168.8.196","lastBeat":1557045565949,"marked":false,"metadata":null,"port":8084,"serviceName":"DEFAULT_GROUP@@cosmosNacos","tenant":"","weight":0},{"app":"","clusterName":"DEFAULT","enabled":true,"ephemeral":true,"healthy":true,"instanceId":"192.168.8.196#8082#DEFAULT#DEFAULT_GROUP@@cosmosNacos","ip":"192.168.8.196","lastBeat":1557045571508,"marked":false,"metadata":null,"port":8082,"serviceName":"DEFAULT_GROUP@@cosmosNacos","tenant":"","weight":0}]}
+

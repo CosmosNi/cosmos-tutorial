@@ -1,0 +1,1066 @@
+2019-05-05 15:43:01,333 INFO The server IP list of Nacos is [nacos1:8848, nacos2:8848, nacos3:8848]
+
+2019-05-05 15:43:02,297 INFO Starting Nacos v1.0.0 on nacos2 with PID 19 (/home/nacos/target/nacos-server.jar started by root in /home/nacos)
+
+2019-05-05 15:43:02,306 INFO No active profile set, falling back to default profiles: default
+
+2019-05-05 15:43:02,871 INFO Nacos is starting...
+
+2019-05-05 15:43:03,874 INFO Nacos is starting...
+
+2019-05-05 15:43:04,883 INFO Nacos is starting...
+
+2019-05-05 15:43:05,883 INFO Nacos is starting...
+
+2019-05-05 15:43:06,883 INFO Nacos is starting...
+
+2019-05-05 15:43:07,884 INFO Nacos is starting...
+
+2019-05-05 15:43:08,884 INFO Nacos is starting...
+
+2019-05-05 15:43:09,885 INFO Nacos is starting...
+
+2019-05-05 15:43:10,885 INFO Nacos is starting...
+
+2019-05-05 15:43:11,886 INFO Nacos is starting...
+
+2019-05-05 15:43:12,886 INFO Nacos is starting...
+
+2019-05-05 15:43:13,887 INFO Nacos is starting...
+
+2019-05-05 15:43:14,887 INFO Nacos is starting...
+
+2019-05-05 15:43:15,888 INFO Nacos is starting...
+
+2019-05-05 15:43:16,889 INFO Nacos is starting...
+
+2019-05-05 15:43:17,889 INFO Nacos is starting...
+
+2019-05-05 15:43:18,889 INFO Nacos is starting...
+
+2019-05-05 15:43:19,890 INFO Nacos is starting...
+
+2019-05-05 15:43:20,890 INFO Nacos is starting...
+
+2019-05-05 15:43:21,890 INFO Nacos is starting...
+
+2019-05-05 15:43:22,912 INFO Nacos is starting...
+
+2019-05-05 15:43:23,917 INFO Nacos is starting...
+
+2019-05-05 15:43:24,932 INFO Nacos is starting...
+
+2019-05-05 15:43:25,934 INFO Nacos is starting...
+
+2019-05-05 15:43:26,953 INFO Nacos is starting...
+
+2019-05-05 15:43:27,962 INFO Nacos is starting...
+
+2019-05-05 15:43:29,362 INFO Nacos is starting...
+
+2019-05-05 15:43:30,364 INFO Nacos is starting...
+
+2019-05-05 15:43:31,376 INFO Nacos is starting...
+
+2019-05-05 15:43:32,388 INFO Nacos is starting...
+
+2019-05-05 15:43:33,406 INFO Nacos is starting...
+
+2019-05-05 15:43:34,410 INFO Nacos is starting...
+
+2019-05-05 15:43:35,412 INFO Nacos is starting...
+
+2019-05-05 15:43:36,412 INFO Nacos is starting...
+
+2019-05-05 15:43:37,414 INFO Nacos is starting...
+
+2019-05-05 15:43:38,414 INFO Nacos is starting...
+
+2019-05-05 15:43:40,464 INFO Nacos is starting...
+
+2019-05-05 15:43:41,465 INFO Nacos is starting...
+
+2019-05-05 15:43:43,093 INFO Nacos is starting...
+
+2019-05-05 15:43:47,162 INFO Nacos is starting...
+
+2019-05-05 15:43:48,162 INFO Nacos is starting...
+
+2019-05-05 15:43:49,307 INFO Nacos is starting...
+
+2019-05-05 15:43:50,773 INFO Nacos is starting...
+
+2019-05-05 15:43:51,799 INFO Nacos is starting...
+
+2019-05-05 15:44:06,775 INFO Nacos is starting...
+
+2019-05-05 15:44:08,412 INFO Nacos is starting...
+
+2019-05-05 15:44:09,972 INFO Nacos is starting...
+
+2019-05-05 15:44:10,975 INFO Nacos is starting...
+
+2019-05-05 15:44:12,071 INFO Nacos is starting...
+
+2019-05-05 15:44:13,072 INFO Nacos is starting...
+
+2019-05-05 15:44:14,072 INFO Nacos is starting...
+
+2019-05-05 15:44:15,077 INFO Nacos is starting...
+
+2019-05-05 15:44:16,078 INFO Nacos is starting...
+
+2019-05-05 15:44:17,079 INFO Nacos is starting...
+
+2019-05-05 15:44:18,079 INFO Nacos is starting...
+
+2019-05-05 15:44:19,089 INFO Nacos is starting...
+
+2019-05-05 15:44:20,090 INFO Nacos is starting...
+
+2019-05-05 15:44:21,103 INFO Nacos is starting...
+
+2019-05-05 15:44:22,111 INFO Nacos is starting...
+
+2019-05-05 15:44:23,111 INFO Nacos is starting...
+
+2019-05-05 15:44:24,121 INFO Nacos is starting...
+
+2019-05-05 15:44:25,125 INFO Nacos is starting...
+
+2019-05-05 15:44:26,128 INFO Nacos is starting...
+
+2019-05-05 15:44:27,136 INFO Nacos is starting...
+
+2019-05-05 15:44:28,136 INFO Nacos is starting...
+
+2019-05-05 15:44:29,138 INFO Nacos is starting...
+
+2019-05-05 15:44:30,171 INFO Nacos is starting...
+
+2019-05-05 15:44:31,172 INFO Nacos is starting...
+
+2019-05-05 15:44:32,173 INFO Nacos is starting...
+
+2019-05-05 15:44:33,173 INFO Nacos is starting...
+
+2019-05-05 15:44:34,174 INFO Nacos is starting...
+
+2019-05-05 15:44:35,253 INFO Nacos is starting...
+
+2019-05-05 15:44:36,253 INFO Nacos is starting...
+
+2019-05-05 15:44:37,253 INFO Nacos is starting...
+
+2019-05-05 15:44:38,254 INFO Nacos is starting...
+
+2019-05-05 15:44:39,342 INFO Nacos is starting...
+
+2019-05-05 15:44:40,358 INFO Nacos is starting...
+
+2019-05-05 15:44:41,359 INFO Nacos is starting...
+
+2019-05-05 15:44:42,360 INFO Nacos is starting...
+
+2019-05-05 15:44:43,361 INFO Nacos is starting...
+
+2019-05-05 15:44:44,362 INFO Nacos is starting...
+
+2019-05-05 15:44:45,363 INFO Nacos is starting...
+
+2019-05-05 15:44:46,364 INFO Nacos is starting...
+
+2019-05-05 15:44:47,376 INFO Nacos is starting...
+
+2019-05-05 15:44:48,443 INFO Nacos is starting...
+
+2019-05-05 15:44:49,444 INFO Nacos is starting...
+
+2019-05-05 15:44:50,444 INFO Nacos is starting...
+
+2019-05-05 15:44:51,445 INFO Nacos is starting...
+
+2019-05-05 15:44:52,743 INFO Nacos is starting...
+
+2019-05-05 15:44:53,745 INFO Nacos is starting...
+
+2019-05-05 15:44:54,746 INFO Nacos is starting...
+
+2019-05-05 15:44:55,746 INFO Nacos is starting...
+
+2019-05-05 15:44:56,748 INFO Nacos is starting...
+
+2019-05-05 15:44:57,969 INFO Nacos is starting...
+
+2019-05-05 15:44:58,972 INFO Nacos is starting...
+
+2019-05-05 15:44:59,972 INFO Nacos is starting...
+
+2019-05-05 15:45:00,973 INFO Nacos is starting...
+
+2019-05-05 15:45:01,361 INFO Bean 'org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration' of type [org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration$$EnhancerBySpringCGLIB$$e86b09ba] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+
+2019-05-05 15:45:01,979 INFO Nacos is starting...
+
+2019-05-05 15:45:02,979 INFO Nacos is starting...
+
+2019-05-05 15:45:03,981 INFO Nacos is starting...
+
+2019-05-05 15:45:04,341 INFO Bean 'objectPostProcessor' of type [org.springframework.security.config.annotation.configuration.AutowireBeanFactoryObjectPostProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+
+2019-05-05 15:45:04,444 INFO Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@e260766' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+
+2019-05-05 15:45:04,483 INFO Bean 'org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration' of type [org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration$$EnhancerBySpringCGLIB$$d3fac6c] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+
+2019-05-05 15:45:04,531 INFO Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+
+2019-05-05 15:45:04,986 INFO Nacos is starting...
+
+2019-05-05 15:45:05,989 INFO Nacos is starting...
+
+2019-05-05 15:45:07,004 INFO Nacos is starting...
+
+2019-05-05 15:45:08,010 INFO Nacos is starting...
+
+2019-05-05 15:45:09,057 INFO Nacos is starting...
+
+2019-05-05 15:45:10,058 INFO Nacos is starting...
+
+2019-05-05 15:45:11,059 INFO Nacos is starting...
+
+2019-05-05 15:45:12,064 INFO Nacos is starting...
+
+2019-05-05 15:45:13,068 INFO Nacos is starting...
+
+2019-05-05 15:45:14,143 INFO Nacos is starting...
+
+2019-05-05 15:45:15,147 INFO Nacos is starting...
+
+2019-05-05 15:45:16,147 INFO Nacos is starting...
+
+2019-05-05 15:45:17,148 INFO Nacos is starting...
+
+2019-05-05 15:45:17,690 INFO Tomcat initialized with port(s): 8848 (http)
+
+2019-05-05 15:45:18,092 INFO Initializing ProtocolHandler ["http-nio-8848"]
+
+2019-05-05 15:45:18,191 INFO Nacos is starting...
+
+2019-05-05 15:45:18,603 INFO Starting service [Tomcat]
+
+2019-05-05 15:45:18,603 INFO Starting Servlet Engine: Apache Tomcat/9.0.13
+
+2019-05-05 15:45:18,845 INFO The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib]
+
+2019-05-05 15:45:19,207 INFO Nacos is starting...
+
+2019-05-05 15:45:20,207 INFO Nacos is starting...
+
+2019-05-05 15:45:21,207 INFO Nacos is starting...
+
+2019-05-05 15:45:21,315 INFO Initializing Spring embedded WebApplicationContext
+
+2019-05-05 15:45:21,316 INFO Root WebApplicationContext: initialization completed in 132526 ms
+
+2019-05-05 15:45:22,208 INFO Nacos is starting...
+
+2019-05-05 15:45:23,208 INFO Nacos is starting...
+
+2019-05-05 15:45:24,213 INFO Nacos is starting...
+
+2019-05-05 15:45:25,391 INFO Nacos is starting...
+
+2019-05-05 15:45:26,532 INFO Nacos is starting...
+
+2019-05-05 15:45:27,636 INFO Nacos is starting...
+
+2019-05-05 15:45:28,637 INFO Nacos is starting...
+
+2019-05-05 15:45:29,638 INFO Nacos is starting...
+
+2019-05-05 15:45:30,639 INFO Nacos is starting...
+
+2019-05-05 15:45:31,653 INFO Nacos is starting...
+
+2019-05-05 15:45:32,660 INFO Nacos is starting...
+
+2019-05-05 15:45:33,668 INFO Nacos is starting...
+
+2019-05-05 15:45:34,673 INFO Nacos is starting...
+
+2019-05-05 15:45:35,414 INFO Use Mysql as the driver
+
+2019-05-05 15:45:35,690 INFO Nacos is starting...
+
+2019-05-05 15:45:36,690 INFO Nacos is starting...
+
+2019-05-05 15:45:37,691 INFO Nacos is starting...
+
+2019-05-05 15:45:38,691 INFO Nacos is starting...
+
+2019-05-05 15:45:39,738 INFO Nacos is starting...
+
+2019-05-05 15:45:40,738 INFO Nacos is starting...
+
+2019-05-05 15:45:41,738 INFO Nacos is starting...
+
+2019-05-05 15:45:42,832 INFO Nacos is starting...
+
+2019-05-05 15:45:43,833 INFO Nacos is starting...
+
+2019-05-05 15:45:44,834 INFO Nacos is starting...
+
+2019-05-05 15:45:45,836 INFO Nacos is starting...
+
+2019-05-05 15:45:46,837 INFO Nacos is starting...
+
+2019-05-05 15:45:47,850 INFO Nacos is starting...
+
+2019-05-05 15:45:48,993 INFO Nacos is starting...
+
+2019-05-05 15:45:50,002 INFO Nacos is starting...
+
+2019-05-05 15:45:51,003 INFO Nacos is starting...
+
+2019-05-05 15:45:52,003 INFO Nacos is starting...
+
+2019-05-05 15:45:53,143 INFO Nacos is starting...
+
+2019-05-05 15:45:54,261 INFO Nacos is starting...
+
+2019-05-05 15:45:55,261 INFO Nacos is starting...
+
+2019-05-05 15:45:56,262 INFO Nacos is starting...
+
+2019-05-05 15:45:57,264 INFO Nacos is starting...
+
+2019-05-05 15:45:58,265 INFO Nacos is starting...
+
+2019-05-05 15:45:59,265 INFO Nacos is starting...
+
+2019-05-05 15:46:00,267 INFO Nacos is starting...
+
+2019-05-05 15:46:01,268 INFO Nacos is starting...
+
+2019-05-05 15:46:02,269 INFO Nacos is starting...
+
+2019-05-05 15:46:03,269 INFO Nacos is starting...
+
+2019-05-05 15:46:04,269 INFO Nacos is starting...
+
+2019-05-05 15:46:05,270 INFO Nacos is starting...
+
+2019-05-05 15:46:06,274 INFO Nacos is starting...
+
+2019-05-05 15:46:07,281 INFO Nacos is starting...
+
+2019-05-05 15:46:08,282 INFO Nacos is starting...
+
+2019-05-05 15:46:09,289 INFO Nacos is starting...
+
+2019-05-05 15:46:10,291 INFO Nacos is starting...
+
+2019-05-05 15:46:11,292 INFO Nacos is starting...
+
+2019-05-05 15:46:12,293 INFO Nacos is starting...
+
+2019-05-05 15:46:13,293 INFO Nacos is starting...
+
+2019-05-05 15:46:14,294 INFO Nacos is starting...
+
+2019-05-05 15:46:15,294 INFO Nacos is starting...
+
+2019-05-05 15:46:16,295 INFO Nacos is starting...
+
+2019-05-05 15:46:17,295 INFO Nacos is starting...
+
+2019-05-05 15:46:18,298 INFO Nacos is starting...
+
+2019-05-05 15:46:19,303 INFO Nacos is starting...
+
+2019-05-05 15:46:19,444 INFO Initializing ExecutorService 'applicationTaskExecutor'
+
+2019-05-05 15:46:20,304 INFO Nacos is starting...
+
+2019-05-05 15:46:21,306 INFO Nacos is starting...
+
+2019-05-05 15:46:22,002 INFO Adding welcome page: class path resource [static/index.html]
+
+2019-05-05 15:46:22,306 INFO Nacos is starting...
+
+2019-05-05 15:46:23,307 INFO Nacos is starting...
+
+2019-05-05 15:46:24,310 INFO Nacos is starting...
+
+2019-05-05 15:46:25,312 INFO Nacos is starting...
+
+2019-05-05 15:46:26,318 INFO Nacos is starting...
+
+2019-05-05 15:46:27,321 INFO Nacos is starting...
+
+2019-05-05 15:46:28,328 INFO Nacos is starting...
+
+2019-05-05 15:46:29,331 INFO Nacos is starting...
+
+2019-05-05 15:46:30,333 INFO Nacos is starting...
+
+2019-05-05 15:46:31,333 INFO Nacos is starting...
+
+2019-05-05 15:46:32,337 INFO Nacos is starting...
+
+2019-05-05 15:46:32,348 INFO Creating filter chain: Ant [pattern='/'], []
+
+2019-05-05 15:46:32,348 INFO Creating filter chain: Ant [pattern='/**/*.css'], []
+
+2019-05-05 15:46:32,348 INFO Creating filter chain: Ant [pattern='/**/*.js'], []
+
+2019-05-05 15:46:32,348 INFO Creating filter chain: Ant [pattern='/**/*.html'], []
+
+2019-05-05 15:46:32,348 INFO Creating filter chain: Ant [pattern='/**/*.map'], []
+
+2019-05-05 15:46:32,348 INFO Creating filter chain: Ant [pattern='/**/*.svg'], []
+
+2019-05-05 15:46:32,348 INFO Creating filter chain: Ant [pattern='/**/*.png'], []
+
+2019-05-05 15:46:32,348 INFO Creating filter chain: Ant [pattern='/**/*.ico'], []
+
+2019-05-05 15:46:32,348 INFO Creating filter chain: Ant [pattern='/console-fe/public/**'], []
+
+2019-05-05 15:46:32,348 INFO Creating filter chain: Ant [pattern='/v1/auth/login'], []
+
+2019-05-05 15:46:32,349 INFO Creating filter chain: Ant [pattern='/v1/console/health/**'], []
+
+2019-05-05 15:46:32,349 INFO Creating filter chain: Ant [pattern='/v1/cs/**'], []
+
+2019-05-05 15:46:32,349 INFO Creating filter chain: Ant [pattern='/v1/ns/**'], []
+
+2019-05-05 15:46:32,349 INFO Creating filter chain: Ant [pattern='/v1/cmdb/**'], []
+
+2019-05-05 15:46:32,349 INFO Creating filter chain: Ant [pattern='/actuator/**'], []
+
+2019-05-05 15:46:32,349 INFO Creating filter chain: Ant [pattern='/v1/console/server/**'], []
+
+2019-05-05 15:46:32,533 INFO Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@64693226, org.springframework.security.web.context.SecurityContextPersistenceFilter@eb507b9, org.springframework.security.web.header.HeaderWriterFilter@f096f37, org.springframework.security.web.authentication.logout.LogoutFilter@7afbf561, com.alibaba.nacos.console.filter.JwtAuthenticationTokenFilter@1c758545, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@86733, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@7fc7c4a, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@117bcfdc, org.springframework.security.web.session.SessionManagementFilter@6f4ade6e, org.springframework.security.web.access.ExceptionTranslationFilter@4b2e3e8f, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@3bdb2c78]
+
+2019-05-05 15:46:33,339 INFO Nacos is starting...
+
+2019-05-05 15:46:34,339 INFO Nacos is starting...
+
+2019-05-05 15:46:34,645 INFO Exposing 16 endpoint(s) beneath base path '/actuator'
+
+2019-05-05 15:46:35,339 INFO Nacos is starting...
+
+2019-05-05 15:46:35,787 INFO Initializing ExecutorService 'taskScheduler'
+
+2019-05-05 15:46:36,340 INFO Nacos is starting...
+
+2019-05-05 15:46:37,344 INFO Nacos is starting...
+
+2019-05-05 15:46:38,349 INFO Nacos is starting...
+
+2019-05-05 15:46:39,204 INFO Starting ProtocolHandler ["http-nio-8848"]
+
+2019-05-05 15:46:39,357 INFO Nacos is starting...
+
+2019-05-05 15:46:40,357 INFO Nacos is starting...
+
+2019-05-05 15:46:41,358 INFO Nacos is starting...
+
+2019-05-05 15:46:42,358 INFO Nacos is starting...
+
+2019-05-05 15:46:42,902 INFO Using a shared selector for servlet write/read
+
+2019-05-05 15:46:43,359 INFO Nacos is starting...
+
+2019-05-05 15:46:44,368 INFO Nacos is starting...
+
+2019-05-05 15:46:45,368 INFO Nacos is starting...
+
+2019-05-05 15:46:46,369 INFO Nacos is starting...
+
+2019-05-05 15:46:47,570 INFO Nacos is starting...
+
+2019-05-05 15:46:48,570 INFO Nacos is starting...
+
+2019-05-05 15:46:49,571 INFO Nacos is starting...
+
+2019-05-05 15:46:50,571 INFO Nacos is starting...
+
+2019-05-05 15:46:50,820 ERROR Unexpected error occurred in scheduled task.
+
+java.lang.IllegalStateException: unable to find local peer: nacos2:0, all peers: [nacos2:8848, nacos1:8848, nacos3:8848]
+	at com.alibaba.nacos.naming.consistency.persistent.raft.RaftPeerSet.local(RaftPeerSet.java:211)
+	at com.alibaba.nacos.naming.monitor.PerformanceLoggerThread.collectmetrics(PerformanceLoggerThread.java:123)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:84)
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54)
+	at org.springframework.scheduling.concurrent.ReschedulingRunnable.run(ReschedulingRunnable.java:93)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2019-05-05 15:46:51,571 INFO Nacos is starting...
+
+2019-05-05 15:46:52,663 INFO Nacos is starting...
+
+2019-05-05 15:46:53,664 INFO Nacos is starting...
+
+2019-05-05 15:46:54,665 INFO Nacos is starting...
+
+2019-05-05 15:46:55,665 INFO Nacos is starting...
+
+2019-05-05 15:46:56,665 INFO Nacos is starting...
+
+2019-05-05 15:46:57,666 INFO Nacos is starting...
+
+2019-05-05 15:46:58,666 INFO Nacos is starting...
+
+2019-05-05 15:46:59,463 INFO Tomcat started on port(s): 8848 (http) with context path '/nacos'
+
+2019-05-05 15:46:59,666 INFO Nacos is starting...
+
+2019-05-05 15:47:00,674 INFO Nacos is starting...
+
+2019-05-05 15:47:01,185 INFO Started Nacos in 275.887 seconds (JVM running for 290.562)
+
+2019-05-05 15:47:01,185 INFO Nacos Log files: /home/nacos/logs/
+
+2019-05-05 15:47:01,185 INFO Nacos Conf files: /home/nacos/conf/
+
+2019-05-05 15:47:01,185 INFO Nacos Data files: /home/nacos/data/
+
+2019-05-05 15:47:01,185 INFO Nacos started successfully in cluster mode.
+
+2019-05-05 15:47:05,329 INFO Initializing Spring DispatcherServlet 'dispatcherServlet'
+
+2019-05-05 15:47:05,329 INFO Initializing Servlet 'dispatcherServlet'
+
+2019-05-05 15:47:07,311 INFO Completed initialization in 1982 ms
+
+2019-05-05 15:47:25,980 WARN Failure in @ExceptionHandler private org.springframework.http.ResponseEntity<java.lang.String> com.alibaba.nacos.naming.exception.ResponseExceptionHandler.handleException(java.lang.Exception)
+
+org.apache.catalina.connector.ClientAbortException: java.io.IOException: Broken pipe
+	at org.apache.catalina.connector.OutputBuffer.doFlush(OutputBuffer.java:298)
+	at org.apache.catalina.connector.OutputBuffer.flush(OutputBuffer.java:261)
+	at org.apache.catalina.connector.CoyoteOutputStream.flush(CoyoteOutputStream.java:118)
+	at sun.nio.cs.StreamEncoder.implFlush(StreamEncoder.java:297)
+	at sun.nio.cs.StreamEncoder.flush(StreamEncoder.java:141)
+	at java.io.OutputStreamWriter.flush(OutputStreamWriter.java:229)
+	at org.springframework.util.StreamUtils.copy(StreamUtils.java:124)
+	at org.springframework.http.converter.StringHttpMessageConverter.writeInternal(StringHttpMessageConverter.java:106)
+	at org.springframework.http.converter.StringHttpMessageConverter.writeInternal(StringHttpMessageConverter.java:43)
+	at org.springframework.http.converter.AbstractHttpMessageConverter.write(AbstractHttpMessageConverter.java:227)
+	at org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodProcessor.writeWithMessageConverters(AbstractMessageConverterMethodProcessor.java:292)
+	at org.springframework.web.servlet.mvc.method.annotation.HttpEntityMethodProcessor.handleReturnValue(HttpEntityMethodProcessor.java:223)
+	at org.springframework.web.method.support.HandlerMethodReturnValueHandlerComposite.handleReturnValue(HandlerMethodReturnValueHandlerComposite.java:82)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:119)
+	at org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver.doResolveHandlerMethodException(ExceptionHandlerExceptionResolver.java:408)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodExceptionResolver.doResolveException(AbstractHandlerMethodExceptionResolver.java:61)
+	at org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver.resolveException(AbstractHandlerExceptionResolver.java:136)
+	at org.springframework.web.servlet.handler.HandlerExceptionResolverComposite.resolveException(HandlerExceptionResolverComposite.java:80)
+	at org.springframework.web.servlet.DispatcherServlet.processHandlerException(DispatcherServlet.java:1297)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1109)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1055)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1005)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:897)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:882)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at com.alibaba.nacos.config.server.filter.NacosWebFilter.doFilter(NacosWebFilter.java:64)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.boot.actuate.web.trace.servlet.HttpTraceFilter.doFilterInternal(HttpTraceFilter.java:90)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:209)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:178)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:357)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:270)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:92)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.filterAndRecordMetrics(WebMvcMetricsFilter.java:117)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.doFilterInternal(WebMvcMetricsFilter.java:106)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:490)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:668)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:791)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1417)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.io.IOException: Broken pipe
+	at sun.nio.ch.FileDispatcherImpl.write0(Native Method)
+	at sun.nio.ch.SocketDispatcher.write(SocketDispatcher.java:47)
+	at sun.nio.ch.IOUtil.writeFromNativeBuffer(IOUtil.java:93)
+	at sun.nio.ch.IOUtil.write(IOUtil.java:65)
+	at sun.nio.ch.SocketChannelImpl.write(SocketChannelImpl.java:471)
+	at org.apache.tomcat.util.net.NioChannel.write(NioChannel.java:134)
+	at org.apache.tomcat.util.net.NioBlockingSelector.write(NioBlockingSelector.java:101)
+	at org.apache.tomcat.util.net.NioSelectorPool.write(NioSelectorPool.java:157)
+	at org.apache.tomcat.util.net.NioEndpoint$NioSocketWrapper.doWrite(NioEndpoint.java:1225)
+	at org.apache.tomcat.util.net.SocketWrapperBase.doWrite(SocketWrapperBase.java:743)
+	at org.apache.tomcat.util.net.SocketWrapperBase.flushBlocking(SocketWrapperBase.java:696)
+	at org.apache.tomcat.util.net.SocketWrapperBase.flush(SocketWrapperBase.java:686)
+	at org.apache.coyote.http11.Http11OutputBuffer$SocketOutputBuffer.flush(Http11OutputBuffer.java:553)
+	at org.apache.coyote.http11.filters.IdentityOutputFilter.flush(IdentityOutputFilter.java:117)
+	at org.apache.coyote.http11.Http11OutputBuffer.flush(Http11OutputBuffer.java:216)
+	at org.apache.coyote.http11.Http11Processor.flush(Http11Processor.java:1149)
+	at org.apache.coyote.AbstractProcessor.action(AbstractProcessor.java:394)
+	at org.apache.coyote.Response.action(Response.java:209)
+	at org.apache.catalina.connector.OutputBuffer.doFlush(OutputBuffer.java:294)
+	... 82 common frames omitted
+2019-05-05 15:47:25,989 WARN Failure in @ExceptionHandler private org.springframework.http.ResponseEntity<java.lang.String> com.alibaba.nacos.naming.exception.ResponseExceptionHandler.handleException(java.lang.Exception)
+
+org.apache.catalina.connector.ClientAbortException: java.io.IOException: Broken pipe
+	at org.apache.catalina.connector.OutputBuffer.doFlush(OutputBuffer.java:298)
+	at org.apache.catalina.connector.OutputBuffer.flush(OutputBuffer.java:261)
+	at org.apache.catalina.connector.CoyoteOutputStream.flush(CoyoteOutputStream.java:118)
+	at sun.nio.cs.StreamEncoder.implFlush(StreamEncoder.java:297)
+	at sun.nio.cs.StreamEncoder.flush(StreamEncoder.java:141)
+	at java.io.OutputStreamWriter.flush(OutputStreamWriter.java:229)
+	at org.springframework.util.StreamUtils.copy(StreamUtils.java:124)
+	at org.springframework.http.converter.StringHttpMessageConverter.writeInternal(StringHttpMessageConverter.java:106)
+	at org.springframework.http.converter.StringHttpMessageConverter.writeInternal(StringHttpMessageConverter.java:43)
+	at org.springframework.http.converter.AbstractHttpMessageConverter.write(AbstractHttpMessageConverter.java:227)
+	at org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodProcessor.writeWithMessageConverters(AbstractMessageConverterMethodProcessor.java:292)
+	at org.springframework.web.servlet.mvc.method.annotation.HttpEntityMethodProcessor.handleReturnValue(HttpEntityMethodProcessor.java:223)
+	at org.springframework.web.method.support.HandlerMethodReturnValueHandlerComposite.handleReturnValue(HandlerMethodReturnValueHandlerComposite.java:82)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:119)
+	at org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver.doResolveHandlerMethodException(ExceptionHandlerExceptionResolver.java:408)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodExceptionResolver.doResolveException(AbstractHandlerMethodExceptionResolver.java:61)
+	at org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver.resolveException(AbstractHandlerExceptionResolver.java:136)
+	at org.springframework.web.servlet.handler.HandlerExceptionResolverComposite.resolveException(HandlerExceptionResolverComposite.java:80)
+	at org.springframework.web.servlet.DispatcherServlet.processHandlerException(DispatcherServlet.java:1297)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1109)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1055)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1005)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:897)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:882)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at com.alibaba.nacos.config.server.filter.NacosWebFilter.doFilter(NacosWebFilter.java:64)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.boot.actuate.web.trace.servlet.HttpTraceFilter.doFilterInternal(HttpTraceFilter.java:90)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:209)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:178)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:357)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:270)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:92)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.filterAndRecordMetrics(WebMvcMetricsFilter.java:117)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.doFilterInternal(WebMvcMetricsFilter.java:106)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:490)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:668)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:791)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1417)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.io.IOException: Broken pipe
+	at sun.nio.ch.FileDispatcherImpl.write0(Native Method)
+	at sun.nio.ch.SocketDispatcher.write(SocketDispatcher.java:47)
+	at sun.nio.ch.IOUtil.writeFromNativeBuffer(IOUtil.java:93)
+	at sun.nio.ch.IOUtil.write(IOUtil.java:65)
+	at sun.nio.ch.SocketChannelImpl.write(SocketChannelImpl.java:471)
+	at org.apache.tomcat.util.net.NioChannel.write(NioChannel.java:134)
+	at org.apache.tomcat.util.net.NioBlockingSelector.write(NioBlockingSelector.java:101)
+	at org.apache.tomcat.util.net.NioSelectorPool.write(NioSelectorPool.java:157)
+	at org.apache.tomcat.util.net.NioEndpoint$NioSocketWrapper.doWrite(NioEndpoint.java:1225)
+	at org.apache.tomcat.util.net.SocketWrapperBase.doWrite(SocketWrapperBase.java:743)
+	at org.apache.tomcat.util.net.SocketWrapperBase.flushBlocking(SocketWrapperBase.java:696)
+	at org.apache.tomcat.util.net.SocketWrapperBase.flush(SocketWrapperBase.java:686)
+	at org.apache.coyote.http11.Http11OutputBuffer$SocketOutputBuffer.flush(Http11OutputBuffer.java:553)
+	at org.apache.coyote.http11.filters.IdentityOutputFilter.flush(IdentityOutputFilter.java:117)
+	at org.apache.coyote.http11.Http11OutputBuffer.flush(Http11OutputBuffer.java:216)
+	at org.apache.coyote.http11.Http11Processor.flush(Http11Processor.java:1149)
+	at org.apache.coyote.AbstractProcessor.action(AbstractProcessor.java:394)
+	at org.apache.coyote.Response.action(Response.java:209)
+	at org.apache.catalina.connector.OutputBuffer.doFlush(OutputBuffer.java:294)
+	... 82 common frames omitted
+2019-05-05 15:52:49,247 INFO The server IP list of Nacos is [nacos1:8848, nacos2:8848, nacos3:8848]
+
+2019-05-05 15:52:49,475 INFO Starting Nacos v1.0.0 on nacos2 with PID 19 (/home/nacos/target/nacos-server.jar started by root in /home/nacos)
+
+2019-05-05 15:52:49,505 INFO No active profile set, falling back to default profiles: default
+
+2019-05-05 15:52:50,398 INFO Nacos is starting...
+
+2019-05-05 15:52:51,428 INFO Nacos is starting...
+
+2019-05-05 15:52:52,435 INFO Nacos is starting...
+
+2019-05-05 15:52:53,440 INFO Nacos is starting...
+
+2019-05-05 15:52:54,450 INFO Nacos is starting...
+
+2019-05-05 15:52:55,454 INFO Nacos is starting...
+
+2019-05-05 15:52:56,477 INFO Nacos is starting...
+
+2019-05-05 15:52:57,494 INFO Nacos is starting...
+
+2019-05-05 15:52:58,494 INFO Nacos is starting...
+
+2019-05-05 15:52:59,503 INFO Nacos is starting...
+
+2019-05-05 15:53:00,514 INFO Nacos is starting...
+
+2019-05-05 15:53:01,521 INFO Nacos is starting...
+
+2019-05-05 15:53:02,527 INFO Nacos is starting...
+
+2019-05-05 15:53:03,564 INFO Nacos is starting...
+
+2019-05-05 15:53:04,570 INFO Nacos is starting...
+
+2019-05-05 15:53:05,581 INFO Nacos is starting...
+
+2019-05-05 15:53:06,582 INFO Nacos is starting...
+
+2019-05-05 15:53:07,585 INFO Nacos is starting...
+
+2019-05-05 15:53:08,589 INFO Nacos is starting...
+
+2019-05-05 15:53:09,594 INFO Nacos is starting...
+
+2019-05-05 15:53:10,616 INFO Nacos is starting...
+
+2019-05-05 15:53:11,616 INFO Nacos is starting...
+
+2019-05-05 15:53:12,620 INFO Nacos is starting...
+
+2019-05-05 15:53:13,632 INFO Nacos is starting...
+
+2019-05-05 15:53:14,641 INFO Nacos is starting...
+
+2019-05-05 15:53:15,657 INFO Nacos is starting...
+
+2019-05-05 15:53:16,668 INFO Nacos is starting...
+
+2019-05-05 15:53:17,671 INFO Nacos is starting...
+
+2019-05-05 15:53:18,704 INFO Nacos is starting...
+
+2019-05-05 15:53:19,707 INFO Nacos is starting...
+
+2019-05-05 15:53:20,714 INFO Nacos is starting...
+
+2019-05-05 15:53:21,738 INFO Nacos is starting...
+
+2019-05-05 15:53:22,747 INFO Nacos is starting...
+
+2019-05-05 15:53:23,750 INFO Nacos is starting...
+
+2019-05-05 15:53:24,764 INFO Nacos is starting...
+
+2019-05-05 15:53:25,362 INFO Bean 'org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration' of type [org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration$$EnhancerBySpringCGLIB$$e66defe1] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+
+2019-05-05 15:53:25,766 INFO Nacos is starting...
+
+2019-05-05 15:53:26,558 INFO Bean 'objectPostProcessor' of type [org.springframework.security.config.annotation.configuration.AutowireBeanFactoryObjectPostProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+
+2019-05-05 15:53:26,584 INFO Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@1d7f7be7' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+
+2019-05-05 15:53:26,586 INFO Bean 'org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration' of type [org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration$$EnhancerBySpringCGLIB$$b429293] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+
+2019-05-05 15:53:26,688 INFO Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+
+2019-05-05 15:53:26,779 INFO Nacos is starting...
+
+2019-05-05 15:53:27,779 INFO Nacos is starting...
+
+2019-05-05 15:53:28,795 INFO Nacos is starting...
+
+2019-05-05 15:53:29,799 INFO Nacos is starting...
+
+2019-05-05 15:53:30,809 INFO Nacos is starting...
+
+2019-05-05 15:53:31,814 INFO Nacos is starting...
+
+2019-05-05 15:53:32,820 INFO Nacos is starting...
+
+2019-05-05 15:53:33,065 INFO Tomcat initialized with port(s): 8848 (http)
+
+2019-05-05 15:53:33,281 INFO Initializing ProtocolHandler ["http-nio-8848"]
+
+2019-05-05 15:53:33,462 INFO Starting service [Tomcat]
+
+2019-05-05 15:53:33,462 INFO Starting Servlet Engine: Apache Tomcat/9.0.13
+
+2019-05-05 15:53:33,611 INFO The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib]
+
+2019-05-05 15:53:33,825 INFO Nacos is starting...
+
+2019-05-05 15:53:34,777 INFO Initializing Spring embedded WebApplicationContext
+
+2019-05-05 15:53:34,777 INFO Root WebApplicationContext: initialization completed in 43988 ms
+
+2019-05-05 15:53:34,839 INFO Nacos is starting...
+
+2019-05-05 15:53:35,854 INFO Nacos is starting...
+
+2019-05-05 15:53:36,857 INFO Nacos is starting...
+
+2019-05-05 15:53:37,867 INFO Nacos is starting...
+
+2019-05-05 15:53:38,875 INFO Nacos is starting...
+
+2019-05-05 15:53:39,882 INFO Nacos is starting...
+
+2019-05-05 15:53:40,883 INFO Nacos is starting...
+
+2019-05-05 15:53:41,887 INFO Nacos is starting...
+
+2019-05-05 15:53:42,890 INFO Nacos is starting...
+
+2019-05-05 15:53:43,900 INFO Nacos is starting...
+
+2019-05-05 15:53:44,903 INFO Nacos is starting...
+
+2019-05-05 15:53:45,366 INFO Use Mysql as the driver
+
+2019-05-05 15:53:45,905 INFO Nacos is starting...
+
+2019-05-05 15:53:46,907 INFO Nacos is starting...
+
+2019-05-05 15:53:47,907 INFO Nacos is starting...
+
+2019-05-05 15:53:48,940 INFO Nacos is starting...
+
+2019-05-05 15:53:49,963 INFO Nacos is starting...
+
+2019-05-05 15:53:50,968 INFO Nacos is starting...
+
+2019-05-05 15:53:51,977 INFO Nacos is starting...
+
+2019-05-05 15:53:52,980 INFO Nacos is starting...
+
+2019-05-05 15:53:53,982 INFO Nacos is starting...
+
+2019-05-05 15:53:54,985 INFO Nacos is starting...
+
+2019-05-05 15:53:55,988 INFO Nacos is starting...
+
+2019-05-05 15:53:56,996 INFO Nacos is starting...
+
+2019-05-05 15:53:58,853 INFO Nacos is starting...
+
+2019-05-05 15:53:59,855 INFO Nacos is starting...
+
+2019-05-05 15:54:00,868 INFO Nacos is starting...
+
+2019-05-05 15:54:01,869 INFO Nacos is starting...
+
+2019-05-05 15:54:02,871 INFO Nacos is starting...
+
+2019-05-05 15:54:03,949 INFO Nacos is starting...
+
+2019-05-05 15:54:04,652 INFO Initializing ExecutorService 'applicationTaskExecutor'
+
+2019-05-05 15:54:04,949 INFO Nacos is starting...
+
+2019-05-05 15:54:05,952 INFO Nacos is starting...
+
+2019-05-05 15:54:06,962 INFO Nacos is starting...
+
+2019-05-05 15:54:07,077 INFO Adding welcome page: class path resource [static/index.html]
+
+2019-05-05 15:54:07,968 INFO Nacos is starting...
+
+2019-05-05 15:54:08,975 INFO Nacos is starting...
+
+2019-05-05 15:54:09,984 INFO Nacos is starting...
+
+2019-05-05 15:54:10,992 INFO Nacos is starting...
+
+2019-05-05 15:54:12,042 INFO Nacos is starting...
+
+2019-05-05 15:54:12,417 INFO Creating filter chain: Ant [pattern='/'], []
+
+2019-05-05 15:54:12,417 INFO Creating filter chain: Ant [pattern='/**/*.css'], []
+
+2019-05-05 15:54:12,417 INFO Creating filter chain: Ant [pattern='/**/*.js'], []
+
+2019-05-05 15:54:12,417 INFO Creating filter chain: Ant [pattern='/**/*.html'], []
+
+2019-05-05 15:54:12,417 INFO Creating filter chain: Ant [pattern='/**/*.map'], []
+
+2019-05-05 15:54:12,417 INFO Creating filter chain: Ant [pattern='/**/*.svg'], []
+
+2019-05-05 15:54:12,417 INFO Creating filter chain: Ant [pattern='/**/*.png'], []
+
+2019-05-05 15:54:12,417 INFO Creating filter chain: Ant [pattern='/**/*.ico'], []
+
+2019-05-05 15:54:12,417 INFO Creating filter chain: Ant [pattern='/console-fe/public/**'], []
+
+2019-05-05 15:54:12,417 INFO Creating filter chain: Ant [pattern='/v1/auth/login'], []
+
+2019-05-05 15:54:12,417 INFO Creating filter chain: Ant [pattern='/v1/console/health/**'], []
+
+2019-05-05 15:54:12,417 INFO Creating filter chain: Ant [pattern='/v1/cs/**'], []
+
+2019-05-05 15:54:12,418 INFO Creating filter chain: Ant [pattern='/v1/ns/**'], []
+
+2019-05-05 15:54:12,418 INFO Creating filter chain: Ant [pattern='/v1/cmdb/**'], []
+
+2019-05-05 15:54:12,418 INFO Creating filter chain: Ant [pattern='/actuator/**'], []
+
+2019-05-05 15:54:12,418 INFO Creating filter chain: Ant [pattern='/v1/console/server/**'], []
+
+2019-05-05 15:54:12,893 INFO Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@756b58a7, org.springframework.security.web.context.SecurityContextPersistenceFilter@470a659f, org.springframework.security.web.header.HeaderWriterFilter@112d1c8e, org.springframework.security.web.authentication.logout.LogoutFilter@4b1a43d8, com.alibaba.nacos.console.filter.JwtAuthenticationTokenFilter@2cc04358, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@4a23350, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@7bebcd65, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@68b58644, org.springframework.security.web.session.SessionManagementFilter@3b2f4a93, org.springframework.security.web.access.ExceptionTranslationFilter@5ec46cdd, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@67594471]
+
+2019-05-05 15:54:13,046 INFO Nacos is starting...
+
+2019-05-05 15:54:13,438 INFO Exposing 16 endpoint(s) beneath base path '/actuator'
+
+2019-05-05 15:54:14,014 INFO Initializing ExecutorService 'taskScheduler'
+
+2019-05-05 15:54:14,053 INFO Nacos is starting...
+
+2019-05-05 15:54:14,714 INFO Starting ProtocolHandler ["http-nio-8848"]
+
+2019-05-05 15:54:14,769 INFO Using a shared selector for servlet write/read
+
+2019-05-05 15:54:15,036 ERROR Unexpected error occurred in scheduled task.
+
+java.lang.IllegalStateException: unable to find local peer: nacos2:0, all peers: [nacos2:8848, nacos1:8848, nacos3:8848]
+	at com.alibaba.nacos.naming.consistency.persistent.raft.RaftPeerSet.local(RaftPeerSet.java:211)
+	at com.alibaba.nacos.naming.monitor.PerformanceLoggerThread.collectmetrics(PerformanceLoggerThread.java:123)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:84)
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54)
+	at org.springframework.scheduling.concurrent.ReschedulingRunnable.run(ReschedulingRunnable.java:93)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2019-05-05 15:54:15,064 INFO Nacos is starting...
+
+2019-05-05 15:54:15,130 INFO Tomcat started on port(s): 8848 (http) with context path '/nacos'
+
+2019-05-05 15:54:15,188 INFO Started Nacos in 106.169 seconds (JVM running for 121.307)
+
+2019-05-05 15:54:15,188 INFO Nacos Log files: /home/nacos/logs/
+
+2019-05-05 15:54:15,188 INFO Nacos Conf files: /home/nacos/conf/
+
+2019-05-05 15:54:15,188 INFO Nacos Data files: /home/nacos/data/
+
+2019-05-05 15:54:15,188 INFO Nacos started successfully in cluster mode.
+
+2019-05-05 15:54:16,106 INFO Initializing Spring DispatcherServlet 'dispatcherServlet'
+
+2019-05-05 15:54:16,106 INFO Initializing Servlet 'dispatcherServlet'
+
+2019-05-05 15:54:16,222 INFO Completed initialization in 116 ms
+
+2019-05-05 16:03:54,028 INFO [capacityManagement] start correct usage
+
+2019-05-05 16:03:54,041 INFO [capacityManagement] end correct usage, cost: 0s
+
+2019-05-05 16:03:55,184 WARN clearConfigHistory start
+
+2019-05-05 16:13:54,042 INFO [capacityManagement] start correct usage
+
+2019-05-05 16:13:54,050 INFO [capacityManagement] end correct usage, cost: 0s
+
+2019-05-05 16:13:55,186 WARN clearConfigHistory start
+
+2019-05-05 16:23:54,051 INFO [capacityManagement] start correct usage
+
+2019-05-05 16:23:54,055 INFO [capacityManagement] end correct usage, cost: 0s
+
+2019-05-05 16:23:55,186 WARN clearConfigHistory start
+
+2019-05-05 16:33:54,057 INFO [capacityManagement] start correct usage
+
+2019-05-05 16:33:54,060 INFO [capacityManagement] end correct usage, cost: 0s
+
+2019-05-05 16:33:55,187 WARN clearConfigHistory start
+

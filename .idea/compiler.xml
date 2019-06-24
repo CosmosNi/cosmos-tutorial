@@ -8,8 +8,9 @@
         <outputRelativeToContentRoot value="true" />
         <module name="cosmos-arithmetic" />
         <module name="cosmos-base" />
-        <module name="cosmos-boot" />
         <module name="cosmos-design" />
+        <module name="cosmos-nacos" />
+        <module name="cosmos-shiro" />
         <module name="cosmos-write" />
       </profile>
     </annotationProcessing>

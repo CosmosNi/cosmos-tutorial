@@ -1,0 +1,15 @@
+# 配置端口
+server:
+    port: 8764
+spring:
+    jpa:
+      database: MYSQL
+      show-sql: false
+      physical-strategy: org.springframework.boot.orm.jpa.hibernate.SpringPhysicalNamingStrategy
+      format-sql: true
+      properties.hibernate.dialect: org.hibernate.dialect.MySQL5Dialect
+    profiles:
+      active: '@profiles.active@'
+
+
+

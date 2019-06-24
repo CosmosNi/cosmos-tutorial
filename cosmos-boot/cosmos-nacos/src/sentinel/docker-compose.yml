@@ -1,0 +1,11 @@
+version: "3.4"
+services: 
+  sentinel:
+    image: ascdc/jdk8
+    ports:
+      - "8080:8080"  
+    restart: "always"
+    container_name: "sentinel" 
+    volumes:  
+      - "./app/sentinel-dashboard.jar:/data/sentinel-dashboard.jar"
+    entrypoint: java -jar /data/sentinel-dashboard.jar

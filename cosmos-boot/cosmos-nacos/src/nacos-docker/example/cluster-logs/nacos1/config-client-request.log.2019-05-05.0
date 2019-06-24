@@ -1,0 +1,16 @@
+2019-05-05 16:09:42,649|138|true|10.0.2.2|publish|cosmosNacos-dev.yaml|DEFAULT_GROUP||58b38f51040b83f16f1dbcca1d6a9c36|null
+2019-05-05 16:18:27,902|0|null|10.0.2.2|get|cosmosNacos.properties|DEFAULT_GROUP|||unknown
+2019-05-05 16:18:27,924|1|null|10.0.2.2|get|cosmosNacos-dev.properties|DEFAULT_GROUP|||unknown
+2019-05-05 16:18:58,938|1|null|10.0.2.2|get|cosmosNacos.properties|DEFAULT_GROUP|||unknown
+2019-05-05 16:18:58,947|2|null|10.0.2.2|get|cosmosNacos-dev.properties|DEFAULT_GROUP|||unknown
+2019-05-05 16:30:36,209|1|null|10.0.2.2|get|cosmosNacos.properties|DEFAULT_GROUP|||unknown
+2019-05-05 16:31:28,781|0|null|10.0.2.2|get|cosmosNacos.properties|DEFAULT_GROUP|||unknown
+2019-05-05 16:32:57,023|0|null|10.0.2.2|get|cosmosNacos.properties|DEFAULT_GROUP|||unknown
+2019-05-05 16:33:45,384|0|null|172.24.0.1|get|cosmosNacos.properties|DEFAULT_GROUP|||unknown
+2019-05-05 16:33:45,412|1|null|172.24.0.1|get|cosmosNacos-test.properties|DEFAULT_GROUP|||unknown
+2019-05-05 16:36:19,751|1|null|10.0.2.2|get|cosmosNacos.properties|DEFAULT_GROUP|||unknown
+2019-05-05 16:36:19,759|0|null|10.0.2.2|get|cosmosNacos-test.properties|DEFAULT_GROUP|||unknown
+2019-05-05 16:36:21,377|0|null|10.0.2.2|get|cosmosNacos.properties|DEFAULT_GROUP|||unknown
+2019-05-05 16:36:21,387|0|null|10.0.2.2|get|cosmosNacos-dev.properties|DEFAULT_GROUP|||unknown
+2019-05-05 16:36:27,056|0|null|10.0.2.2|get|cosmosNacos.properties|DEFAULT_GROUP|||unknown
+2019-05-05 16:36:27,064|1|null|10.0.2.2|get|cosmosNacos-custom.properties|DEFAULT_GROUP|||unknown

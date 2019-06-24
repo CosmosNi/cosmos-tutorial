@@ -1,0 +1,12 @@
+2019-05-05 15:45:40,955 WARN [master-db] jdbc:mysql://mysql-master:3306/nacos_devtest?characterEncoding=utf8&connectTimeout=1000&socketTimeout=3000&autoReconnect=true
+
+2019-05-05 15:45:45,293 WARN isQuickStart:false
+
+2019-05-05 15:46:01,284 WARN useAddressServer:true
+
+2019-05-05 15:53:51,683 WARN [master-db] jdbc:mysql://mysql-master:3306/nacos_devtest?characterEncoding=utf8&connectTimeout=1000&socketTimeout=3000&autoReconnect=true
+
+2019-05-05 15:53:54,183 WARN isQuickStart:false
+
+2019-05-05 15:53:59,257 WARN useAddressServer:true
+

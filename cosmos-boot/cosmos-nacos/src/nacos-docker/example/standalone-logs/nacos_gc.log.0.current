@@ -1,0 +1,5 @@
+OpenJDK 64-Bit Server VM (25.201-b09) for linux-amd64 JRE (1.8.0_201-b09), built on Mar  4 2019 22:08:17 by "mockbuild" with gcc 4.8.5 20150623 (Red Hat 4.8.5-36)
+Memory: 4k page, physical 8009388k(6110648k free), swap 2097148k(2097148k free)
+CommandLine flags: -XX:GCLogFileSize=104857600 -XX:InitialHeapSize=536870912 -XX:MaxHeapSize=536870912 -XX:MaxNewSize=268435456 -XX:NewSize=268435456 -XX:NumberOfGCLogFiles=10 -XX:+PrintGC -XX:+PrintGCDateStamps -XX:+PrintGCDetails -XX:+PrintGCTimeStamps -XX:+UseCompressedClassPointers -XX:+UseCompressedOops -XX:+UseGCLogFileRotation 
+2019-05-06T08:50:56.503+0800: 9.917: [GC (Allocation Failure) 2019-05-06T08:50:56.504+0800: 9.917: [DefNew: 209792K->4148K(235968K), 0.1177706 secs] 209792K->4148K(498112K), 0.1179027 secs] [Times: user=0.06 sys=0.00, real=0.12 secs] 
+2019-05-06T08:51:04.026+0800: 17.440: [Full GC (Metadata GC Threshold) 2019-05-06T08:51:04.026+0800: 17.440: [Tenured: 0K->5779K(262144K), 0.3845396 secs] 195267K->5779K(498112K), [Metaspace: 20628K->20628K(1069056K)], 0.3846375 secs] [Times: user=0.20 sys=0.00, real=0.39 secs] 
