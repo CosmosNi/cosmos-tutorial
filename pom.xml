@@ -17,7 +17,6 @@
         <module>cosmos-boot</module>
         <module>cosmos-design</module>
         <module>cosmos-write</module>
-        <module>cosmos-docker</module>
     </modules>
     <build>
         <plugins>

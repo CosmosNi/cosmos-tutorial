@@ -1,7 +1,7 @@
 package com.cosmos.consul.controller;
 
-import com.cosmos.consuldemo.config.StudentConfig;
-import com.cosmos.consuldemo.feign.FeignService;
+import com.cosmos.consul.config.StudentConfig;
+import com.cosmos.consul.feign.FeignService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;

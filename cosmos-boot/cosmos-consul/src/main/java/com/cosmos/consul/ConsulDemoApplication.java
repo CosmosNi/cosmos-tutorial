@@ -1,6 +1,6 @@
 package com.cosmos.consul;
 
-import com.cosmos.consuldemo.config.StudentConfig;
+import com.cosmos.consul.config.StudentConfig;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.context.properties.EnableConfigurationProperties;
