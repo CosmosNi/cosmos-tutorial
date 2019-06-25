@@ -3,7 +3,7 @@ package com.cosmos.base.jvm;
 /**
  * @ProjectName: cosmos-tutorial
  * @Package: com.cosmos.base.jvm
- * @ClassName: Demo2
+ * @ClassName: CyclicBarrierDemo
  * @Author: keda
  * @Description: ${description}
  * @Date: 2019/6/20 15:25

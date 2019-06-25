@@ -3,7 +3,7 @@ package com.cosmos.base.jvm;
 /**
  * @ProjectName: cosmos-tutorial
  * @Package: com.cosmos.base.jvm
- * @ClassName: Demo1
+ * @ClassName: CountDownLatchDemo
  * @Author: keda
  * @Description: 串行收集器
  * @Date: 2019/6/20 15:14

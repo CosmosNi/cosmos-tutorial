@@ -14,7 +14,8 @@
     <modules>
         <module>cosmos-nacos</module>
         <module>cosmos-shiro</module>
+        <module>cosmos-core-generate</module>
+        <module>cosmos-sharding</module>
     </modules>
-
 
 </project>
