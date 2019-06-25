@@ -1,0 +1,16 @@
+spring:
+  cloud:
+    consul:
+      discovery:
+        health-check-path: /actuator/health
+        health-check-interval: 10s
+#        hostname: 127.0.0.1
+        register: true
+        service-name: ${spring.application.name}
+      host: 127.0.0.1
+      port: 8500
+      config:
+        enabled: true
+        format: yaml
+  application:
+    name: consultest

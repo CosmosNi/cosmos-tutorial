@@ -17,6 +17,8 @@
         <module>cosmos-core-generate</module>
         <module>cosmos-sharding</module>
         <module>cosmos-log</module>
+        <module>cosmos-flink</module>
+        <module>cosmos-consul</module>
     </modules>
 
 </project>
