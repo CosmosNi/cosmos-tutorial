@@ -1,0 +1,22 @@
+CREATE table IF NOT EXISTS sys_log (
+		id BIGINT ( 20 ) NOT NULL AUTO_INCREMENT,
+		oper_system VARCHAR ( 100 ) DEFAULT '' COMMENT '所属系统',
+		oper_module VARCHAR ( 100 ) DEFAULT '' COMMENT '所属模块',
+		oper_function VARCHAR ( 100 ) DEFAULT '' COMMENT '功能模块',
+		oper_method VARCHAR ( 100 ) DEFAULT '' COMMENT '方法名称',
+		oper_name VARCHAR ( 50 ) DEFAULT '' COMMENT '操作人员',
+		oper_url VARCHAR ( 255 ) DEFAULT '' COMMENT '请求URL',
+		oper_ip VARCHAR ( 50 ) DEFAULT '' COMMENT '主机地址',
+		oper_location VARCHAR ( 255 ) DEFAULT '' COMMENT '操作地点',
+		oper_param json NULL COMMENT '请求参数',
+		oper_status VARCHAR ( 20 ) DEFAULT '' COMMENT '操作状态（正常 异常）',
+		error_msg text NULL COMMENT '错误消息',
+		execution_time BIGINT ( 20 ) DEFAULT 0 COMMENT '执行时间',
+		description VARCHAR ( 255 ) DEFAULT NULL COMMENT '描述',
+		created_by VARCHAR ( 255 ) DEFAULT NULL,
+		created_time datetime DEFAULT NULL,
+		updated_by VARCHAR ( 255 ) DEFAULT NULL,
+		updated_time datetime DEFAULT NULL,
+		version BIGINT ( 20 ) DEFAULT NULL,
+	PRIMARY KEY ( id )
+	) ENGINE = INNODB auto_increment = 100 DEFAULT charset = utf8 COMMENT = '操作日志记录';

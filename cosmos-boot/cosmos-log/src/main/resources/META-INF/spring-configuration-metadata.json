@@ -1,0 +1,32 @@
+{
+  "groups": [
+    {
+      "sourceType": "com.cosmos.log.config.LogConfig",
+      "name": "log",
+      "type": "com.cosmos.log.config.LogConfig"
+    }
+  ],
+  "properties": [
+    {
+      "sourceType": "com.cosmos.log.config.LogConfig",
+      "name": "cosmos.log.systemId",
+      "type": "java.lang.String",
+      "description": "系统id",
+      "defaultValue": "default"
+    },
+    {
+      "sourceType": "com.cosmos.log.config.LogConfig",
+      "name": "cosmos.log.moduleId",
+      "type": "java.lang.String",
+      "description": "模块名称",
+      "defaultValue": "default"
+    },
+    {
+      "sourceType": "com.cosmos.log.config.LogConfig",
+      "name": "cosmos.log.storageMode",
+      "type": "java.lang.String",
+      "description": "数据保存方式",
+      "defaultValue": "MYSQL"
+    }
+  ]
+}

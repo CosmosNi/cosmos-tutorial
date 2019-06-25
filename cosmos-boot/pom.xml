@@ -16,6 +16,7 @@
         <module>cosmos-shiro</module>
         <module>cosmos-core-generate</module>
         <module>cosmos-sharding</module>
+        <module>cosmos-log</module>
     </modules>
 
 </project>
