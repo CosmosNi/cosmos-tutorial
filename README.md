@@ -6,9 +6,11 @@
      - [Semaphore计数信号量](#Semaphore计数信号量)
  - [cosmo-boot](#cosmo-boot)
    - [kafka](#kafka)
+     - [kafka简介](#kafka简介)
      - [kafka消费者参数](#kafka消费者参数) 
      - [kafka提供者参数](#kafka提供者参数) 
-     - [kafka简介](#kafka简介)
+   - [consul](#consul)
+
 
 
 ## cosmos-base
@@ -126,3 +128,14 @@ latest（自动将偏移量置为最新的值）、none（如果在消费者组�
                      
 14.receive.buffer.bytes / send. buffer.bytes:
 这两个参数分别指定了TCP socket 接收和发送数据包的缓冲区大小。如果它们被设为-1 , 就使用操作系统的默认值。如果生产者或消费者与broker 处于不同的数据中心，那么可以适当增大这些值，因为跨数据中心的网络一般都有比较高的延迟和比较低的带宽。
+
+
+### consul
+#### consul简介
+
+#### 集群安装
+此处测试使用docker-compose来安装集群。[docker-compose](cosmos-boot/cosmos-consul/docker-compose.yml)
+
+#### 案例
+[cosmos-consul](cosmos-boot/cosmos-consul)
+   
