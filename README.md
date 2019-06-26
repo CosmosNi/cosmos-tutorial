@@ -1,4 +1,4 @@
-@[toc]
+<!-- TOC -->autoauto- [1.cosmos-base](#1cosmos-base)auto    - [1.1 JUC常用组件：](#11-juc常用组件)auto        - [CountDownLatch闭锁](#countdownlatch闭锁)auto        - [CyclicBarrier 同步屏障](#cyclicbarrier-同步屏障)auto        - [Semaphore 计数信号量](#semaphore-计数信号量)auto- [2.cosmo-boot](#2cosmo-boot)auto    - [2.1 kafka的相关配置](#21-kafka的相关配置)auto        - [2.1.1 kafka 消费者参数](#211-kafka-消费者参数)auto        - [2.1.2 提供者参数：](#212-提供者参数)autoauto<!-- /TOC -->
 ## 1.cosmos-base
 主要存放jdk的相关基础知识。包括juc，lambda，stream等相关知识。
 ### 1.1 JUC常用组件：
