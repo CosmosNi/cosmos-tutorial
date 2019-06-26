@@ -132,10 +132,24 @@ latest（自动将偏移量置为最新的值）、none（如果在消费者组�
 
 ### consul
 #### consul简介
+Consul是用来分布式系统的服务发现和配置的。在eureka2.0闭源的情况下，consul是一个不错的替代品。
+Consul提供了通过DNS或者HTTP接口的方式来注册服务和发现服务。一些外部的服务通过Consul很容易的找到它所依赖的服务。
 
 #### 集群安装
 此处测试使用docker-compose来安装集群。[docker-compose](cosmos-boot/cosmos-consul/docker-compose.yml)
 
 #### 结合springboot
 [cosmos-consul案例](cosmos-boot/cosmos-consul)
-   
+配置参数详解 （以下参数需配置在 bootstrap.yml）
+spring.cloud.consul.host：配置consul地址
+spring.cloud.consul.port：配置consul端口
+spring.cloud.consul.discovery.enabled：启用服务发现
+spring.cloud.consul.discovery.register：启用服务注册
+spring.cloud.consul.discovery.deregister：服务停止时取消注册
+spring.cloud.consul.discovery.prefer-ip-address：表示注册时使用IP而不是hostname
+spring.cloud.consul.discovery.health-check-interval：健康检查频率
+spring.cloud.consul.discovery.health-check-path：健康检查路径
+spring.cloud.consul.discovery.health-check-critical-timeout：健康检查失败多长时间后，取消注册
+spring.cloud.consul.discovery.instance-id：服务注册标识
+
+
