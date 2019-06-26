@@ -5,10 +5,10 @@
      - [CyclicBarrier同步屏障](#CyclicBarrier同步屏障)
      - [Semaphore计数信号量](#Semaphore计数信号量)
  - [cosmo-boot](#cosmo-boot)
-   - [kafka简介](#kafka简介)
-   - [kafka的相关配置](#kafka的相关配置)
+   - [kafka](#kafka)
      - [kafka消费者参数](#kafka消费者参数) 
      - [kafka提供者参数](#kafka提供者参数) 
+     - [kafka简介](#kafka简介)
 
 
 ## cosmos-base
@@ -43,26 +43,27 @@
 ## cosmo-boot
 主要是基于springboot+springCloud+Alibaba等框架的一些使用。
 
-### kafka简介
+### kafka
+#### kafka简介
 Kafka用于构建实时数据管道和流应用程序。它具有水平可扩展性，容错性，快速性。
 Kafka是一种高吞吐量的分布式发布订阅消息系统，它可以处理消费者在网站中的所有动作流数据
 主要由以下部分组成：
-#### topic
+##### topic
 Topic是Kafka数据写入操作的基本单元。一个Topic包含一个或多个Partition。每条消息属于且仅属于一个Topic。一个Topic可以认为是一类消息。
 producer发布数据时，必须指定将该消息发布到哪个Topic。Consumer订阅消息时，也必须指定订阅哪个Topic的信息。
 每个partition在存储层面是append log文件。任何发布到此partition的消息都会被直接追加到log文件的尾部，每条消息在文件中的位置称为offset（偏移量），offset为一个long型数字，它是唯一标记一条消息。它唯一的标记一条消息。kafka并没有提供其他额外的索引机制来存储offset，因为在kafka中几乎不允许对消息进行“随机读写”。
 
-#### consumer
+##### consumer
 本质上kafka只支持Topic.每个consumer属于一个consumer group;反过来说,每个group中可以有多个consumer.发送到Topic的消息,只会被订阅此Topic的每个group中的一个consumer消费.
  在kafka中,一个partition中的消息只会被group中的一个consumer消费;每个group中consumer消息消费互相独立;我们可以认为一个group是一个"订阅"者,一个Topic中的每个partions,只会被一个"订阅者"中的一个consumer消费,不过一个consumer可以消费多个partitions中的消息.kafka只能保证一个partition中的消息被某个consumer消费时,消息是顺序的.事实上,从Topic角度来说,消息仍不是有序的.
  kafka的原理决定,对于一个topic,同一个group中不能有多于partitions个数的consumer同时消费,否则将意味着某些consumer将无法得到消息.
 
-#### producer
+##### producer
 Producer将消息发布到指定的Topic中,同时Producer也能决定将此消息归属于哪个partition;比如基于"round-robin"方式或者通过其他的一些算法等.
 
 
-### kafka的相关配置 [案例](cosmos-boot/cosmos-kafka)
-#### kafka消费者参数
+#### kafka的相关配置 [案例](cosmos-boot/cosmos-kafka)
+##### kafka消费者参数
 1.bootstrap.servers: 消费者初始连接kafka集群时的地址列表。不管这边配置的什么地址，消费者会使用所有的kafka集群服务器。消费者会通过这些地址列表，找到所有的kafka集群机器。
                     
 2.key.deserializer: 实现了Deserializer的key的反序列化类
@@ -97,7 +98,7 @@ latest（自动将偏移量置为最新的值）、none（如果在消费者组�
 21.request.timeout.ms：这个配置控制一次请求响应的最长等待时间。如果在超时时间内未得到响应，kafka要么重发这条消息，要么超过重试次数的情况下直接置为失败。
 
 
-#### kafka提供者参数
+##### kafka提供者参数
 1.acks: acks指定了必须有多少个分区副本接收到了消息，生产者才会认为消息是发送成功的。acks=0，生产者成功写入消息之前不会等待来自任何服务器的响应，这种配置，提高吞吐量，但是消息存在丢失风险。acks=1，只要集群的leader（master）收到了消息，生产者将会受到发送成功的一个响应，如果消息无撞到达首领节点（比如首领节点崩愤，新的首领还没有被选举出来），生产者会收到一个错误响应，为了避免数据丢失，生产者会重发消息。不过，如果一个没有收到消息的节点成为新首领，消息还是会丢失。这个时候的吞吐量取决于使用的是同步发送还是异步发送。如果让发送客户端等待服务器的响应（通过调用Futu re 对象的get（）方法， 显然会增加延迟（在网络上传输一个来回的延迟）。如果客户端使用回调，延迟问题就可以得到缓解，不过吞吐量还是会受发送中消息数量的限制（比如，生产者在收到服务器响应之前可以发送多少个消息）。acks=all，所有参与复制的节点全部收到消息的时候，生产者才会收到来自服务器的一个响应，这种模式最安全，但是吞吐量受限制，它可以保证不止一个服务器收到消息，就算某台服务器奔溃，那么整个集群还是会正产运转。
       
 2.buffer.memory:该参数用来设置生产者内存缓冲区的大小，缓冲生产者发往服务器的消息，如果生产者发送速率大于服务器接受速率，那么会导致生产者内存空间不足，此时send方法要么阻塞，要么爬出异常，具体行为依赖block.on.buffer.full参数，0.9.0.0版本中被替换成了max.block.ms用来设置抛出异常之前可以阻塞一段时间。
