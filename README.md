@@ -5,6 +5,7 @@
      - [CyclicBarrier同步屏障](#CyclicBarrier同步屏障)
      - [Semaphore计数信号量](#Semaphore计数信号量)
  - [cosmo-boot](#cosmo-boot)
+   - [kafka简介](#kafka简介)
    - [kafka的相关配置](#kafka的相关配置)
      - [kafka消费者参数](#kafka消费者参数) 
      - [kafka提供者参数](#kafka提供者参数) 
@@ -41,6 +42,24 @@
 
 ## cosmo-boot
 主要是基于springboot+springCloud+Alibaba等框架的一些使用。
+
+### kafka简介
+Kafka用于构建实时数据管道和流应用程序。它具有水平可扩展性，容错性，快速性。
+Kafka是一种高吞吐量的分布式发布订阅消息系统，它可以处理消费者在网站中的所有动作流数据
+主要由以下部分组成：
+#### topic
+Topic是Kafka数据写入操作的基本单元。一个Topic包含一个或多个Partition。每条消息属于且仅属于一个Topic。一个Topic可以认为是一类消息。
+producer发布数据时，必须指定将该消息发布到哪个Topic。Consumer订阅消息时，也必须指定订阅哪个Topic的信息。
+每个partition在存储层面是append log文件。任何发布到此partition的消息都会被直接追加到log文件的尾部，每条消息在文件中的位置称为offset（偏移量），offset为一个long型数字，它是唯一标记一条消息。它唯一的标记一条消息。kafka并没有提供其他额外的索引机制来存储offset，因为在kafka中几乎不允许对消息进行“随机读写”。
+
+#### consumer
+本质上kafka只支持Topic.每个consumer属于一个consumer group;反过来说,每个group中可以有多个consumer.发送到Topic的消息,只会被订阅此Topic的每个group中的一个consumer消费.
+ 在kafka中,一个partition中的消息只会被group中的一个consumer消费;每个group中consumer消息消费互相独立;我们可以认为一个group是一个"订阅"者,一个Topic中的每个partions,只会被一个"订阅者"中的一个consumer消费,不过一个consumer可以消费多个partitions中的消息.kafka只能保证一个partition中的消息被某个consumer消费时,消息是顺序的.事实上,从Topic角度来说,消息仍不是有序的.
+ kafka的原理决定,对于一个topic,同一个group中不能有多于partitions个数的consumer同时消费,否则将意味着某些consumer将无法得到消息.
+
+#### producer
+Producer将消息发布到指定的Topic中,同时Producer也能决定将此消息归属于哪个partition;比如基于"round-robin"方式或者通过其他的一些算法等.
+
 
 ### kafka的相关配置 [案例](cosmos-boot/cosmos-kafka)
 #### kafka消费者参数
