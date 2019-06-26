@@ -84,7 +84,7 @@ lambda：
   - ToIntBiFunction<T,U>
   - ToLongBiFunction<T,U>
   - ToDoubleBiFunction<T,U>
-[案例](cosmos-base/src/main/java/com/cosmos/base/lambda)
+[案例](../cosmos-base/src/main/java/com/cosmos/base/lambda)
 
 ### Stream流
 #### 定义及特点
@@ -126,13 +126,13 @@ lambda：
 3. 等待，直到活动的所有部分都为继续处理做好充分准备。
     CountDownLatch是一个灵活的闭锁实现。允许一个或多个线程等待一个事件集的发生。闭锁状态包括一个计数器，初始化为一个整数。
 用来表现需要等待的事件数。countDown方法针对计数器做减操作，表示一个事件已经发生了，而await方法等待计数器达到零，此时所有需要等待的事件都已经发生。如果计数器入口时值为非零，await会一直堵塞直到计数器为零，或者等待线程中断以及超时。
-- [案例](cosmos-base/src/main/java/com/cosmos/base/juc/CountDownLatchDemo.java)
+- [案例](../cosmos-base/src/main/java/com/cosmos/base/juc/CountDownLatchDemo.java)
  
 #### CyclicBarrier同步屏障
 类似于闭锁。与闭锁不同之处在于，所有的线程必须同时到达关卡点，才能继续处理。
 闭锁等待的是事件；而同步屏障等待的是其他的线程。
 常用示例比如：可将一个任务分割成多个子部分，然后再整合。
-- [案例](cosmos-base/src/main/java/com/cosmos/base/juc/CyclicBarrierDemo.java)
+- [案例](../cosmos-base/src/main/java/com/cosmos/base/juc/CyclicBarrierDemo.java)
 
      
 #### Semaphore计数信号量
@@ -140,7 +140,7 @@ lambda：
 - 计数信号量可以用来实现资源池或者给一个容器限定边界。
 - 一个Semaphore管理一个有效的许可，许可的除湿量通过构造函数传递给semaphore活动能够获得许可（只要还有剩余许可），并在使用之后释放许可，如果没有可用的许可，则acquire会被堵塞，直到有可用的为止。
 - 常见的信号量使用即数据库连接池。
-- [案例](cosmos-base/src/main/java/com/cosmos/base/juc/SemaphoreDemo.java)
+- [案例](../cosmos-base/src/main/java/com/cosmos/base/juc/SemaphoreDemo.java)
 
 ### 
 
@@ -166,7 +166,7 @@ lambda：
 Producer将消息发布到指定的Topic中,同时Producer也能决定将此消息归属于哪个partition;比如基于"round-robin"方式或者通过其他的一些算法等.
 
 
-#### kafka的相关配置 [案例](cosmos-boot/cosmos-kafka)
+#### kafka的相关配置 [案例](../cosmos-boot/cosmos-kafka)
 ##### kafka消费者参数
 1. bootstrap.servers: 消费者初始连接kafka集群时的地址列表。不管这边配置的什么地址，消费者会使用所有的kafka集群服务器。消费者会通过这些地址列表，找到所有的kafka集群机器。                  
 2. key.deserializer: 实现了Deserializer的key的反序列化类
@@ -215,10 +215,10 @@ Consul是用来分布式系统的服务发现和配置的。在eureka2.0闭源�
 Consul提供了通过DNS或者HTTP接口的方式来注册服务和发现服务。一些外部的服务通过Consul很容易的找到它所依赖的服务。
 
 #### 集群安装
-此处测试使用docker-compose来安装集群。[docker-compose](cosmos-boot/cosmos-consul/docker-compose.yml)
+此处测试使用docker-compose来安装集群。[docker-compose](../cosmos-boot/cosmos-consul/docker-compose.yml)
 
 #### 结合springboot
-[cosmos-consul案例](cosmos-boot/cosmos-consul)
+[cosmos-consul案例](../cosmos-boot/cosmos-consul)
 
 配置参数详解 （以下参数需配置在 bootstrap.yml）
   - spring.cloud.consul.host：配置consul地址
