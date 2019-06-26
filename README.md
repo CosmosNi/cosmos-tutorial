@@ -1,9 +1,9 @@
 ## 目录
  - [cosmos-base](#cosmos-base)
    - [JUC常用组件](#JUC常用组件)
-     - [CountDownLatch闭锁](#CountDownLatch)
-     - [CyclicBarrier同步屏障](#CyclicBarrier)
-     - [Semaphore计数信号量](#Semaphore)
+     - [CountDownLatch](#CountDownLatch)
+     - [CyclicBarrier](#CyclicBarrier)
+     - [Semaphore](#Semaphore)
  - [cosmo-boot](#cosmo-boot)
    - [kafka的相关配置](#kafka的相关配置)
      - [kafka消费者参数](#kafka消费者参数) 
