@@ -142,15 +142,15 @@ Consul提供了通过DNS或者HTTP接口的方式来注册服务和发现服务�
 [cosmos-consul案例](cosmos-boot/cosmos-consul)
 
 配置参数详解 （以下参数需配置在 bootstrap.yml）
-  spring.cloud.consul.host：配置consul地址
-  spring.cloud.consul.port：配置consul端口
-  spring.cloud.consul.discovery.enabled：启用服务发现
-  spring.cloud.consul.discovery.register：启用服务注册
-  spring.cloud.consul.discovery.deregister：服务停止时取消注册
-  spring.cloud.consul.discovery.prefer-ip-address：表示注册时使用IP而不是hostname
-  spring.cloud.consul.discovery.health-check-interval：健康检查频率
-  spring.cloud.consul.discovery.health-check-path：健康检查路径
-  spring.cloud.consul.discovery.health-check-critical-timeout：健康检查失败多长时间后，取消注册
-  spring.cloud.consul.discovery.instance-id：服务注册标识
+  - spring.cloud.consul.host：配置consul地址
+  - spring.cloud.consul.port：配置consul端口
+  - spring.cloud.consul.discovery.enabled：启用服务发现
+  - spring.cloud.consul.discovery.register：启用服务注册
+  - spring.cloud.consul.discovery.deregister：服务停止时取消注册
+  - spring.cloud.consul.discovery.prefer-ip-address：表示注册时使用IP而不是hostname
+  - spring.cloud.consul.discovery.health-check-interval：健康检查频率
+  - spring.cloud.consul.discovery.health-check-path：健康检查路径
+  - spring.cloud.consul.discovery.health-check-critical-timeout：健康检查失败多长时间后，取消注册
+  - spring.cloud.consul.discovery.instance-id：服务注册标识
 
 
