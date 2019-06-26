@@ -1,0 +1,15 @@
+spring:
+  kafka:
+      bootstrap-servers: 192.168.7.115:9092
+      producer:
+        value-serializer: org.springframework.kafka.support.serializer.JsonSerializer
+        retries: 0
+        batch-size: 100 #其他环境100，测试时候设置为0，不会批量处理
+        buffer-memory: 33554432
+      consumer:
+        group-id: test
+        auto-offset-reset: earliest
+        enable-auto-commit: true
+
+
+
