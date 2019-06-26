@@ -136,6 +136,6 @@ latest（自动将偏移量置为最新的值）、none（如果在消费者组�
 #### 集群安装
 此处测试使用docker-compose来安装集群。[docker-compose](cosmos-boot/cosmos-consul/docker-compose.yml)
 
-#### 案例
-[cosmos-consul](cosmos-boot/cosmos-consul)
+#### 结合springboot
+[cosmos-consul案例](cosmos-boot/cosmos-consul)
    
