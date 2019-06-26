@@ -1,9 +1,9 @@
 ## 目录
  - [cosmos-base](#cosmos-base)
    - [JUC常用组件](#JUC常用组件)
-     - [CountDownLatch闭锁](#CountDownLatch闭锁)
-     - [CyclicBarrier同步屏障](#CyclicBarrier同步屏障)
-     - [Semaphore计数信号量](#Semaphore计数信号量)
+     - [CountDownLatch闭锁](#CountDownLatch)
+     - [CyclicBarrier同步屏障](#CyclicBarrier)
+     - [Semaphore计数信号量](#Semaphore)
  - [cosmo-boot](#cosmo-boot)
    - [kafka的相关配置](#kafka的相关配置)
      - [kafka消费者参数](#kafka消费者参数) 
@@ -81,7 +81,7 @@ latest（自动将偏移量置为最新的值）、none（如果在消费者组�
 主要存放jdk的相关基础知识。包括juc，lambda，stream等相关知识。
 
 ### JUC常用组件
-#### CountDownLatch闭锁
+#### CountDownLatch
 1.确保一个计算不被执行，直到它需要的资源初始化。
 2.确保一个服务不会开始，直到它依赖的其他服务都已经开始。
 3.等待，直到活动的所有部分都为继续处理做好充分准备。
@@ -89,12 +89,12 @@ latest（自动将偏移量置为最新的值）、none（如果在消费者组�
      用来表现需要等待的事件数。countDown方法针对计数器做减操作，表示一个事件已经发生了，而await方法等待计数器达到零，此时所有需要等待的事件都已经发生。
      如果计数器入口时值为非零，await会一直堵塞直到计数器为零，或者等待线程中断以及超时。
      
-#### CyclicBarrier同步屏障
+#### CyclicBarrier
 类似于闭锁。与闭锁不同之处在于，所有的线程必须同时到达关卡点，才能继续处理。
 闭锁等待的是事件；而同步屏障等待的是其他的线程。
 常用示例比如：可将一个任务分割成多个子部分，然后再整合。
      
-#### Semaphore计数信号量
+#### Semaphore
 用来控制能够同时访问某特定资源的活动的数量。
 计数信号量可以用来实现资源池或者给一个容器限定边界。
 一个Semaphore管理一个有效的许可，许可的除湿量通过构造函数传递给semaphore活动能够获得许可（只要还有剩余许可），并在使用之后释放许可，如果没有可用的许可，则acquire会被堵塞，直到有可用的为止。
