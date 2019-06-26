@@ -6,7 +6,7 @@
 
 #cosmos-boot：用于展示一些基于SpringBoot以及SpringCloud的案例 
 
- kafka:  ![kafak](cosmos-boot/cosmos-kafka/README.md)
+ kafka:  [kafak](cosmos-boot/cosmos-kafka/README.md)
  
  
  
