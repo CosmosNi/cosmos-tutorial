@@ -1,5 +1,8 @@
 ## 目录
  - [cosmos-base](#cosmos-base)
+   - [lambda表达式](#lambda表达式)
+     - [lambda简单示例](#简单示例)
+     - [java8中的函数接口](#java8中的函数接口)
    - [JUC常用组件](#JUC常用组件)
      - [CountDownLatch闭锁](#CountDownLatch闭锁)
      - [CyclicBarrier同步屏障](#CyclicBarrier同步屏障)
@@ -13,6 +16,70 @@
 
 ## cosmos-base
 主要存放jdk的相关基础知识。包括juc，lambda，stream等相关知识。
+
+### lambda表达式
+
+#### 简单示例
+lambda：
+- 布尔表达式：(List<String> list)->list.isEmpty();
+- 创建对象：()->new Apple(10)
+- 消费一个对象：(Apple a)->{System.out.println(a.getName())}
+- 从一个对象中选择/抽取：(String s)->s.length();
+- 组合两个值：(int a,int b)->a*b;
+- 比较两个对象：(Apple a1,Apple a2)-> a1.getWeight().compareTo(a2.getWeight);
+
+#### java8中的函数接口
+- Predicate<T>  T->boolean  接收T类型的对象并返回boolean值
+   - IntPredicate  接收Integer类型对象
+   - LongPredicate 接收Long类型对象
+   - DoublePredicate 接收Double类型对象
+   
+- Consumer<T> T->void  接收T类型的对象并进行处理
+   - IntConsumer  接收Integer类型对象
+   - LongConsumer 接收Long类型对象
+   - LongConsumer 接收Double类型对象
+   
+-  Function<T,R> T->R  接收T类型对象，进行处理后变成R类型对象
+    - IntFunction<R>  接收Integer类型对象，进行处理后变成R类型对象
+    - IntToDoubleFunction
+    - IntToLongFunction
+    - LongFunction<R>
+    - LongToDoubleFunction
+    - LongToIntFunction
+    - DoubleFunction<R>
+    - ToIntFunction<T> 接收T类型对象，返回Integer
+    - ToDoubleFunction<T>
+    - ToLongFunction
+    
+ - Supplier<T> ()->T Supplier主要是用来创建对象的。可以将耗时操作放在get里，在程序中，传递是Supplier对象，只有真正调用get方法时才执行运算，这就是所谓的惰性求值。
+    - BooleanSupplier 
+    - IntSupplier
+    - LongSupplier
+    - DoubleSupplier
+    
+ - UnaryOperator<T> T->T  接收T类型对象，经过处理后返回T类型对象
+    - IntUnaryOperator
+    - LongUnaryOperator
+    - DoubleUnaryOperator
+
+- BinaryOperator<T> (T,T)->T 对两个T类型对象进行处理返回T类型对象
+  - IntBinaryOperator
+  - LongBinaryOperator
+  - DoubleBinaryOperator
+  
+- BiPredicate<L,R>  (L,R)->boolean 对两个不同类型对象进行处理，返回boolean类型
+
+- BiConsumer<T,U>  (T,U)->void 对两个对象进行处理
+  - ObjIntConsumer
+  - ObjLongConsumer
+  - objDoubleConsumer
+  
+- BiFunction<T,U,R> (T,U)->R 对T,U两个类型的对象进行处理并返回R类型数据
+  - ToIntBiFunction<T,U>
+  - ToLongBiFunction<T,U>
+  - ToDoubleBiFunction<T,U>
+[案例](cosmos-base/src/main/java/com/cosmos/base/lambda)
+
 
 ### JUC常用组件
 #### CountDownLatch闭锁
@@ -38,7 +105,7 @@
 常见的信号量使用即数据库连接池。
 [案例](cosmos-base/src/main/java/com/cosmos/base/juc/SemaphoreDemo.java)
 
-
+### 
 
 ## cosmo-boot
 主要是基于springboot+springCloud+Alibaba等框架的一些使用。
@@ -126,3 +193,6 @@ latest（自动将偏移量置为最新的值）、none（如果在消费者组�
                      
 14.receive.buffer.bytes / send. buffer.bytes:
 这两个参数分别指定了TCP socket 接收和发送数据包的缓冲区大小。如果它们被设为-1 , 就使用操作系统的默认值。如果生产者或消费者与broker 处于不同的数据中心，那么可以适当增大这些值，因为跨数据中心的网络一般都有比较高的延迟和比较低的带宽。
+
+
+此处测试使用docker-compose来安装集群。[docker-compose](cosmos-boot/cosmos-consul/docker-compose.yml)

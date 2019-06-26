@@ -32,7 +32,7 @@
 //import java.lang.reflect.Type;
 //import java.util.*;
 //import java.util.function.BiConsumer;
-//import java.util.function.BiFunction;
+//import java.util.function.BiFunctionTest;
 //import java.util.function.Consumer;
 //import java.util.function.Function;
 //
@@ -946,7 +946,7 @@
 //    }
 //
 //    public V computeIfPresent(K key,
-//                              BiFunction<? super K, ? super V, ? extends V> remappingFunction) {
+//                              BiFunctionTest<? super K, ? super V, ? extends V> remappingFunction) {
 //        if (remappingFunction == null)
 //            throw new NullPointerException();
 //        Node<K,V> e; V oldValue;
@@ -967,7 +967,7 @@
 //
 //    @Override
 //    public V compute(K key,
-//                     BiFunction<? super K, ? super V, ? extends V> remappingFunction) {
+//                     BiFunctionTest<? super K, ? super V, ? extends V> remappingFunction) {
 //        if (remappingFunction == null)
 //            throw new NullPointerException();
 //        int hash = hash(key);
@@ -1020,7 +1020,7 @@
 //
 //    @Override
 //    public V merge(K key, V value,
-//                   BiFunction<? super V, ? super V, ? extends V> remappingFunction) {
+//                   BiFunctionTest<? super V, ? super V, ? extends V> remappingFunction) {
 //        if (value == null)
 //            throw new NullPointerException();
 //        if (remappingFunction == null)
@@ -1094,7 +1094,7 @@
 //    }
 //
 //    @Override
-//    public void replaceAll(BiFunction<? super K, ? super V, ? extends V> function) {
+//    public void replaceAll(BiFunctionTest<? super K, ? super V, ? extends V> function) {
 //        Node<K,V>[] tab;
 //        if (function == null)
 //            throw new NullPointerException();

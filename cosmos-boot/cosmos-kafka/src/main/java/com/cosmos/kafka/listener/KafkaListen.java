@@ -4,6 +4,7 @@ import com.cosmos.kafka.domain.User;
 import org.apache.kafka.clients.admin.AdminClientConfig;
 import org.apache.kafka.clients.admin.NewTopic;
 import org.apache.kafka.clients.consumer.ConsumerRecord;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.kafka.annotation.KafkaListener;
@@ -27,6 +28,9 @@ import java.util.Map;
 @Configuration
 public class KafkaListen {
 
+    @Value("${server.port}")
+    private String port;
+
     @Bean
     public NewTopic topic1() {
         return new NewTopic("user", 10, (short) 2);
@@ -41,8 +45,9 @@ public class KafkaListen {
 
     @KafkaListener(id = "user", topics = "user")
     public void listen(List<ConsumerRecord<?, ?>> cr) {
-        System.out.println("-------------------------------");
+        System.out.println("-------------" + port + "--------------");
         cr.stream().forEach(System.out::println);
-        System.out.println("-------------------------------");
+        System.out.println("-------------" + port + "-------------");
     }
+
 }

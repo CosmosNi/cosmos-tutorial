@@ -10,6 +10,8 @@ spring:
         group-id: test
         auto-offset-reset: earliest
         enable-auto-commit: true
+server:
+  port: 8082
 
 
 
