@@ -20,9 +20,9 @@
 
 ### JUC常用组件
 #### CountDownLatch闭锁
-- 1.确保一个计算不被执行，直到它需要的资源初始化。
-- 2.确保一个服务不会开始，直到它依赖的其他服务都已经开始。
-- 3.等待，直到活动的所有部分都为继续处理做好充分准备。
+1.确保一个计算不被执行，直到它需要的资源初始化。
+2.确保一个服务不会开始，直到它依赖的其他服务都已经开始。
+3.等待，直到活动的所有部分都为继续处理做好充分准备。
     CountDownLatch是一个灵活的闭锁实现。允许一个或多个线程等待一个事件集的发生。闭锁状态包括一个计数器，初始化为一个整数。
 用来表现需要等待的事件数。countDown方法针对计数器做减操作，表示一个事件已经发生了，而await方法等待计数器达到零，此时所有需要等待的事件都已经发生。如果计数器入口时值为非零，await会一直堵塞直到计数器为零，或者等待线程中断以及超时。
 - [案例](cosmos-base/src/main/java/com/cosmos/base/juc/CountDownLatchDemo.java)
@@ -67,17 +67,17 @@ Producer将消息发布到指定的Topic中,同时Producer也能决定将此消�
 
 #### kafka的相关配置 [案例](cosmos-boot/cosmos-kafka)
 ##### kafka消费者参数
-- 1.bootstrap.servers: 消费者初始连接kafka集群时的地址列表。不管这边配置的什么地址，消费者会使用所有的kafka集群服务器。消费者会通过这些地址列表，找到所有的kafka集群机器。                  
-- 2.key.deserializer: 实现了Deserializer的key的反序列化类
-- 3.value.deserializer: 实现了Deserializer的value的反序列化类
-- 4.fetch.min.bytes: 每次请求，kafka返回的最小的数据量。如果数据量不够，这个请求会等待，直到数据量到达最小指标时，才会返回给消费者。如果设置大于1，会提高kafka的吞吐量，但是会有额外的等待期的代价。
-- 5.group.id: 标识这台消费者属于那个消费组。 如果消费者通过订阅主题来实现组管理功能，或者使用基于kafka的偏移量管理策略，这个配置是必须的          
-- 6.heartbeat.interval.ms: 使用kafka集群管理工具时，消费者协调器之间的预计心跳时间。心跳的作用是确保消费者的session是活跃的， 同时当新的机器加入集群或有机器挂掉的情况下触发再平衡操作。这个配置必须小于heartbeat.interval.ms，而且应该不大于这个值的1/3。为了控制正常的负载均衡的预期时间，这个值可以设置的更小。                
-- 7.max.partition.fetch.bytes: kafka集群每个分区一次返回的最大数据量。 一次请求的最大内存使用量应该等于#partitions * max.partition.fetch.bytes。这个值必须与kafka集群允许的最大消息数据量差不多大小，否则可能生产者发送了一个消息，大于消费者配置的值。这种情况下，消费者可能会在获取那条消息时堵住。                              
-- 8.session.timeout.ms: 使用kafka集群管理工具时检测失败的超时时间。 如果在session超时时间范围内，没有收到消费者的心跳，broker会把这个消费者置为失效，并触发消费者负载均衡。因为只有在调用poll方法时才会发送心跳，更大的session超时时间允许消费者在poll循环周期内处理消息内容，尽管这会有花费更长时间检测失效的代价。如果想控制消费者处理消息的时间， 还可以参考max.poll.records。注意这个值的大小应该在group.min.session.timeout.ms和group.max.session.timeout.ms范围内。
-- 9.ssl.key.password: 私钥存储文件的私钥密码。可选配置。
-- 10.ssl.keystore.location:私钥存储文件的路径。可选配置，并且可用来作为客户端的双向认证。
-- 11.ssl.keystore.password:私钥存储文件的存储密码。可选配置，并且只有ssl.keystore.location配置的情况下才需要配置。
+1.bootstrap.servers: 消费者初始连接kafka集群时的地址列表。不管这边配置的什么地址，消费者会使用所有的kafka集群服务器。消费者会通过这些地址列表，找到所有的kafka集群机器。                  
+2.key.deserializer: 实现了Deserializer的key的反序列化类
+3.value.deserializer: 实现了Deserializer的value的反序列化类
+4.fetch.min.bytes: 每次请求，kafka返回的最小的数据量。如果数据量不够，这个请求会等待，直到数据量到达最小指标时，才会返回给消费者。如果设置大于1，会提高kafka的吞吐量，但是会有额外的等待期的代价。
+5.group.id: 标识这台消费者属于那个消费组。 如果消费者通过订阅主题来实现组管理功能，或者使用基于kafka的偏移量管理策略，这个配置是必须的          
+6.heartbeat.interval.ms: 使用kafka集群管理工具时，消费者协调器之间的预计心跳时间。心跳的作用是确保消费者的session是活跃的， 同时当新的机器加入集群或有机器挂掉的情况下触发再平衡操作。这个配置必须小于heartbeat.interval.ms，而且应该不大于这个值的1/3。为了控制正常的负载均衡的预期时间，这个值可以设置的更小。                
+7.max.partition.fetch.bytes: kafka集群每个分区一次返回的最大数据量。 一次请求的最大内存使用量应该等于#partitions * max.partition.fetch.bytes。这个值必须与kafka集群允许的最大消息数据量差不多大小，否则可能生产者发送了一个消息，大于消费者配置的值。这种情况下，消费者可能会在获取那条消息时堵住。                              
+8.session.timeout.ms: 使用kafka集群管理工具时检测失败的超时时间。 如果在session超时时间范围内，没有收到消费者的心跳，broker会把这个消费者置为失效，并触发消费者负载均衡。因为只有在调用poll方法时才会发送心跳，更大的session超时时间允许消费者在poll循环周期内处理消息内容，尽管这会有花费更长时间检测失效的代价。如果想控制消费者处理消息的时间， 还可以参考max.poll.records。注意这个值的大小应该在group.min.session.timeout.ms和group.max.session.timeout.ms范围内。
+9.ssl.key.password: 私钥存储文件的私钥密码。可选配置。
+10.ssl.keystore.location:私钥存储文件的路径。可选配置，并且可用来作为客户端的双向认证。
+11.ssl.keystore.password:私钥存储文件的存储密码。可选配置，并且只有ssl.keystore.location配置的情况下才需要配置。
 - 12.ssl.truststore.location:信任秘钥文件路径。
 - 13.ssl.truststore.password:信任秘钥文件密码。
 - 14.auto.offset.reset:当kafka的初始偏移量没了，或者当前的偏移量不存在的情况下，应该怎么办？下面有几种策略：earliest（将偏移量自动重置为最初的值）、latest（自动将偏移量置为最新的值）、none（如果在消费者组中没有发现前一个偏移量，就向消费者抛出一个异常）、anything else（向消费者抛出异常）   
