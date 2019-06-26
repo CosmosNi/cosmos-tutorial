@@ -21,13 +21,13 @@
      CountDownLatch是一个灵活的闭锁实现。允许一个或多个线程等待一个事件集的发生。闭锁状态包括一个计数器，初始化为一个整数。
      用来表现需要等待的事件数。countDown方法针对计数器做减操作，表示一个事件已经发生了，而await方法等待计数器达到零，此时所有需要等待的事件都已经发生。
      如果计数器入口时值为非零，await会一直堵塞直到计数器为零，或者等待线程中断以及超时。
-[CountDownLatchDemo](cosmos-base/src/main/java/com/cosmos/base/juc/CountDownLatchDemo.java)
+[案例](cosmos-base/src/main/java/com/cosmos/base/juc/CountDownLatchDemo.java)
  
 #### CyclicBarrier同步屏障
 类似于闭锁。与闭锁不同之处在于，所有的线程必须同时到达关卡点，才能继续处理。
 闭锁等待的是事件；而同步屏障等待的是其他的线程。
 常用示例比如：可将一个任务分割成多个子部分，然后再整合。
-[CyclicBarrierDemo](cosmos-base/src/main/java/com/cosmos/base/juc/CyclicBarrierDemo.java)
+[案例](cosmos-base/src/main/java/com/cosmos/base/juc/CyclicBarrierDemo.java)
 
      
 #### Semaphore计数信号量
@@ -35,14 +35,14 @@
 计数信号量可以用来实现资源池或者给一个容器限定边界。
 一个Semaphore管理一个有效的许可，许可的除湿量通过构造函数传递给semaphore活动能够获得许可（只要还有剩余许可），并在使用之后释放许可，如果没有可用的许可，则acquire会被堵塞，直到有可用的为止。
 常见的信号量使用即数据库连接池。
-[SemaphoreDemo](cosmos-base/src/main/java/com/cosmos/base/juc/SemaphoreDemo.java)
+[案例](cosmos-base/src/main/java/com/cosmos/base/juc/SemaphoreDemo.java)
 
 
 
 ## cosmo-boot
 主要是基于springboot+springCloud+Alibaba等框架的一些使用。
 
-### kafka的相关配置
+### kafka的相关配置 [案例](cosmos-boot/cosmos-kafka)
 #### kafka消费者参数
 1.bootstrap.servers: 消费者初始连接kafka集群时的地址列表。不管这边配置的什么地址，消费者会使用所有的kafka集群服务器。消费者会通过这些地址列表，找到所有的kafka集群机器。
                     
