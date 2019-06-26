@@ -10,7 +10,9 @@
      - [kafka消费者参数](#kafka消费者参数) 
      - [kafka提供者参数](#kafka提供者参数) 
    - [consul](#consul)
-
+     - [consul简介](#consul简介)
+     - [集群安装](#集群安装)
+     - [结合springboot](#结合springboot)
 
 
 ## cosmos-base
