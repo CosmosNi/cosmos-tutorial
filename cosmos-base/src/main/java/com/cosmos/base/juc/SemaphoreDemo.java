@@ -10,12 +10,7 @@ import java.util.concurrent.atomic.AtomicInteger;
  * @Package: com.cosmos.base.juc
  * @ClassName: SemaphoreDemo
  * @Author: keda
- * @Description: 计数信号量，用来控制能够同时访问某特定资源的活动的数量
- * * 计数信号量可以用来实现资源池或者给一个容器限定边界。
- * * 一个Semaphore管理一个有效的许可，许可的除湿量通过构造函数传递给semaphore
- * * 活动能够获得许可（只要还有剩余许可），并在使用之后释放许可，如果没有可用的许可
- * * 则acquire会被堵塞，直到有可用的为止
- * * 类似数据库连接池
+ * @Description:
  * @Date: 2019/6/25 14:10
  * @Version: 1.0
  */

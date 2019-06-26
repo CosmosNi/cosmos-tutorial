@@ -10,10 +10,6 @@ import java.util.concurrent.atomic.AtomicInteger;
  * @ClassName: CyclicBarrierDemo
  * @Author: keda
  * @Description: *
- * 同步屏障:
- * 类似于闭锁。与闭锁不同之处在于，所有的线程必须同时到达关卡点，才能继续处理。
- * * 闭锁等待的是事件；而同步屏障等待的是其他的线程。
- * * 比如：可将一个任务分割成多个子部分，然后再整合
  * @Date: 2019/6/25 14:01
  * @Version: 1.0
  */
