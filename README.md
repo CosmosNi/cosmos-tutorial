@@ -137,7 +137,7 @@ lambda：
 
 目前使用java对于快速排序，选择排序，冒泡排序，归并排序以及插入排序进行实现。具体案例可见于。
 
-- [案例]（https://github.com/CosmosNi/cosmos-tutorial/tree/master/cosmos-arithmetic）
+- [案例](https://github.com/CosmosNi/cosmos-tutorial/tree/master/cosmos-arithmetic)
 
 
 
