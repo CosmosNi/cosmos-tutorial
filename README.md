@@ -1,3 +1,4 @@
+
 ## 1.cosmos-base
 主要存放jdk的相关基础知识。包括juc，lambda，stream等相关知识。
 
@@ -121,6 +122,23 @@ lambda：
 - 计数信号量可以用来实现资源池或者给一个容器限定边界。
 - 一个Semaphore管理一个有效的许可，许可的除湿量通过构造函数传递给semaphore活动能够获得许可（只要还有剩余许可），并在使用之后释放许可，如果没有可用的许可，则acquire会被堵塞，直到有可用的为止。
 - 常见的信号量使用即数据库连接池。
+
+### 1.5 常见的8中排序算法
+|排序方法 |时间复杂度  | 空间复杂度|
+|--|--|--|
+| 直接插入排序 |O(n<sup>2</sup>)  | O(1)  |
+| 希尔排序|O(n<sup>2</sup>)  | O(1)  |
+| 直接选择排序 |O(n<sup>2</sup>)  | O(1)  |
+|堆排序  |O(nlog<sub>2</sub>n)  | O(1)  |
+| 冒泡排序|O(n<sup>2</sup>)  | O(1)  |
+| 快速排序|O(nlog<sub>2</sub>n)  | O(nlog<sub>2</sub>n） |
+| 归并排序|O(nlog<sub>2</sub>n)  | O(1)  |
+| 基数排序|O(d(r+n))  | O(rd+n)  |
+
+目前使用java对于快速排序，选择排序，冒泡排序，归并排序以及插入排序进行实现。具体案例可见于。
+
+- [案例]（https://github.com/CosmosNi/cosmos-tutorial/tree/master/cosmos-arithmetic）
+
 
 
 ## 2. cosmo-boot
