@@ -1,10 +1,12 @@
-333333333
 ## 1.cosmos-base
 主要存放jdk的相关基础知识。包括juc，lambda，stream等相关知识。
 
-### 1.1 lambda表达式
+### 1.1 java基础理论知识
+
+
+### 1.2 lambda表达式
 - [案例](https://github.com/CosmosNi/cosmos-tutorial/tree/master/cosmos-base/src/main/java/com/cosmos/base/lambda)
-#### 1.1.1简单示例
+#### 1.2.1简单示例
 lambda：
 - 布尔表达式：(List<String> list)->list.isEmpty();
 - 创建对象：()->new Apple(10)
@@ -13,7 +15,7 @@ lambda：
 - 组合两个值：(int a,int b)->a*b;
 - 比较两个对象：(Apple a1,Apple a2)-> a1.getWeight().compareTo(a2.getWeight);
 
-#### 1.1.2 java8中的函数接口
+#### 1.2.2 java8中的函数接口
 - Predicate<T>  T->boolean  接收T类型的对象并返回boolean值
    - IntPredicate  接收Integer类型对象
    - LongPredicate 接收Long类型对象
@@ -64,8 +66,8 @@ lambda：
   - ToLongBiFunction<T,U>
   - ToDoubleBiFunction<T,U>
 
-### 1.2 Stream流
-#### 1.2.1 定义及特点
+### 1.3 Stream流
+#### 1.3.1 定义及特点
 定义：从支持数据处理操作的源生成元素的序列。
 
 详细定义：
@@ -78,7 +80,7 @@ lambda：
 2. 内部迭代：与使用迭代显式迭代的集合不同，流的迭代操作是在背后进行的。
 3. 流只能遍历一次。
 
-#### 1.2.2 Stream常用方法
+#### 1.3.2 Stream常用方法
 (数值类型的流：IntStream，LongStream)
 1. map：转换流，将一种类型的流转换为另外一种流。
 2. filter：过滤流，过滤流中的元素。
@@ -97,9 +99,9 @@ lambda：
 
 
 
-### 1.3 JUC常用组件
+### 1.4 JUC常用组件
 - [案例](https://github.com/CosmosNi/cosmos-tutorial/tree/master/cosmos-base/src/main/java/com/cosmos/base/juc)
-#### 1.3.1 CountDownLatch闭锁
+#### 1.4.1 CountDownLatch闭锁
 1. 确保一个计算不被执行，直到它需要的资源初始化。
 2. 确保一个服务不会开始，直到它依赖的其他服务都已经开始。
 3. 等待，直到活动的所有部分都为继续处理做好充分准备。
@@ -107,14 +109,14 @@ lambda：
 用来表现需要等待的事件数。countDown方法针对计数器做减操作，表示一个事件已经发生了，而await方法等待计数器达到零，此时所有需要等待的事件都已经发生。如果计数器入口时值为非零，await会一直堵塞直到计数器为零，或者等待线程中断以及超时。
 
  
-#### 1.3.2 CyclicBarrier同步屏障
+#### 1.4.2 CyclicBarrier同步屏障
 类似于闭锁。与闭锁不同之处在于，所有的线程必须同时到达关卡点，才能继续处理。
 闭锁等待的是事件；而同步屏障等待的是其他的线程。
 常用示例比如：可将一个任务分割成多个子部分，然后再整合。
 
 
      
-#### 1.3.3 Semaphore计数信号量
+#### 1.4.3 Semaphore计数信号量
 - 用来控制能够同时访问某特定资源的活动的数量。
 - 计数信号量可以用来实现资源池或者给一个容器限定边界。
 - 一个Semaphore管理一个有效的许可，许可的除湿量通过构造函数传递给semaphore活动能够获得许可（只要还有剩余许可），并在使用之后释放许可，如果没有可用的许可，则acquire会被堵塞，直到有可用的为止。
