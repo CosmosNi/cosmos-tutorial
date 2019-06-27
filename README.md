@@ -212,10 +212,10 @@ Consul是用来分布式系统的服务发现和配置的。在eureka2.0闭源�
 Consul提供了通过DNS或者HTTP接口的方式来注册服务和发现服务。一些外部的服务通过Consul很容易的找到它所依赖的服务。
 
 #### 2.2.2 集群安装
-此处测试使用docker-compose来安装集群。[docker-compose](../cosmos-boot/cosmos-consul/docker-compose.yml)
+此处测试使用docker-compose来安装集群。[docker-compose](https://github.com/CosmosNi/cosmos-tutorial/blob/master/cosmos-boot/cosmos-consul/docker-compose.yml)
 
 #### 2.2.3 结合springboot
-[cosmos-consul案例](../cosmos-boot/cosmos-consul)
+[cosmos-consul案例](https://github.com/CosmosNi/cosmos-tutorial/tree/master/cosmos-boot/cosmos-consul)
 
 配置参数详解 （以下参数需配置在 bootstrap.yml）
   - spring.cloud.consul.host：配置consul地址
