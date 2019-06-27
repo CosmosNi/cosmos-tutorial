@@ -2,7 +2,7 @@ package com.cosmos.arithmetic;
 
 import java.util.Arrays;
 
-/**
+/**冒泡排序：
  * 第一轮：将数组下标为0的数值与 [1,n-1]数值进行比较，遇到比下标为0的数值大的则进行交换，第一轮结束后，最大值就防止到第一位
  * 同理，进行下一轮比较
  */
