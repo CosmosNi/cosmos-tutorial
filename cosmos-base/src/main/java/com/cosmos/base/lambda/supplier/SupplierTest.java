@@ -1,7 +1,5 @@
 package com.cosmos.base.lambda.supplier;
 
-import java.util.ArrayList;
-import java.util.List;
 import java.util.function.BooleanSupplier;
 import java.util.function.Supplier;
 

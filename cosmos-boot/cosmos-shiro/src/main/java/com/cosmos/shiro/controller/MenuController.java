@@ -1,11 +1,6 @@
 package com.cosmos.shiro.controller;
 
-import com.cosmos.shiro.common.util.ShiroUtils;
 import com.cosmos.shiro.core.domain.ResponseMessage;
-import com.cosmos.shiro.core.entity.SysMenu;
-import com.cosmos.shiro.core.entity.SysRole;
-import com.cosmos.shiro.core.entity.SysRoleMenu;
-import com.cosmos.shiro.core.entity.SysUser;
 import com.cosmos.shiro.core.service.SysMenuService;
 import com.cosmos.shiro.core.service.SysRoleMenuService;
 import com.cosmos.shiro.core.service.SysRoleService;
@@ -19,9 +14,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import java.util.HashMap;
 import java.util.List;
-import java.util.Map;
 
 /**
  * @Description 权限测试

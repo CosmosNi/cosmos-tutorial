@@ -1,8 +1,5 @@
 package com.cosmos.base.array;
 
-import java.util.HashMap;
-import java.util.Map;
-
 /**
  * @ProjectName: cosmos-tutorial
  * @Package: com.cosmos.base.array

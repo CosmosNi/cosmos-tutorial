@@ -3,7 +3,6 @@ package com.cosmos.shiro.controller;
 import com.cosmos.shiro.common.util.ShiroUtils;
 import com.cosmos.shiro.core.domain.ResponseMessage;
 import com.cosmos.shiro.core.dto.SysUserDTO;
-import com.cosmos.shiro.core.entity.SysUser;
 import com.cosmos.shiro.core.service.SysUserService;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;

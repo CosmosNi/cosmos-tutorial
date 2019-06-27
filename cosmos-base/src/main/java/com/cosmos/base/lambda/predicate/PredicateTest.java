@@ -2,7 +2,6 @@ package com.cosmos.base.lambda.predicate;
 
 import java.util.ArrayList;
 import java.util.List;
-import java.util.function.IntFunction;
 import java.util.function.Predicate;
 
 /**
