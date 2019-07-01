@@ -21,6 +21,10 @@ public class LocalDataTest {
         System.out.println(LocalDate.now(clock));
         System.out.println(LocalDate.parse("2019-01-03"));
 
+        LocalDate localDate = LocalDate.of(2016, 12, 31);
+
+
+        System.out.println(localDate.plusDays(999));
 
     }
 }
