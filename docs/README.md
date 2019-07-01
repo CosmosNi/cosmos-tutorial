@@ -510,7 +510,13 @@ kill -9 进程的pid： 杀死进程（-9 表示强制终止。）
 #### 4.3.1 安装及卸载（基于centos7）
  1. 卸载指令
     -    sudo yum remove docker docker-client docker-client-latest docker-common  docker-latest  docker-latest-logrotate docker-logrotate docker-selinux docker-engine-selinux docker-engine
- 2. yum instll docker
+ 2. - yum install -y yum-utils device-mapper-persistent-data lvm2
+    - yum-config-manager --add-repo http://mirrors.aliyun.com/docker-ce/linux/centos/docker-ce.repo
+    - yum makecache fast
+    - rpm --import https://mirrors.aliyun.com/docker-ce/linux/centos/gpg
+    - yum -y install docker-ce
+    - systemctl enable docker
+    - systemctl restart docker
  3. 设置开机启动
    - service docker start
    - chkconfig docker on
