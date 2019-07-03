@@ -1,11 +1,11 @@
-package com.cosmos.base.thread;
+package com.cosmos.base.juc.thread;
 
 import java.util.ArrayList;
 import java.util.List;
 
 /**
  * @ProjectName: cosmos-tutorial
- * @Package: com.cosmos.base.thread
+ * @Package: com.cosmos.base.juc.thread
  * @ClassName: Demo4
  * @Author: keda
  * @Description: ${description}
@@ -56,31 +56,32 @@ public class Demo4 {
         }
     }
 
+
     public static class Thread1 extends Thread {
         private Demo4 demo4;
 
-        public Thread1(Demo4 demo4) {
-            this.demo4 = demo4;
+        public Thread1(Demo4 demo) {
+            demo4 = demo;
         }
 
         @Override
         public void run() {
             Service service = new Service();
-            service.addList(demo4, "A");
+            //service.addList(demo4, "A");
         }
     }
 
     public static class Thread2 extends Thread {
         private Demo4 demo4;
 
-        public Thread2(Demo4 demo4) {
-            this.demo4 = demo4;
+        public Thread2(Demo4 demo) {
+            demo4 = demo;
         }
 
         @Override
         public void run() {
             Service service = new Service();
-            service.addList(demo4, "B");
+            //service.addList(demo4, "B");
         }
     }
 

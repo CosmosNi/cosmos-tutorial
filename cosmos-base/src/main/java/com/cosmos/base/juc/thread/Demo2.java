@@ -1,8 +1,8 @@
-package com.cosmos.base.thread;
+package com.cosmos.base.juc.thread;
 
 /**
  * @ProjectName: cosmos-tutorial
- * @Package: com.cosmos.base.thread
+ * @Package: com.cosmos.base.juc.thread
  * @ClassName: Demo2
  * @Author: keda
  * @Description: ${description}
