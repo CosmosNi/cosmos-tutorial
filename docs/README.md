@@ -37,7 +37,34 @@
    - 传递性：对于任何引用，x，y和z，如果x.equals(y)返回为true，那么y.equals(x)也应该返回true
    - 一致性：如果x和y引用的对象没有发生变化，返回调用x.equals(y)应该返回相同的结果
    - 对于任何非空引用x，x.equals(null)应该返回false
-   
+
+
+#### 1.1.5 对象序列化
+  定义：对象序列化是以特殊的文件格式存储对象数据的。
+
+#### 1.1.6 线程状态
+- New（新创建）
+- Runnable（可运行）
+- Blocked（被堵塞）
+- Waiting（等待）
+- Timed（waiting）
+- Terminated（被终止）
+
+#### 1.1.7 servlet生命周期
+- Servlet 通过调用 init () 方法进行初始化。
+- Servlet 调用 service() 方法来处理客户端的请求。
+- Servlet 通过调用 destroy() 方法终止（结束）。
+- Servlet 是由 JVM 的垃圾回收器进行垃圾回收的。
+
+#### 1.1.8 类的加载
+Java默认提供的三个ClassLoader：
+- BootStrap ClassLoader：称为启动类加载器，是Java类加载层次中最顶层的类加载器，负责加载JDK中的核心类库
+- Extension ClassLoader：称为扩展类加载器，负责加载Java的扩展类库，默认加载JAVA_HOME/jre/lib/ext/目下的所有jar。
+- App ClassLoader：称为系统类加载器，负责加载应用程序classpath目录下的所有jar和class文件。
+
+ ClassLoader使用的是双亲委托模型来搜索类的（避免重复加载），从上至下搜索。每个ClassLoader实例都有一个父类加载器的引用。
+ JVM在判定两个class是否相同时，不仅要判断两个类名是否相同，而且要判断是否由同一个类加载器实例加载的。
+
 
 ### 1.2 lambda表达式
 - [案例](https://github.com/CosmosNi/cosmos-tutorial/tree/master/cosmos-base/src/main/java/com/cosmos/base/lambda)
@@ -132,11 +159,8 @@ lambda：
 13. findFirst：查找第一个元素。
 14.reduce：数值计算。 
 
-阿瑟东
-
 ### 1.4 JUC常用组件
 - [案例](https://github.com/CosmosNi/cosmos-tutorial/tree/master/cosmos-base/src/main/java/com/cosmos/base/juc)
-
 ####1.4.1 同步器
 ##### 1.4.1.1 CountDownLatch闭锁
 1. 确保一个计算不被执行，直到它需要的资源初始化。
@@ -254,6 +278,24 @@ CompletableFuture:
 - static allOf:所有给定的 future 都完成后完成，结果为 void
 - static anyOf:任意给定的 future 完成后则完成，结果为 void
 
+#### 1.4.7 synchroized
+- 调用关键字synchroized生命的方法一定是排队运行的
+- 避免数据出现交叉的情况，使用synchroized关键词进行同步
+- 关键词synchroized拥有锁重入的功能 ，也就是在使用synchroized时，当一个线程得到一个对象锁后，在此请求此对象锁时是可以再次得到该对象锁的。
+- 当一个线程执行的代码出现异常时，其所持有的锁会自动释放。
+- 同步不可以被继承。
+- synchroized同步块 锁非this对象相比synchroized（this）更加灵活，当一个方法中有多个同步块时，不用竞争this对象锁。
+
+关于synchroized（非this对象x）的写法是将x对象本身作为"对象监视器"，有如下三个结论：
+- 当多个线程同时执行synchroized（X）{}同步代码块时呈同步效果。
+- 当其他线程执行x对象中synchroized同步方法时呈同步效果。
+- 当其他线程执行x对象方法中的synchroized（this）代码块时也呈现同步效果。
+- 如果其他线程调用不加synchroized关键字的方法时，还是异步调用。
+
+- synchroized关键字加到非static静态方法是给对象上锁，而教导static方法上则是对Class类加锁。
+
+- 对于String对象，不要用作对象锁。String a="A",String b="A"，a==b，导致线程会使用同一个对象锁
+
 
 
 ### 1.5 常见的8种排序算法
@@ -362,6 +404,11 @@ Consul提供了通过DNS或者HTTP接口的方式来注册服务和发现服务�
   - spring.cloud.consul.discovery.health-check-critical-timeout：健康检查失败多长时间后，取消注册
   - spring.cloud.consul.discovery.instance-id：服务注册标识
 
+### 2.3 redis
+#### redis存在的问题
+   - 缓存穿透：是指查询一个数据库一定不存在的数据。正常的使用缓存的流程大致时，数据查询先进行缓存查询，如果key不存在或key已经失效，在对数据库进行查询，并把查询的对象，放入缓存。如果数据库查询对象为空，则不放进缓存。解决方案，对空值也做缓存，缓存周期设置较短一些。
+   - 缓存雪崩：是指在某一个时间段，缓存集中过期失效。解决方案，根据不同情况，缓存不同周期。用锁/分布式锁或者队列串行访问
+   - 缓存击穿：是指一个key非常热点，大并发集中对这个点进行访问，当这个key在失效的瞬间，持续的大并发就穿破缓存，直接请求数据库。解决方案，使用锁，单机用synchronized,lock等，分布式用分布式锁。缓存过期时间不设置，而是设置在key对应的value里。如果检测到存的时间超过过期时间则异步更新缓存。在value设置一个比过期时间t0小的过期时间值t1，当t1过期的时候，延长t1并做更新缓存操作。
 
 ## 3.comsmos-design
 该模块主要用来介绍一些常用的设计模式，以及相关联的demo。
