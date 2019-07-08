@@ -374,7 +374,7 @@
 //        if (numMoved > 0)
 //            System.arraycopy(elementData, index + 1, elementData, index,
 //                    numMoved);
-//        elementData[--size] = null; // clear to let GC do its work
+//        elementData[--size] = null; // clear to let GC pojo its work
 //
 //        return oldValue;
 //    }
@@ -419,7 +419,7 @@
 //        if (numMoved > 0)
 //            System.arraycopy(elementData, index + 1, elementData, index,
 //                    numMoved);
-//        elementData[--size] = null; // clear to let GC do its work
+//        elementData[--size] = null; // clear to let GC pojo its work
 //    }
 //
 //    /**
@@ -429,7 +429,7 @@
 //    public void clear() {
 //        modCount++;
 //
-//        // clear to let GC do its work
+//        // clear to let GC pojo its work
 //        for (int i = 0; i < size; i++)
 //            elementData[i] = null;
 //
@@ -510,7 +510,7 @@
 //        System.arraycopy(elementData, toIndex, elementData, fromIndex,
 //                numMoved);
 //
-//        // clear to let GC do its work
+//        // clear to let GC pojo its work
 //        int newSize = size - (toIndex - fromIndex);
 //        for (int i = newSize; i < size; i++) {
 //            elementData[i] = null;
@@ -585,7 +585,7 @@
 //            }
 //            //将w位置后面的数据清除
 //            if (w != size) {
-//                // clear to let GC do its work
+//                // clear to let GC pojo its work
 //                for (int i = w; i < size; i++)
 //                    elementData[i] = null;
 //                modCount += size - w;
@@ -1275,7 +1275,7 @@
 //                elementData[j] = elementData[i];
 //            }
 //            for (int k = newSize; k < size; k++) {
-//                elementData[k] = null;  // Let gc do its work
+//                elementData[k] = null;  // Let gc pojo its work
 //            }
 //            this.size = newSize;
 //            if (modCount != expectedModCount) {

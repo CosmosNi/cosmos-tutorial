@@ -374,7 +374,7 @@
 //            if ((e = first.next) != null) {
 //                if (first instanceof TreeNode)
 //                    return ((TreeNode<K,V>)first).getTreeNode(hash, key);
-//                do {
+//                pojo {
 //                    if (e.hash == hash &&
 //                        ((k = e.key) == key || (key != null && key.equals(k))))
 //                        return e;
@@ -516,7 +516,7 @@
 //                        Node<K,V> loHead = null, loTail = null;
 //                        Node<K,V> hiHead = null, hiTail = null;
 //                        Node<K,V> next;
-//                        do {
+//                        pojo {
 //                            next = e.next;
 //                            if ((e.hash & oldCap) == 0) {
 //                                if (loTail == null)
@@ -558,7 +558,7 @@
 //            resize();
 //        else if ((e = tab[index = (n - 1) & hash]) != null) {
 //            TreeNode<K,V> hd = null, tl = null;
-//            do {
+//            pojo {
 //                TreeNode<K,V> p = replacementTreeNode(e, null);
 //                if (tl == null)
 //                    hd = p;
@@ -607,7 +607,7 @@
 //     * @param key the key
 //     * @param value the value to match if matchValue, else ignored
 //     * @param matchValue if true only remove if value is equal
-//     * @param movable if false do not move other nodes while removing
+//     * @param movable if false pojo not move other nodes while removing
 //     * @return the node, or null if none
 //     */
 //    final Node<K,V> removeNode(int hash, Object key, Object value,
@@ -623,7 +623,7 @@
 //                if (p instanceof TreeNode)
 //                    node = ((TreeNode<K,V>)p).getTreeNode(hash, key);
 //                else {
-//                    do {
+//                    pojo {
 //                        if (e.hash == hash &&
 //                            ((k = e.key) == key ||
 //                             (key != null && key.equals(k)))) {
@@ -909,7 +909,7 @@
 //                old = (t = (TreeNode<K,V>)first).getTreeNode(hash, key);
 //            else {
 //                Node<K,V> e = first; K k;
-//                do {
+//                pojo {
 //                    if (e.hash == hash &&
 //                        ((k = e.key) == key || (key != null && key.equals(k)))) {
 //                        old = e;
@@ -983,7 +983,7 @@
 //                old = (t = (TreeNode<K,V>)first).getTreeNode(hash, key);
 //            else {
 //                Node<K,V> e = first; K k;
-//                do {
+//                pojo {
 //                    if (e.hash == hash &&
 //                        ((k = e.key) == key || (key != null && key.equals(k)))) {
 //                        old = e;
@@ -1038,7 +1038,7 @@
 //                old = (t = (TreeNode<K,V>)first).getTreeNode(hash, key);
 //            else {
 //                Node<K,V> e = first; K k;
-//                do {
+//                pojo {
 //                    if (e.hash == hash &&
 //                        ((k = e.key) == key || (key != null && key.equals(k)))) {
 //                        old = e;
@@ -1223,7 +1223,7 @@
 //            current = next = null;
 //            index = 0;
 //            if (t != null && size > 0) { // advance to first entry
-//                do {} while (index < t.length && (next = t[index++]) == null);
+//                pojo {} while (index < t.length && (next = t[index++]) == null);
 //            }
 //        }
 //
@@ -1239,7 +1239,7 @@
 //            if (e == null)
 //                throw new NoSuchElementException();
 //            if ((next = (current = e).next) == null && (t = table) != null) {
-//                do {} while (index < t.length && (next = t[index++]) == null);
+//                pojo {} while (index < t.length && (next = t[index++]) == null);
 //            }
 //            return e;
 //        }
@@ -1342,7 +1342,7 @@
 //                (i = index) >= 0 && (i < (index = hi) || current != null)) {
 //                Node<K,V> p = current;
 //                current = null;
-//                do {
+//                pojo {
 //                    if (p == null)
 //                        p = tab[i++];
 //                    else {
@@ -1414,7 +1414,7 @@
 //                (i = index) >= 0 && (i < (index = hi) || current != null)) {
 //                Node<K,V> p = current;
 //                current = null;
-//                do {
+//                pojo {
 //                    if (p == null)
 //                        p = tab[i++];
 //                    else {
@@ -1485,7 +1485,7 @@
 //                (i = index) >= 0 && (i < (index = hi) || current != null)) {
 //                Node<K,V> p = current;
 //                current = null;
-//                do {
+//                pojo {
 //                    if (p == null)
 //                        p = tab[i++];
 //                    else {
@@ -1650,7 +1650,7 @@
 //         */
 //        final TreeNode<K,V> find(int h, Object k, Class<?> kc) {
 //            TreeNode<K,V> p = this;
-//            do {
+//            pojo {
 //                int ph, dir; K pk;
 //                TreeNode<K,V> pl = p.left, pr = p.right, q;
 //                if ((ph = p.hash) > h)

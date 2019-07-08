@@ -1133,7 +1133,7 @@
 //                    n = MAX_BATCH;
 //                Object[] a = new Object[n];
 //                int j = 0;
-//                do {
+//                pojo {
 //                    a[j++] = p.item;
 //                } while ((p = p.next) != null && j < n);
 //                current = p;
@@ -1151,7 +1151,7 @@
 //            if ((n = getEst()) > 0 && (p = current) != null) {
 //                current = null;
 //                est = 0;
-//                do {
+//                pojo {
 //                    E e = p.item;
 //                    p = p.next;
 //                    action.accept(e);

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+         http://www.springframework.org/schema/beans/spring-beans-2.0.xsd http://www.springframework.org/schema/context https://www.springframework.org/schema/context/spring-context.xsd">
+    <context:annotation-config/>
+    <context:component-scan base-package="com.cosmos.spring"/>
+
+    <bean id="user" class="com.cosmos.spring.factory.UserInfoFactory">
+        <property name="userInfo" value="cosmos,cosmos2"/>
+    </bean>
+    <bean id="user2" class="com.cosmos.spring.pojo.UserInfo">
+        <property name="name" value="test"></property>
+        <property name="password" value="test2"></property>
+        <property name="list">
+            <list>
+                <value>"sdfsadf"</value>
+                <value>"sdfsadf"</value>
+                <value>"sdfsadf"</value>
+                <value>"sdfsadf"</value>
+            </list>
+
+        </property>
+
+        <property name="parents">
+            <list>
+                <ref bean="user"></ref>
+                <ref bean="user3"></ref>
+            </list>
+        </property>
+    </bean>
+
+
+    <bean id="user3" class="com.cosmos.spring.pojo.UserInfo">
+        <constructor-arg value="dsad" index="1"></constructor-arg>
+        <constructor-arg value="aaaa" index="0"></constructor-arg>
+        <constructor-arg index="2">
+            <list>
+                <value>"sdfsadf"</value>
+                <value>"sdfsadf"</value>
+                <value>"sdfsadf"</value>
+                <value>"sdfsadf"</value>
+            </list>
+
+        </constructor-arg>
+
+    </bean>
+
+    <bean id="user4" class="com.cosmos.spring.factory.UserFactory">
+        <property name="userInfo">
+            <bean class="com.cosmos.spring.pojo.UserInfo">
+                <property name="password" value="123"></property>
+                <property name="name" value="123"></property>
+            </bean>
+        </property>
+
+    </bean>
+
+</beans>

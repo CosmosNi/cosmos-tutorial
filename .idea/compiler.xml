@@ -12,6 +12,7 @@
         <module name="cosmos-core-generate" />
         <module name="cosmos-demo1" />
         <module name="cosmos-design" />
+        <module name="cosmos-es" />
         <module name="cosmos-flink" />
         <module name="cosmos-kafka" />
         <module name="cosmos-log" />
@@ -19,6 +20,7 @@
         <module name="cosmos-nacos" />
         <module name="cosmos-sharding" />
         <module name="cosmos-shiro" />
+        <module name="cosmos-spring" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
