@@ -274,13 +274,24 @@ workQueue说明：
 2. 比较交换（CAS算法）
 cas算法过程是：它包含三个参数CAS（V,E,N），其中V表示呀更新的变量，E表示预期值，N表示新值。仅当V值等于E值时，才会将V的值设为N，如果V值和E值不同，说明已经有其他线程做了更新，则当前线程什么都不做。最后，CAS返回当前V的真实值。CAS操作是抱着乐观的态度进行的，它总认为自己可以成功完成操作。当多个线程同时使用CAS操作一个变量时，只有一个会胜出，并成功更新，其余的均会失败。失败的线程不会被挂起，仅是被告知失败，并且允许再次尝试，当然也允许失败的线程放弃操作。
 
+3. 死锁的概念
+死锁就是两个或者多个线程互相占用对方需要的资源，而都不进行释放，导致彼此之间相互等待对方释放资源，产生了无限制等待的现象。死锁一旦发生，如果没有外力介入，这种等待将永远存在，从而对程序产生严重的影响。
+
 ### 1.2.4 guava
 #### 1.2.4.1 限流算法
 1. 漏桶算法：利用一个缓冲区，当有请求进入系统时，无论请求的速率如何，都先在缓冲区保存，然后以固定的流速流出缓存区进行处理。漏桶算法的特点是无论外部请求压力如何，漏桶算法总以固定的流速处理数据。漏桶的容器和流出速率是该算法的两个重要参数。
 2. 令牌桶算法，是一种反向的漏桶算法。在令牌桶算法中，桶中存放的不再是请求，而是令牌，处理程序只有拿到令牌，才能对请求进行处理。如果没有令牌，那么处理程序要么丢弃请求，要么等待可用的令牌。为了限制流速，该算法在每个单位时间产生一定量的令牌存入桶中。（RateLimiter采用的就是此算法）
 
+### 1.2.5 Disruptor
+1. Disruptor消费者获取缓冲区数据的几种策略
+ - BlockWaitStrategy：默认策略。使用BlockWaitStrategy和使用BlockQueue是非常类似的。都是用锁和条件进行数据的监控和线程的唤醒。因为涉及到线程的切换，BlockWaitStrategy策略最节省CPU，但是在高并发下他是性能表现最糟糕的一种等待的略。
+ - SleepingWaitStrategy：这种策略对CPU的消耗和BlockWaitStrategy类似。他会在循环中不断等待数据。它会进行自旋等待，如果不成功，则使用Thread.yield()方法让出CPU
+,并最终使用LockSupport.parkNanos（1）进行线程休眠，以确保不占用太多的CPU数据。因此，这种策略对于数据处理可能晖产生比较高的平均延时。他适合对延时要求不是特别高的场合，好处是它对生产者线程的影响最小，典型的应用场景是异步日志。
+ - YieldWaitStrategy：个策略用于低延时场合。消费者线程会不断循环监控缓冲区的变化，在循环内部，它会使用Thread.yield（）方法让出CPU给别的线程执行时间。如果你需要一个高性能的系统，并且对延时有较为严格的要求，则可以考虑这种策略。使用这种策略，相当于消费者线程变成了一个内部执行了Thread.yield（）方法的死循环。因此，你最好有多于消费者线程数量的逻辑CPU数量（这里的逻辑CPU指的是“双核四线程”的四线程，否则整个应用程序都会收到影响）。
+ - BusySpinWaitStrategy：消费者线程会尽最大努力疯狂监控缓冲区的变化。因此，它会吃掉所有的CPU资源。只有对延迟非常苛刻的场合可以考虑使用它。因为使用它等于开启了一个死循环监控，所以你的物理CPU数量必须大于消费者的线程数。
 
-### 1.2.5 并发集合简介
+
+### 1.2.6 并发集合简介
 - ConcurrentHashMap：高效的并发hashmap。
 - CopyOnWirteArrayList：在读多写少的场合，性能非常好。
 - ConcurrentLinkedQueue：高效的并发队列，使用链表实现。可看做一个线程安全的LinkList。
@@ -471,6 +482,35 @@ spring提供两种IOC容器实现类型。基本的一种称为Bean工厂（Bean
 4.  ISOLATION_REPEATABLE_READ：可重复读，保证一个事务修改的数据提交后才能被另一事务读取，但是不能看到该事务对已有记录的更新。
 5. ISOLATION_SERIALIZABLE：一个事务在执行的过程中完全看不到其他事务对数据库所做的更新。
 
+
+### 5.6 spring钩子方法以及钩子接口
+1. Aware接口族：spring提供了各种Aware接口，方便从上下文中获取当前的运行环境。常见的有如下几个：
+ - BeanFactoryAware
+ - BeanNameAware
+ - ApplicationContextAware
+ - EnvironmentAware
+ - BeanClassLoaderAware
+
+2. InitializingBean接口和DisposableBean接口
+ - InitializingBean：当一个Bean实现InitializingBean，#afterPropertiesSet方法里面可以添加自定义的初始化方法或者做一些资源初始化操作
+ - DisposableBean接口只有一个方法#destroy，作用是：当一个单例Bean实现DisposableBean，#destroy可以添加自定义的一些销毁方法或者资源释放操作
+
+3. ImportBeanDefinitionRegistrar接口
+4. BeanPostProcessor接口和BeanFactoryPostProcessor接口：Spring的Bean后置处理器接口,作用是为Bean的初始化前后提供可扩展的空间。BeanFactoryPostProcessor可以对bean的定义（配置元数据）进行处理。也就是说，Spring IoC容器允许BeanFactoryPostProcessor在容器实际实例化任何其它的bean之前读取配置元数据，并有可能修改它。实现BeanPostProcessor接口可以在Bean(实例化之后)初始化的前后做一些自定义的操作，但是拿到的参数只有BeanDefinition实例和BeanDefinition的名称，也就是无法修改BeanDefinition元数据,这里说的Bean的初始化是：
+1）bean实现了InitializingBean接口，对应的方法为afterPropertiesSet
+2）在bean定义的时候，通过init-method设置的方法
+PS:BeanFactoryPostProcessor回调会先于BeanPostProcessor
+实现BeanPostProcessor接口可以在Bean(实例化之后)初始化的前后做一些自定义的操作，但是拿到的参数只有BeanDefinition实例和BeanDefinition的名称，也就是无法修改BeanDefinition元数据,这里说的Bean的初始化是：
+1）bean实现了InitializingBean接口，对应的方法为afterPropertiesSet
+2）在bean定义的时候，通过init-method设置的方法
+PS:BeanFactoryPostProcessor回调会先于BeanPostProcessor
+
+5. BeanDefinitionRegistryPostProcessor 接口
+  BeanDefinitionRegistryPostProcessor 接口可以看作是BeanFactoryPostProcessor和ImportBeanDefinitionRegistrar的功能集合，既可以获取和修改BeanDefinition的元数据，也可以实现BeanDefinition的注册、移除等操作。
+
+6. FactoryBean接口一般情况下，Spring通过反射机制利用bean的class属性指定实现类来实例化bean ，实例化bean过程比较复杂。FactoryBean接口就是为了简化此过程，把bean的实例化定制逻辑下发给使用者。
+7. ApplicationListener：ApplicationListener是一个接口，里面只有一个onApplicationEvent(E event)方法，这个泛型E必须是ApplicationEvent的子类，而ApplicationEvent是Spring定义的事件，继承于EventObject，构造要求必须传入一个Object类型的source，这个source可以作为一个存储对象。
+将会在ApplicationListener的onApplicationEvent里面得到回调。如果在上下文中部署一个实现了ApplicationListener接口的bean，那么每当在一个ApplicationEvent发布到 ApplicationContext时，这个bean得到通知。
 
 
 
