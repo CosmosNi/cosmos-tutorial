@@ -14,6 +14,7 @@ import java.util.concurrent.locks.ReentrantLock;
  */
 public class ConditionTest {
 
+
     public static Object[] items = new Object[5];
 
     private ReentrantLock reentrantLock = new ReentrantLock();
