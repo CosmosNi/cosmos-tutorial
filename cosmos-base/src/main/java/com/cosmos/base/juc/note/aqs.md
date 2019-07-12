@@ -82,7 +82,7 @@ protected final boolean compareAndSetState(int expect, int update) {
 }
    ```
 
-2. 等待队列的创建
+2. 将节点放入等待队列
 ```
 //为当前线程和排队模式创建等待节点
 private Node addWaiter(Node mode) {
@@ -105,7 +105,7 @@ private Node addWaiter(Node mode) {
 }
 ```
 
-3. 入队操作
+3. 节点加入队尾
 ```
 private Node enq(final Node node) {
     for (;;) {
@@ -129,7 +129,7 @@ private Node enq(final Node node) {
 }
 ```
 
-4. 将节点加入等待队列后，独占锁的获取
+4. 将节点加入等待队列后，先判断是否能够获取锁的资源，不能则进入挂起状态等待唤醒
 ```
 final boolean acquireQueued(final Node node, int arg) {
         //锁资源获取失败标记位
@@ -165,7 +165,7 @@ final boolean acquireQueued(final Node node, int arg) {
     }
 ```
 
-5. 是否要阻塞当前线程
+5. 检测节点状态，判断是否可进入挂起状态
  ```
 //首先说明一下参数，node是当前线程的节点，pred是它的前置节点
 private static boolean shouldParkAfterFailedAcquire(Node pred, Node node) {
@@ -175,7 +175,7 @@ private static boolean shouldParkAfterFailedAcquire(Node pred, Node node) {
         if (ws == Node.SIGNAL)
             return true;
         if (ws > 0) {
-          //循环查找没有被取消的前节点，直到到达头结点
+          //循环查找没有被取消的前节点，相当于把之前取消的节点从队列中剔除出去
             do {
                 node.prev = pred = pred.prev;
             } while (pred.waitStatus > 0);
