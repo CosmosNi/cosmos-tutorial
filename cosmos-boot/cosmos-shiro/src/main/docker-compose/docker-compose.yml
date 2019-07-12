@@ -1,4 +1,4 @@
-version: '3'
+version: '2'
 services:
     mysql:
       container_name: mysql
@@ -36,7 +36,7 @@ services:
     shiro:
       image: cosmos-shiro:latest
       ports:
-        - "8081:8081"  
+        - 8764:8764
       restart: "always"
       container_name: "shiro" 
       depends_on:
